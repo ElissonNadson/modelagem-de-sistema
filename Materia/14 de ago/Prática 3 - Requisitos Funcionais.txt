@@ -1,0 +1,26 @@
+📝 Atividade Prática – Requisitos Funcionais do Sistema
+
+O NOA (Núcleo de Organização Acadêmica) do SENAI Feira de Santana precisa de um sistema simples para apoiar o controle de retirada e devolução de chaves utilizadas por docentes e colaboradores. Atualmente, o processo é manual e gera dificuldades de controle e registro.
+
+👉 Nesta prática, sua equipe será responsável por levantar Requisitos Funcionais, traduzindo corretamente as necessidades em ações que o sistema deve executar.
+
+📌Interação com a convidada
+Uma funcionária do NOA estará presente para expor brevemente o problema e responder perguntas. É fundamental que sua equipe:
+Faça perguntas claras e objetivas, investigando o que é realmente necessário para o sistema funcionar;
+Saiba diferenciar regras, necessidades e características de qualidade da solução.
+
+📌Tarefas da prática:
+
+1. Escutar e registrar as informações trazidas pela convidada.
+
+2. Formular perguntas, sempre com foco em entender como o sistema deve apoiar o processo.
+
+3. Definir Requisitos Funcionais: descrever de forma objetiva o que o sistema deve fazer.
+
+4. Incluir, quando necessário:
+  Regras de Negócio (restrições ou normas do processo).
+  Requisitos Não Funcionais (qualidades esperadas do sistema).
+
+5. Organizar em documento único, de forma clara e objetiva, para ser entregue à funcionária do NOA.
+
+Entregável: 📌 Documento contendo a lista de Requisitos Funcionais levantados, com apoio de Regras de Negócio e Requisitos Não Funcionais quando necessário. A funcionária convidada irá analisar e escolher qual grupo traduziu melhor sua demanda.

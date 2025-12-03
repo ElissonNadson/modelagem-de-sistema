@@ -1,0 +1,270 @@
+Transcrição dos Slides: Aula 2 - Modelagem de Sistemas
+
+---
+Página 1
+---
+Nossa
+história
+TRANSFORMA
+muitas
+histórias
+SENAI
+
+---
+Página 2
+---
+Nossa
+história
+TRANSFORMA
+muitas
+histórias
+
+[cite_start]Modelagem de Sistemas [cite: 12]
+
+[cite_start]Um dos elementos mais importantes a serem observados durante a fase de modelagem de sistemas, bem como em todo o processo de criação de software, são as regras de negócio. [cite: 13]
+
+[cite_start]O termo regras de negócio se popularizou com a utilização de sistemas nas empresas. [cite: 14]
+
+[cite_start]Mas, muito antes de qualquer software ser utilizado, todas as empresas já possuíam regras de negócio definidas. [cite: 15]
+
+SENAI
+
+---
+Página 3
+---
+Nossa
+história
+TRANSFORMA
+muitas
+histórias
+
+[cite_start]Modelagem de Sistemas [cite: 22]
+
+[cite_start](Diagrama mostrando que "Requisito Funcional" [cite: 24, 27][cite_start], "Regra de Negócio" [cite: 25, 28] [cite_start]e "Requisito Não Funcional" [cite: 26, 29] [cite_start]levam a "Requisito de Software" [cite: 23])
+
+[cite_start]Vamos começar pela Regra de Negócio! [cite: 30]
+
+SENAI
+
+---
+Página 4
+---
+Nossa
+história
+TRANSFORMA
+muitas
+histórias
+
+[cite_start]Regras de Negócio [cite: 37]
+
+[cite_start]Em toda organização, as tarefas são realizadas em conformidade com as regras da empresa. [cite: 38]
+
+[cite_start]Se um sistema vem automatizar uma tarefa, essas regras precisam estarem 'dentro' do sistema? [cite: 39]
+
+[cite_start]Qual seria um exemplo que justifica sua resposta? [cite: 40]
+
+SENAI
+
+---
+Página 5
+---
+Nossa
+história
+TRANSFORMA muitas
+histórias
+
+[cite_start]Regras de Negócio [cite: 46]
+
+[cite_start]• Uma regra de negócio é uma diretriz que define condições (critérios, restrições) que precisam ser atendidas no contexto de um processo. [cite: 47]
+[cite_start]• A regra de negócio também é conceituada como é uma declaração que define o comportamento de um processo de negócio. [cite: 48]
+
+[cite_start]Objetivo [cite: 49]
+[cite_start]As regras de negócio são usadas para: [cite: 50]
+
+[cite_start]• garantir que os processos de negócio sejam executados de forma consistente e correta. [cite: 51]
+[cite_start]• definir as condições e ações que devem ser tomadas para que um processo de negócio seja executado de forma eficiente. [cite: 52]
+
+SENAI
+
+---
+Página 6
+---
+Nossa
+história
+TRANSFORMA
+muitas
+histórias
+
+[cite_start]Modelagem de Sistemas [cite: 59]
+
+[cite_start]Qual a diferença entre Regras e Requisitos? [cite: 60]
+
+[cite_start]Regras [cite: 61]
+[cite_start]Condições [cite: 63]
+
+[cite_start]Requisitos [cite: 62]
+[cite_start]Ações [cite: 64]
+
+[cite_start]O requisito não pode violar a regra. [cite: 65]
+
+SENAI
+
+---
+Página 7
+---
+Nossa
+história
+TRANSFORMA
+muitas
+histórias
+
+[cite_start]Regras de Negócio [cite: 72]
+[cite_start]Exemplo: [cite: 72]
+
+[cite_start]• O requisito funcional "Avaliar solicitação de matrícula" descreve a funcionalidade. [cite: 73]
+[cite_start]• Para que esse requisito seja cumprido, é necessário seguir regras de negócio como: [cite: 74]
+  [cite_start]• Carga horária mínima e máxima. [cite: 74]
+  [cite_start]• Pré-requisitos. [cite: 75]
+  [cite_start]• Choque de horários. [cite: 76]
+
+[cite_start]O requisito funcional define a ação ou função do sistema, enquanto as regras de negócio estabelecem os critérios que essa função precisa seguir. [cite: 77]
+
+[cite_start]Ou seja: [cite: 78]
+[cite_start]O requisito responde "o que o sistema deve fazer?" [cite: 79]
+[cite_start]A regra de negócio responde "quais condições devem ser atendidas?" [cite: 80]
+
+SENAI
+
+---
+Página 8
+---
+Nossa
+história
+TRANSFORMA
+muitas
+histórias
+
+[cite_start]Regras de Negócio [cite: 87]
+
+[cite_start]Tipos de regras de negócio [cite: 88]
+
+Tipo de Regra de Negócio | Definição | Exemplo
+--- | --- | ---
+Cálculos/Derivações | Determinam como um conhecimento ou informação pode ser transformado em outro por meio de fórmulas ou mudanças de estado. | O valor do imposto é calculado aplicando a alíquota de 5% sobre o valor da venda.
+Restrições | Limitam ou impedem determinadas ações ou alterações de dados no negócio. | Não permitir matrícula de aluno com mais de 2 pendências financeiras.
+Habilitações de ação | Regras condicionais que, quando atendidas, habilitam a execução de uma ação. | Se o pagamento for confirmado, liberar acesso imediato ao conteúdo do curso.
+Termos | Definições formais dos elementos de negócio usados para expressar regras. | ""Cliente ativo"" é aquele com cadastro aprovado e contrato vigente.
+Fatos | Descrevem relações e estruturas operacionais do negócio, conectando termos entre si. | Cada pedido deve estar associado a exatamente um cliente, mas um cliente pode ter vários pedidos.
+[Fonte da tabela: 89]
+
+SENAI
+
+---
+Página 9
+---
+Nossa
+história
+TRANSFORMA muitas
+histórias
+
+[cite_start]Estrutura [cite: 95]
+[cite_start]Regras de Negócio [cite: 96]
+
+[cite_start]• Não há um padrão estabelecido sobre a estrutura de uma regra de negócio. [cite: 97]
+[cite_start]• Mas, a maioria das empresas utiliza um formato semelhante, contendo campos específicos. [cite: 98]
+[cite_start]• Veja no Quadro 1, o modelo com os campos mais relevantes, com posterior descrição de cada um. [cite: 99]
+
+[cite_start]Quadro 1. Exemplo de estrutura [cite: 100]
+
+Campo | Descrição
+--- | ---
+[cite_start]Identificador [cite: 101] | Sufixo seguido de um identificador único. [cite_start]O sufixo geralmente utilizado é RN (regra de negócio) e o identificador único, frequentemente, é composto de quatro ou mais digitos. [cite: 110] [cite_start]Ex: RN0001, RN0002 [cite: 111]
+[cite_start]Nome [cite: 102] | [cite_start]Nome curto da regra de negócio, mas que possibilite entender bem o que a regra de negócio representa apenas pelo nome. [cite: 112]
+[cite_start]Módulo [cite: 103] | Módulo ao qual o requisito funcional pertence. [cite_start]Se for um sistema pequeno, que não possua nenhum módulo, somente o próprio sistema, deve ser preenchido com N/A (não se aplica). [cite: 113]
+[cite_start]Data de criação [cite: 104] | [cite_start]Data da criação da regra de negócio, ou a data em que ela foi especificada. [cite: 114]
+[cite_start]Data da última alteração [cite: 105] | [cite_start]Data em que houve a última alteração na regra de negócio. [cite: 116]
+[cite_start]Autor [cite: 106] | [cite_start]Profissional que especificou a regra de negócio pela primeira vez, quem a criou [cite: 115]
+[cite_start]Versão [cite: 107] | Número da versão da regra de negócio. [cite_start]Normalmente utiliza-se algo simples como 1, 2 etc. [cite: 118]
+[cite_start]Dependências [cite: 108] | [cite_start]Quais requisitos funcionais são dependentes da RN para serem realizados. [cite: 119] [cite_start]Coloca-se apenas o identificador dos RF's. [cite: 119]
+[cite_start]Descrição [cite: 109] | [cite_start]Descrição detalhada da RN. [cite: 120]
+[cite_start](Nota: O slide [cite: 104] [cite_start]também lista "Ator", e a descrição [cite: 117] "Profissional que alterou a especificação da regra de negócio pela última vez" parece corresponder a um campo "Autor da última alteração" não listado explicitamente no topo.)
+
+SENAI
+
+---
+Página 10
+---
+Nossa
+história
+TRANSFORMA
+muitas
+histórias
+
+[cite_start]Regras de Negócio [cite: 128]
+
+[cite_start]Modelo de tabela que você pode usar para compor o documento: [cite: 129]
+
+[cite_start]Modelo 1 [cite: 127]
+ID | Nome da Regra | Descrição
+--- | --- | ---
+RN1 | Carga Horária Mínima | A matrícula só será aceita se a carga horária total for $\ge20$ horas.
+RN2 | Carga Horária Máxima | A matrícula só será aceita se a carga horária total for $\le60$ horas.
+RN3 | Choque de Horário | A matrícula não será aceita se houver coincidência de horários entre disciplinas.
+RN4 | Pré-requisito | A matrícula só será aceita se todos os pré-requisitos da disciplina forem cumpridos.
+[Fonte da tabela: 131]
+
+[cite_start]Modelo 2 [cite: 130]
+Requisito Funcional | Descrição Detalhada
+--- | ---
+RF01 - Avaliar solicitação de matrícula | O sistema deve verificar se a carga horária total está dentro dos limites mínimo (20h) e máximo (60h). Deve também verificar se não há coincidência de horários entre disciplinas selecionadas e se todos os pré-requisitos das disciplinas foram cumpridos pelo aluno.
+[Fonte da tabela: 132]
+
+SENAI
+
+---
+Página 11
+---
+Nossa
+história
+TRANSFORMA
+muitas
+histórias
+
+[cite_start]Regras de Negócio [cite: 139]
+
+[cite_start]Benefícios [cite: 140]
+
+[cite_start]• As regras de negócio ajudam a garantir que os processos de negócio sejam executados de forma consistente e correta. [cite: 141]
+[cite_start]• Além disso, elas ajudam a reduzir os custos de processamento e a melhorar a qualidade dos serviços prestados. [cite: 142]
+
+SENAI
+
+---
+Página 12
+---
+Nossa
+história
+TRANSFORMA muitas
+histórias
+
+[cite_start]Prática 2 -Modelagem de Sistemas [cite: 185]
+
+[cite_start]Nesta prática, vocês deverão utilizar o modelo disponibilizado (em anexo) para descrever formalmente as regras de negócio relacionadas à prática realizada na Atividade 1. [cite: 186]
+[cite_start]Antes de iniciar, é fundamental que revisem o conteúdo produzido anteriormente, aplicando os conceitos aprendidos para distinguir corretamente a regras de negócio dos requisitos funcionais. [cite: 186]
+
+[cite_start]O objetivo é consolidar a compreensão sobre as regras de negócio, identificando-as como diretrizes que poderão reger as operações e decisões do sistema. [cite: 187]
+
+[cite_start]Em síntese: [cite: 188]
+[cite_start]• Revisar e analisar o material da prática anterior; [cite: 189]
+[cite_start]• Aplicar os conceitos para separar e definir claramente as regras de negócio; [cite: 190]
+[cite_start]• Registrar essas regras no modelo padrão disponibilizado, garantindo clareza na documentação. [cite: 191]
+
+SENAI
+
+---
+Página 13
+---
+[cite_start]SENAI [cite: 193]
+Serviço Nacional
+de Aprendizagem
+[cite_start]Industrial [cite: 194]

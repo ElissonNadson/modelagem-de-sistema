@@ -1,0 +1,367 @@
+SLIDES - ENCONTRO 1 (13/NOV/2025)
+APRESENTAÇÃO E DIAGNÓSTICO
+
+================================================================================
+SLIDE 1
+================================================================================
+SENAI
+
+================================================================================
+SLIDE 2
+================================================================================
+Modelagem de Sistemas
+ENCONTRO 1
+
+Bem-vindos de volta!
+Professor: Elisson Nadson
+Data: 13/11/2025
+
+SENAI
+
+================================================================================
+SLIDE 3
+================================================================================
+Apresentação do Professor
+
+[FOTO PROFISSIONAL: Elisson Nadson]
+(Inserir foto 3x4 ou foto profissional em alta qualidade)
+
+Nome: Elisson Nadson
+Papel: Professor Substituto
+
+• Bacharelando em Engenharia de Software
+• Técnico em Desenvolvimento de Sistemas (SENAI)
+• Técnico em Informática na UEFS
+• 14 anos de experiência em TI
+• Desenvolvedor Fullstack
+• Ex-Supervisor de Redes (9 anos)
+• Ex-Analista MIS (Tel Contact Center)
+
+SENAI
+
+================================================================================
+SLIDE 4
+================================================================================
+Objetivos do Encontro
+
+1. Conhecer o novo professor
+2. Fazer diagnóstico de aprendizagem (Quiz)
+3. Revisar conteúdos ministrados (AGO-OUT)
+4. Apresentar planejamento dos próximos encontros
+5. Esclarecer dúvidas
+
+SENAI
+
+================================================================================
+SLIDE 5
+================================================================================
+Onde estamos na jornada?
+
+AGOSTO A OUTUBRO (12 encontros)
+✓ Regras de Negócio
+✓ Requisitos Funcionais e Não-Funcionais
+✓ Casos de Uso
+✓ MER (Modelo Entidade-Relacionamento)
+✓ Metodologias Ágeis
+
+NOVEMBRO A DEZEMBRO (7 encontros)
+→ Continuação da modelagem UML
+→ Conectividade e APIs
+→ UX/UI, PDCA, Canvas
+→ Avaliação Final
+
+SENAI
+
+================================================================================
+SLIDE 6
+================================================================================
+Quiz de Nivelamento
+
+• Atividade diagnóstica (NÃO vale nota!)
+• 25 questões sobre conteúdos de AGO-OUT
+• Tempo: 30 minutos
+• Objetivo: identificar pontos que precisam de reforço
+
+Link do Quiz:
+[INSERIR LINK DO GOOGLE FORMS]
+
+[QR CODE AQUI]
+(Gerar QR Code do link do Google Forms)
+
+SENAI
+
+================================================================================
+SLIDE 7
+================================================================================
+Instruções do Quiz
+
+1. Acesse o link disponibilizado
+2. Responda com calma e atenção
+3. Não consulte material (queremos saber o que vocês LEMBRAM)
+4. Seja honesto nas respostas
+5. Tempo: 30 minutos
+
+→ Após o quiz, faremos uma revisão dos principais conceitos!
+
+SENAI
+
+================================================================================
+SLIDE 8
+================================================================================
+Revisão: O que é Modelagem?
+
+• Modelagem é o processo de criar abstrações da realidade
+• Modelos nos ajudam a:
+  ✓ Comunicar ideias
+  ✓ Lidar com complexidade
+  ✓ Testar hipóteses
+  ✓ Guiar o desenvolvimento
+
+"Um modelo não é a única solução possível,
+mas um conjunto de possibilidades"
+
+SENAI
+
+================================================================================
+SLIDE 9
+================================================================================
+Revisão: Regras de Negócio
+
+DEFINIÇÃO:
+Diretriz que define condições (critérios, restrições)
+que precisam ser atendidas no contexto de um processo.
+
+EXEMPLO:
+RN001 | Carga Horária Mínima
+A matrícula só será aceita se a carga horária total for ≥ 20 horas.
+
+Estrutura: ID | Nome | Descrição
+
+SENAI
+
+================================================================================
+SLIDE 10
+================================================================================
+Revisão: Requisitos de Software
+
+          Requisito de Software
+                  ▲
+                  |
+    ┌─────────────┼─────────────┐
+    |             |             |
+Regra de      Requisito     Requisito
+Negócio       Funcional   Não-Funcional
+
+• RN = Condições
+• RF = Ações (o que o sistema faz)
+• RNF = Qualidades (como o sistema se comporta)
+
+SENAI
+
+================================================================================
+SLIDE 11
+================================================================================
+Revisão: Requisitos Funcionais (RF)
+
+O QUE O SISTEMA DEVE FAZER?
+
+Exemplos:
+• RF01: O sistema deve permitir cadastro de usuários
+• RF02: O sistema deve registrar empréstimos
+• RF03: O sistema deve gerar relatórios
+
+Estrutura: ID + Descrição da funcionalidade
+
+SENAI
+
+================================================================================
+SLIDE 12
+================================================================================
+Revisão: Requisitos Não-Funcionais (RNF)
+
+COMO O SISTEMA DEVE SE COMPORTAR?
+
+Categorias:
+• Desempenho (tempo de resposta)
+• Segurança (proteção de dados)
+• Usabilidade (facilidade de uso)
+• Confiabilidade (disponibilidade)
+• Portabilidade (multiplataforma)
+
+Exemplo:
+RNF01: O sistema deve responder em menos de 2 segundos
+
+SENAI
+
+================================================================================
+SLIDE 13
+================================================================================
+Revisão: Casos de Uso
+
+COMPONENTES:
+• Atores (quem usa o sistema?)
+• Casos de Uso (funcionalidades)
+• Sistema (limite)
+
+RELACIONAMENTOS:
+• Include (sempre inclui outra funcionalidade)
+• Extend (pode estender funcionalidade)
+• Generalização (herança de atores)
+
+SENAI
+
+================================================================================
+SLIDE 14
+================================================================================
+Revisão: MER (Modelo Entidade-Relacionamento)
+
+ELEMENTOS:
+• Entidades (tabelas)
+• Atributos (campos)
+• Relacionamentos (ligações entre entidades)
+
+CARDINALIDADE:
+• 1:1 (um para um)
+• 1:N (um para muitos)
+• N:M (muitos para muitos)
+
+SENAI
+
+================================================================================
+SLIDE 15
+================================================================================
+Próximos Encontros (NOV-DEZ)
+
+Data | Tema
+-----|-----
+13/11 | Apresentação + Diagnóstico (HOJE!)
+14/11 | UML - Diagrama de Classes (Parte 1)
+04/12 | UML - Diagrama de Classes (Parte 2) + Sequência
+05/12 | UML - Sequência e Atividades
+12/12 | Conectividade, APIs, PDCA, Canvas
+18/12 | UX/UI + Revisão Geral
+19/12 | AVALIAÇÃO FINAL
+
+SENAI
+
+================================================================================
+SLIDE 16
+================================================================================
+Atividade Prática de Hoje
+
+REVISÃO DE DIAGRAMAS DE CASOS DE USO
+
+1. Formar duplas ou trios
+2. Analisar diagramas de casos de uso criados anteriormente
+3. Identificar:
+   • Atores faltantes ou incorretos
+   • Casos de uso que podem ser adicionados
+   • Relacionamentos (include/extend) mal aplicados
+   • Melhorias de nomenclatura
+4. Apresentar conclusões (5min por grupo)
+
+Tempo: 40 minutos
+
+SENAI
+
+================================================================================
+SLIDE 17
+================================================================================
+Expectativas e Combinados
+
+O QUE ESPERO DE VOCÊS:
+• Participação ativa
+• Pontualidade
+• Entregas no prazo
+• Respeito mútuo
+
+O QUE VOCÊS PODEM ESPERAR DE MIM:
+• Aulas dinâmicas
+• Disponibilidade para dúvidas
+• Avaliação justa
+• Feedback constante
+
+SENAI
+
+================================================================================
+SLIDE 18
+================================================================================
+Critérios de Avaliação
+
+COMPOSIÇÃO DA NOTA:
+• Atividades práticas em sala: 30%
+• Trabalhos/exercícios: 20%
+• Avaliação Final (19/DEZ): 50%
+
+Recuperação disponível para quem obtiver nota entre 5,0 e 6,9
+
+SENAI
+
+================================================================================
+SLIDE 19
+================================================================================
+Para o Próximo Encontro (14/NOV)
+
+TEMA: Diagrama de Classes UML (Parte 1)
+
+O QUE VEREMOS:
+• Conceitos de Orientação a Objetos
+• Estrutura de uma classe (atributos e métodos)
+• Tipos de relacionamentos entre classes
+• Visibilidade (public, private, protected)
+
+FERRAMENTA: Draw.io ou Lucidchart
+(Recomendo criar conta gratuita antes da aula)
+
+SENAI
+
+================================================================================
+SLIDE 20
+================================================================================
+Dúvidas?
+
+💬 Este é o momento para esclarecer
+qualquer questão!
+
+Perguntas sobre:
+• Conteúdo
+• Avaliações
+• Cronograma
+• Metodologia
+
+SENAI
+
+================================================================================
+SLIDE 21
+================================================================================
+Referências e Materiais de Apoio
+
+📚 LIVROS RECOMENDADOS:
+• "UML 2 - Uma Abordagem Prática" - Gilleanes T. A. Guedes
+• "Engenharia de Software" - Ian Sommerville
+• "Análise e Projeto de Sistemas" - Eduardo Bezerra
+• "Use a Cabeça! Análise e Projeto Orientado ao Objeto" - Brett McLaughlin
+
+🎥 CANAIS NO YOUTUBE:
+• Curso em Vídeo (Gustavo Guanabara)
+• Bóson Treinamentos
+• DevMedia
+• Código Fonte TV
+
+🌐 SITES E FERRAMENTAS:
+• lucidchart.com - Criação de diagramas
+• draw.io - Diagramas gratuitos
+• visual-paradigm.com - Tutoriais UML
+
+SENAI
+
+================================================================================
+SLIDE 22
+================================================================================
+SENAI
+Serviço Nacional
+de Aprendizagem
+Industrial
+
+Obrigado!
+Nos vemos no próximo encontro! 🚀

@@ -1,0 +1,11 @@
+rática 1 - Introdução 
+Ingrid Barreto de Almeida Passos
+•
+7 de ago. (editado: 7 de ago.)
+Data de entrega: 7 de ago., 21:00
+Postem aqui o resultado da prática que tem como  objetivo compreender e descrever funcionalidades de um sistema simples a partir de um cenário simulado de cliente.
+
+Importante - Em um único arquivo deve conter:
+• Listar as funcionalidades em ordem sequencial de uso, ou seja, seguindo o fluxo lógico da interação do usuário com o sistema (ex: primeiro acessar, depois cadastrar, depois editar, etc.).
+• Classificar cada funcionalidade como: Obrigatória (essencial para o funcionamento mínimo do sistema); Desejável (melhora a experiência, mas não é essencial); Opcional (pode ser incluída como melhoria futura).
+• A lista deve ser feita em tópicos, com frases claras e objetivas.

@@ -1,0 +1,7 @@
+Voltei! Antes de irmos para a próxima aula, deixa eu te dar mais algumas dicas importantes:
+
+As informações sobre registro de aula, frequência e nota devem ser lançadas no portal diariamente, sempre que a aula for ministrada. Assim evitamos atraso na emissão de documentos para os alunos e as empresas conveniadas.
+
+Você poderá lançar e revisar as notas de cada avaliação (AV/AVQT) antes de liberar essa etapa para visualização dos alunos. Ao lançar cada nota, o sistema fará o cálculo da média (APF), mas não fará modificação do status dos alunos. Caso as notas, plano de aula e frequência estejam corretas, devidamente revisadas e ajustadas, o docente fará a liberação de etapa e depois o encerramento da etapa APF, que representa o resultado final/média do desempenho do aluno.
+
+Ao encerrar a etapa APF, o sistema fará a apuração final dos resultados e modificará o status do aluno, bloqueando as etapas de lançamento de notas.

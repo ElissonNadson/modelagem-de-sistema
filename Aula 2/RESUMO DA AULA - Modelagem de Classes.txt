@@ -1,0 +1,41 @@
+══════════════════════ MODELAGEM DE CLASSES COM UML - RESUMO ══════════════════════
+
+MODELO DE CLASSES = Diagrama de Classes + Dicionário de Classes (descrição textual)
+Estágios: ANÁLISE ("o que fazer") → ESPECIFICAÇÃO ("como funcionar") → IMPLEMENTAÇÃO (código)
+
+REPRESENTAÇÃO DE CLASSE          VISIBILIDADE                    MULTIPLICIDADES
+┌──────────────────┐             + Público (qualquer classe)     1    = um e apenas um
+│   NomeDaClasse   │             - Privado (só a própria)        0..1 = zero ou um
+├──────────────────┤             # Protegido (classe+subclasses) *    = zero ou muitos
+│ -atributo: tipo  │             ~ Pacote (mesmo pacote)         1..* = um ou muitos
+├──────────────────┤
+│ +metodo(): tipo  │
+└──────────────────┘
+
+TIPOS DE ASSOCIAÇÃO
+• BINÁRIA: relacionamento entre duas classes distintas → Cliente ————— ContaCorrente
+• REFLEXIVA: objeto se relaciona com objetos da MESMA classe → Funcionario (chefia)
+• CLASSE ASSOCIATIVA: quando a associação tem atributos próprios → Pedido--ItemPedido--Produto
+
+AGREGAÇÃO vs COMPOSIÇÃO (Relações Todo-Parte)
+┌─────────────────────────────────────────┬─────────────────────────────────────────┐
+│ AGREGAÇÃO (◇ losango branco)            │ COMPOSIÇÃO (◆ losango preto)            │
+│ • Relação fraca                         │ • Relação forte                         │
+│ • Parte CONTINUA existindo se todo      │ • Parte É DESTRUÍDA junto com todo      │
+│   for destruído                         │                                         │
+│ Ex: Turma ◇── Aluno                     │ Ex: Revista ◆── Edição                  │
+└─────────────────────────────────────────┴─────────────────────────────────────────┘
+
+HERANÇA (Generalização/Especialização)                    POLIMORFISMO
+• Superclasse: elementos comuns                           • REDEFINIÇÃO: reescrever método
+• Subclasse: especificidades                                herdado na subclasse
+• Classe ABSTRATA (itálico): não gera objetos             • SOBRECARGA: mesmo nome, parâmetros
+• Subclasses herdam atributos, métodos e associações        diferentes
+
+COMO IDENTIFICAR CLASSES?
+1. Requisitos Funcionais → cada dado gerenciado é classe candidata (Cliente, Produto, Venda)
+2. NÃO criar classe para caso de uso! "Cadastrar Produto" é MÉTODO da classe Produto
+3. Buscar atributos nos cenários de cadastro
+
+DICIONÁRIO DE CLASSES: documentar cada classe com descrição, atributos, métodos e relacionamentos
+═══════════════════════════════════════════════════════════════════════════════════════════════════

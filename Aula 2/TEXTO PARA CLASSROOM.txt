@@ -1,0 +1,84 @@
+===============================================================
+POSTAGEM 1 - MATERIAL DA AULA 14/11 (Copie o texto abaixo para o Classroom)
+===============================================================
+
+Segue o slide da aula do dia 14/11 sobre Modelagem de Classes com UML.
+
+Conteúdos abordados:
+• O que é o Modelo de Classes (Diagrama + Dicionário)
+• Representação de uma classe (nome, atributos, métodos)
+• Visibilidade (+, -, #)
+• Tipos de Associação (binária, reflexiva, classe associativa)
+• Multiplicidades (1, 0..1, *, 1..*)
+• Agregação vs Composição
+• Generalização e Especialização (Herança)
+• Polimorfismo (Redefinição e Sobrecarga)
+• Como identificar classes a partir dos requisitos
+• Dicionário de Classes
+
+Estudem o material para a próxima aula!
+
+
+===============================================================
+ATIVIDADE 1 - PARA CASA (Copie o texto abaixo para o Classroom)
+===============================================================
+
+Crie a documentação completa do projeto que você está desenvolvendo.
+
+Você deve contemplar os seguintes artefatos:
+
+Requisitos Funcionais: Liste pelo menos 8 requisitos funcionais do seu sistema, descrevendo as funcionalidades que o sistema deve oferecer (cadastros, consultas, alterações, exclusões, relatórios, etc.).
+
+Requisitos Não Funcionais: Liste pelo menos 5 requisitos não funcionais, especificando características de qualidade do sistema como usabilidade, desempenho, segurança e confiabilidade.
+
+Diagrama de Caso de Uso: Elabore o diagrama contendo pelo menos 2 atores e 10 casos de uso, demonstrando as funcionalidades do sistema e seus relacionamentos.
+
+Diagrama de Classes: Construa o diagrama com pelo menos 6 classes, incluindo atributos, métodos, associações com multiplicidades, e pelo menos uma relação de herança (generalização/especialização).
+
+Dicionário de Classes: Documente cada classe do diagrama, detalhando seus atributos (nome, tipo, visibilidade, descrição), métodos e relacionamentos.
+
+Ferramentas sugeridas: Astah, Lucidchart, Draw.io ou StarUML.
+
+Formato de entrega: Documento PDF contendo todos os artefatos solicitados.
+
+CRITÉRIOS DE AVALIAÇÃO:
+• Requisitos Funcionais completos e bem descritos - 2,0 pontos
+• Requisitos Não Funcionais adequados - 1,0 ponto
+• Diagrama de Caso de Uso correto e completo - 2,5 pontos
+• Diagrama de Classes com notação UML correta - 2,5 pontos
+• Dicionário de Classes detalhado - 2,0 pontos
+
+Total: 10,0 pontos
+
+
+===============================================================
+ATIVIDADE 2 - EM SALA (Copie o texto abaixo para o Classroom)
+===============================================================
+
+Crie o Diagrama de Classes e o Dicionário de Classes para o Sistema de uma Pastelaria.
+
+Cenário: A pastelaria "Sabor & Massa" deseja informatizar suas operações. O sistema deve controlar os produtos vendidos (pastéis de diversos sabores, bebidas e sobremesas), os clientes, os pedidos realizados (tanto no balcão quanto por delivery), os funcionários e o estoque de ingredientes.
+
+Considere que:
+• Pastéis são produtos especiais com características próprias (sabor/recheio)
+• Pedidos delivery precisam de informações adicionais de entrega
+• Cada pedido pode conter vários produtos com suas respectivas quantidades
+• O estoque deve alertar quando ingredientes estiverem acabando
+
+A partir do cenário descrito:
+
+1. DIAGRAMA DE CLASSES: Elabore o diagrama contendo as classes identificadas, com atributos, métodos, associações com multiplicidades. Utilize a notação UML correta.
+
+2. DICIONÁRIO DE CLASSES: Para cada classe do diagrama, documente: atributos (nome, tipo, visibilidade, descrição), métodos e relacionamentos.
+
+Dica: Identifique onde aplicar herança (generalização/especialização) e classe associativa.
+
+Ferramentas sugeridas: Astah, Lucidchart, Draw.io ou papel/caderno.
+
+CRITÉRIOS DE AVALIAÇÃO:
+• Diagrama de Classes com notação UML correta - 4,0 pontos
+• Atributos corretos (nome e tipo adequados) - 2,0 pontos
+• Visibilidade correta dos atributos/métodos - 1,0 ponto
+• Relacionamentos e multiplicidades corretos - 2,0 pontos
+• Identificação de herança e classe associativa - 1,0 ponto
+Total: 10,0 pontos

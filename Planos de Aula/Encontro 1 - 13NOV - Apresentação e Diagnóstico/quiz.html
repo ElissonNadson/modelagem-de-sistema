@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Nivelamento - Modelagem de Sistemas</title>
+    <!-- Carregando Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Fonte Inter */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Estilo customizado para inputs de radio/checkbox */
+        .form-radio, .form-checkbox {
+            margin-right: 0.5rem;
+        }
+        .form-section {
+            background-color: white;
+            padding: 1.5rem 2rem;
+            border-radius: 0.75rem; /* cantos arredondados */
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
+        }
+        .form-question {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #e5e7eb; /* Divisor sutil */
+        }
+        .form-question:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen py-10 px-4 sm:px-6 lg:px-8">
+    
+    <div class="max-w-3xl mx-auto">
+
+        <!-- Cabeçalho do Quiz -->
+        <header class="text-center mb-8 p-6 bg-blue-700 text-white rounded-lg shadow-lg">
+            <h1 class="text-3xl font-bold mb-2">QUIZ DE NIVELAMENTO - MODELAGEM DE SISTEMAS</h1>
+            <p class="text-lg font-light">DIAGNÓSTICO DE APRENDIZAGEM (NÃO VALE NOTA)</p>
+        </header>
+
+        <!-- Container do Formulário -->
+        <form id="quizForm" class="space-y-8">
+
+            <!-- SEÇÃO 1: INFORMAÇÕES DO ALUNO -->
+            <section class="form-section">
+                <h2 class="text-2xl font-semibold text-gray-800 border-b-2 border-blue-600 pb-2 mb-6">SEÇÃO 1: INFORMAÇÕES DO ALUNO</h2>
+                
+                <div class="form-question">
+                    <label for="nome" class="block text-lg font-medium text-gray-700 mb-2">1. Nome completo:</label>
+                    <input type="text" id="nome" name="nome" class="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                </div>
+                
+                <div class="form-question">
+                    <label for="turma" class="block text-lg font-medium text-gray-700 mb-2">2. Turma:</label>
+                    <input type="text" id="turma" name="turma" class="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                </div>
+            </section>
+
+            <!-- SEÇÃO 2: CONCEITOS FUNDAMENTAIS DE MODELAGEM -->
+            <section class="form-section">
+                <h2 class="text-2xl font-semibold text-gray-800 border-b-2 border-blue-600 pb-2 mb-6">SEÇÃO 2: CONCEITOS FUNDAMENTAIS DE MODELAGEM</h2>
+
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">3. O que é Modelagem de Sistemas?</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q3" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Processo de codificação de software</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q3" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Processo de criar abstrações da realidade para representar sistemas</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q3" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Processo de testar software</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q3" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Processo de instalar sistemas em servidores</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">4. Qual NÃO é um benefício da modelagem de sistemas?</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q4" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Facilitar a comunicação entre equipes</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q4" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Lidar com problemas complexos</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q4" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Eliminar a necessidade de codificação</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q4" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Guiar o desenvolvimento do sistema</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-question">
+                    <label for="q5" class="block text-lg font-medium text-gray-700 mb-2">5. Complete: "Um modelo é uma _____________ da realidade que foca no que é importante em determinado momento."</label>
+                    <input type="text" id="q5" name="q5" placeholder="Sua resposta..." class="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+            </section>
+
+            <!-- SEÇÃO 3: REGRAS DE NEGÓCIO -->
+            <section class="form-section">
+                <h2 class="text-2xl font-semibold text-gray-800 border-b-2 border-blue-600 pb-2 mb-6">SEÇÃO 3: REGRAS DE NEGÓCIO</h2>
+                
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">6. O que é uma Regra de Negócio?</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q6" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Diretriz que define condições ou critérios que precisam ser atendidos</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q6" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Descrição de uma funcionalidade do sistema</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q6" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Requisito relacionado ao desempenho do sistema</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q6" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Processo de validação de código</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">7. Qual é a diferença principal entre Regra de Negócio e Requisito Funcional?</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q7" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Regra = Condições; Requisito = Ações</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q7" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Regra = Ações; Requisito = Condições</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q7" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Não há diferença, são sinônimos</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q7" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Regra é técnica; Requisito é de negócio</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">8. Analise a afirmação: "A matrícula só será aceita se a carga horária total for ≥ 20 horas."<br>Esta é uma:</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q8" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Regra de Negócio</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q8" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Requisito Funcional</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q8" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Requisito Não-Funcional</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q8" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Caso de Uso</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">9. Quais são os tipos de Regras de Negócio? (Marque TODAS as corretas)</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="checkbox" name="q9" value="a" class="form-checkbox text-blue-600 focus:ring-blue-500 rounded">
+                            <span class="ml-3 text-gray-700">Cálculos/Derivações</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="checkbox" name="q9" value="b" class="form-checkbox text-blue-600 focus:ring-blue-500 rounded">
+                            <span class="ml-3 text-gray-700">Restrições</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="checkbox" name="q9" value="c" class="form-checkbox text-blue-600 focus:ring-blue-500 rounded">
+                            <span class="ml-3 text-gray-700">Habilitações de ação</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="checkbox" name="q9" value="d" class="form-checkbox text-blue-600 focus:ring-blue-500 rounded">
+                            <span class="ml-3 text-gray-700">Termos</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="checkbox" name="q9" value="e" class="form-checkbox text-blue-600 focus:ring-blue-500 rounded">
+                            <span class="ml-3 text-gray-700">Fatos</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="checkbox" name="q9" value="f" class="form-checkbox text-blue-600 focus:ring-blue-500 rounded">
+                            <span class="ml-3 text-gray-700">Codificações</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">10. Qual é o formato padrão para identificar uma Regra de Negócio?</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q10" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">RF001</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q10" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">RN001</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q10" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">UC001</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q10" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">REQ001</span>
+                        </label>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SEÇÃO 4: REQUISITOS FUNCIONAIS -->
+            <section class="form-section">
+                <h2 class="text-2xl font-semibold text-gray-800 border-b-2 border-blue-600 pb-2 mb-6">SEÇÃO 4: REQUISITOS FUNCIONAIS</h2>
+                
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">11. O que são Requisitos Funcionais?</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q11" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Descrevem o que o sistema deve fazer (funcionalidades)</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q11" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Descrevem como o sistema deve se comportar (qualidades)</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q11" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Descrevem as condições de negócio</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q11" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Descrevem a arquitetura técnica</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">12. Qual das alternativas abaixo é um Requisito Funcional?</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q12" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">O sistema deve responder em menos de 2 segundos</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q12" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">O sistema deve permitir cadastro de usuários</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q12" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">O sistema deve ser acessível 24/7</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q12" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">O sistema deve ter interface intuitiva</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-question">
+                    <label for="q13" class="block text-lg font-medium text-gray-700 mb-2">13. Complete: "RF001: O sistema deve _____________"</label>
+                    <input type="text" id="q13" name="q13" placeholder="Ex: permitir login de usuários" class="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">14. Um Requisito Funcional pode violar uma Regra de Negócio?</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q14" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Sim, sempre</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q14" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Não, nunca</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q14" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Sim, em casos especiais</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q14" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Depende do contexto</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">15. Qual sufixo é comumente usado para identificar Requisitos Funcionais?</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q15" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">RN</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q15" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">RF</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q15" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">RNF</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q15" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">REQ</span>
+                        </label>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SEÇÃO 5: REQUISITOS NÃO-FUNCIONAIS -->
+            <section class="form-section">
+                <h2 class="text-2xl font-semibold text-gray-800 border-b-2 border-blue-600 pb-2 mb-6">SEÇÃO 5: REQUISITOS NÃO-FUNCIONAIS</h2>
+                
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">16. O que são Requisitos Não-Funcionais?</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q16" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Descrevem funcionalidades do sistema</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q16" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Descrevem qualidades e comportamentos do sistema</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q16" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Descrevem regras de negócio</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q16" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Descrevem casos de uso</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">17. Quais são categorias de Requisitos Não-Funcionais? (Marque TODAS as corretas)</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="checkbox" name="q17" value="a" class="form-checkbox text-blue-600 focus:ring-blue-500 rounded">
+                            <span class="ml-3 text-gray-700">Desempenho</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="checkbox" name="q17" value="b" class="form-checkbox text-blue-600 focus:ring-blue-500 rounded">
+                            <span class="ml-3 text-gray-700">Segurança</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="checkbox" name="q17" value="c" class="form-checkbox text-blue-600 focus:ring-blue-500 rounded">
+                            <span class="ml-3 text-gray-700">Usabilidade</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="checkbox" name="q17" value="d" class="form-checkbox text-blue-600 focus:ring-blue-500 rounded">
+                            <span class="ml-3 text-gray-700">Confiabilidade</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="checkbox" name="q17" value="e" class="form-checkbox text-blue-600 focus:ring-blue-500 rounded">
+                            <span class="ml-3 text-gray-700">Cadastro</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="checkbox" name="q17" value="f" class="form-checkbox text-blue-600 focus:ring-blue-500 rounded">
+                            <span class="ml-3 text-gray-700">Relatórios</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">18. Qual das alternativas abaixo é um Requisito Não-Funcional?</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q18" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">O sistema deve gerar relatórios mensais</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q18" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">O sistema deve ter tempo de resposta inferior a 2 segundos</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q18" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">O sistema deve cadastrar produtos</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q18" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">O sistema deve enviar notificações por e-mail</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">19. "O sistema deve estar disponível 99,9% do tempo" - Este é um RNF de qual categoria?</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q19" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Desempenho</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q19" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Segurança</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q19" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Usabilidade</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q19" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Confiabilidade</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">20. Qual sufixo é usado para identificar Requisitos Não-Funcionais?</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q20" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">RF</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q20" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">RN</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q20" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">RNF</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q20" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">REQ</span>
+                        </label>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SEÇÃO 6: DIAGRAMA DE CASOS DE USO -->
+            <section class="form-section">
+                <h2 class="text-2xl font-semibold text-gray-800 border-b-2 border-blue-600 pb-2 mb-6">SEÇÃO 6: DIAGRAMA DE CASOS DE USO</h2>
+                
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">21. Quais são os elementos básicos de um Diagrama de Casos de Uso? (Marque TODAS)</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="checkbox" name="q21" value="a" class="form-checkbox text-blue-600 focus:ring-blue-500 rounded">
+                            <span class="ml-3 text-gray-700">Atores</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="checkbox" name="q21" value="b" class="form-checkbox text-blue-600 focus:ring-blue-500 rounded">
+                            <span class="ml-3 text-gray-700">Casos de Uso</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="checkbox" name="q21" value="c" class="form-checkbox text-blue-600 focus:ring-blue-500 rounded">
+                            <span class="ml-3 text-gray-700">Sistema (limite)</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="checkbox" name="q21" value="d" class="form-checkbox text-blue-600 focus:ring-blue-500 rounded">
+                            <span class="ml-3 text-gray-700">Classes</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="checkbox" name="q21" value="e" class="form-checkbox text-blue-600 focus:ring-blue-500 rounded">
+                            <span class="ml-3 text-gray-700">Atributos</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">22. Como os atores são representados em um Diagrama de Casos de Uso?</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q22" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Boneco/figura de palito</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q22" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Retângulo</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q22" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Elipse</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q22" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Losango</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">23. Como os casos de uso são representados?</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q23" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Boneco/figura de palito</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q23" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Retângulo</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q23" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Elipse/oval</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q23" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Losango</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">24. O que significa o relacionamento "include" em um Diagrama de Casos de Uso?</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q24" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Um caso de uso sempre inclui outro caso de uso</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q24" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Um caso de uso pode ou não incluir outro</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q24" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Um ator herda características de outro ator</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q24" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Um caso de uso se comunica com outro</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">25. O que significa o relacionamento "extend" em um Diagrama de Casos de Uso?</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q25" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Um caso de uso sempre inclui outro caso de uso</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q25" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Um caso de uso pode estender outro caso de uso (comportamento opcional)</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q25" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Um ator herda características de outro ator</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q25" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Um caso de uso depende de outro</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">26. No Sistema NOA (Controle de Chaves), quem seriam os atores? (Marque TODAS)</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="checkbox" name="q26" value="a" class="form-checkbox text-blue-600 focus:ring-blue-500 rounded">
+                            <span class="ml-3 text-gray-700">Aluno</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="checkbox" name="q26" value="b" class="form-checkbox text-blue-600 focus:ring-blue-500 rounded">
+                            <span class="ml-3 text-gray-700">Docente</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="checkbox" name="q26" value="c" class="form-checkbox text-blue-600 focus:ring-blue-500 rounded">
+                            <span class="ml-3 text-gray-700">Administrador (funcionário)</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="checkbox" name="q26" value="d" class="form-checkbox text-blue-600 focus:ring-blue-500 rounded">
+                            <span class="ml-3 text-gray-700">Chave</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="checkbox" name="q26" value="e" class="form-checkbox text-blue-600 focus:ring-blue-500 rounded">
+                            <span class="ml-3 text-gray-700">Sistema de Notificação</span>
+                        </label>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- SEÇÃO 7: MODELO ENTIDADE-RELACIONAMENTO (MER) -->
+            <section class="form-section">
+                <h2 class="text-2xl font-semibold text-gray-800 border-b-2 border-blue-600 pb-2 mb-6">SEÇÃO 7: MODELO ENTIDADE-RELACIONAMENTO (MER)</h2>
+                
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">27. O que é uma Entidade no MER?</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q27" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Representação de algo do mundo real sobre o qual se deseja guardar informações (tabela)</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q27" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Relacionamento entre duas tabelas</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q27" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Campo de uma tabela</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q27" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Chave primária</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">28. O que são Atributos no MER?</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q28" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Tabelas do banco de dados</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q28" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Características/propriedades de uma entidade (campos)</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q28" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Relacionamentos entre entidades</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q28" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Chaves estrangeiras</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">29. O que significa a cardinalidade "1:N" em um relacionamento?</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q29" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Um para um</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q29" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Um para muitos</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q29" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Muitos para muitos</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q29" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Nenhum para um</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">30. No relacionamento "Um CLIENTE faz vários PEDIDOS", qual é a cardinalidade?</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q30" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">1:1</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q30" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">1:N</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q30" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">N:M</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q30" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">N:1</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">31. Como se resolve um relacionamento N:M (muitos para muitos) no banco de dados?</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q31" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Não é possível resolver</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q31" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Com chave primária composta</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q31" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Criando uma tabela associativa intermediária</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q31" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Eliminando o relacionamento</span>
+                        </label>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- SEÇÃO 8: METODOLOGIAS ÁGEIS -->
+            <section class="form-section">
+                <h2 class="text-2xl font-semibold text-gray-800 border-b-2 border-blue-600 pb-2 mb-6">SEÇÃO 8: METODOLOGIAS ÁGEIS</h2>
+                
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">32. Qual é o principal objetivo das Metodologias Ágeis?</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q32" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Criar documentação extensa</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q32" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Entregar valor ao cliente de forma rápida e iterativa</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q32" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Seguir um plano rígido sem mudanças</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q32" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Eliminar a necessidade de testes</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">33. Quais são metodologias ágeis? (Marque TODAS as corretas)</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="checkbox" name="q33" value="a" class="form-checkbox text-blue-600 focus:ring-blue-500 rounded">
+                            <span class="ml-3 text-gray-700">Scrum</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="checkbox" name="q33" value="b" class="form-checkbox text-blue-600 focus:ring-blue-500 rounded">
+                            <span class="ml-3 text-gray-700">Kanban</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="checkbox" name="q33" value="c" class="form-checkbox text-blue-600 focus:ring-blue-500 rounded">
+                            <span class="ml-3 text-gray-700">XP (Extreme Programming)</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="checkbox" name="q33" value="d" class="form-checkbox text-blue-600 focus:ring-blue-500 rounded">
+                            <span class="ml-3 text-gray-700">Waterfall (Cascata)</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="checkbox" name="q33" value="e" class="form-checkbox text-blue-600 focus:ring-blue-500 rounded">
+                            <span class="ml-3 text-gray-700">MER</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">34. O que é uma Sprint no Scrum?</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q34" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Reunião diária da equipe</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q34" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Período fixo de tempo (geralmente 2-4 semanas) para desenvolver funcionalidades</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q34" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Documento de requisitos</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q34" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Ferramenta de modelagem</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">35. Qual é a função do Product Owner no Scrum?</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q35" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Gerenciar a equipe técnica</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q35" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Representar o cliente e priorizar o backlog</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q35" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Testar o software</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q35" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Codificar as funcionalidades</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">36. O que é o Quadro Kanban?</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q36" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Ferramenta visual para gerenciar fluxo de trabalho (To Do, Doing, Done)</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q36" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Diagrama de banco de dados</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q36" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Documento de requisitos</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q36" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Tipo de metodologia cascata</span>
+                        </label>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- SEÇÃO 9: SISTEMA DE INFORMAÇÃO -->
+            <section class="form-section">
+                <h2 class="text-2xl font-semibold text-gray-800 border-b-2 border-blue-600 pb-2 mb-6">SEÇÃO 9: SISTEMA DE INFORMAÇÃO</h2>
+                
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">37. O que é um Sistema de Informação?</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q37" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Sistema que coleta, armazena, processa e dissemina informações</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q37" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Qualquer programa de computador</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q37" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Banco de dados</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q37" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Rede de computadores</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">38. Qual é o fluxo básico de um Sistema de Informação?</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q38" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Saída → Processamento → Entrada</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q38" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Entrada → Processamento → Saída</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q38" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Armazenamento → Entrada → Saída</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q38" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Processamento → Armazenamento → Entrada</span>
+                        </label>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- SEÇÃO 10: APLICAÇÃO PRÁTICA -->
+            <section class="form-section">
+                <h2 class="text-2xl font-semibold text-gray-800 border-b-2 border-blue-600 pb-2 mb-6">SEÇÃO 10: APLICAÇÃO PRÁTICA</h2>
+                
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">39. No contexto do Sistema NOA (Controle de Chaves), identifique a Regra de Negócio:</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q39" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">O sistema deve registrar empréstimos</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q39" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Docentes podem emprestar até 3 equipamentos simultaneamente</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q39" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">O sistema deve ter interface web</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q39" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">O sistema deve enviar notificações</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">40. No contexto do Sistema NOA, identifique o Requisito Funcional:</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q40" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">O sistema deve permitir cadastro de chaves</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q40" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">O sistema deve responder em menos de 2 segundos</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q40" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Alunos podem emprestar apenas 1 chave</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q40" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">O sistema deve ser disponível 24/7</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">41. No contexto do Sistema NOA, identifique o Requisito Não-Funcional:</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q41" value="a" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">O sistema deve registrar devoluções</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q41" value="b" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">Prazo máximo de empréstimo é 7 dias</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q41" value="c" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">O sistema deve ser acessível para pessoas com deficiência</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q41" value="d" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">O sistema deve gerar relatórios</span>
+                        </label>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SEÇÃO 11: REFLEXÃO FINAL -->
+            <section class="form-section">
+                <h2 class="text-2xl font-semibold text-gray-800 border-b-2 border-blue-600 pb-2 mb-6">SEÇÃO 11: REFLEXÃO FINAL</h2>
+                
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">42. Em uma escala de 1 a 5, como você avalia sua compreensão sobre Regras de Negócio?</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q42" value="1" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">1 - Não entendi nada</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q42" value="2" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">2 - Entendi pouco</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q42" value="3" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">3 - Entendi mais ou menos</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q42" value="4" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">4 - Entendi bem</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q42" value="5" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">5 - Domino completamente</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">43. Em uma escala de 1 a 5, como você avalia sua compreensão sobre Requisitos (RF e RNF)?</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q43" value="1" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">1 - Não entendi nada</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q43" value="2" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">2 - Entendi pouco</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q43" value="3" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">3 - Entendi mais ou menos</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q43" value="4" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">4 - Entendi bem</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q43" value="5" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">5 - Domino completamente</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-question">
+                    <p class="text-lg font-medium text-gray-700 mb-3">44. Em uma escala de 1 a 5, como você avalia sua compreensão sobre Diagrama de Casos de Uso?</p>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q44" value="1" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">1 - Não entendi nada</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q44" value="2" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">2 - Entendi pouco</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q44" value="3" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">3 - Entendi mais ou menos</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q44" value="4" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">4 - Entendi bem</span>
+                        </label>
+                        <label class="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                            <input type="radio" name="q44" value="5" class="form-radio text-blue-600 focus:ring-blue-500">
+                            <span class="ml-3 text-gray-700">5 - Domino completamente</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-question">
+                    <label for="q45" class="block text-lg font-medium text-gray-700 mb-2">45. Qual conteúdo você gostaria que fosse revisado com mais atenção?</label>
+                    <textarea id="q45" name="q45" rows="4" class="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Sua resposta aberta..."></textarea>
+                </div>
+
+                <div class="form-question">
+                    <label for="q46" class="block text-lg font-medium text-gray-700 mb-2">46. Você tem alguma dúvida específica sobre os conteúdos ministrados até agora?</label>
+                    <textarea id="q46" name="q46" rows="4" class="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Sua resposta aberta..."></textarea>
+                </div>
+            </section>
+
+            <!-- Botão de Envio e Mensagem Final -->
+            <div class="mt-10 text-center">
+                <button type="submit" class="w-full sm:w-auto bg-blue-600 text-white font-bold py-3 px-10 rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition-transform transform hover:scale-105">
+                    Enviar Respostas
+                </button>
+            </div>
+
+        </form>
+
+        <!-- Mensagem de Confirmação (inicialmente oculta) -->
+        <div id="confirmationMessage" class="hidden mt-8 text-center p-6 bg-green-100 text-green-800 border border-green-300 rounded-lg shadow-lg">
+            <h2 class="text-2xl font-bold mb-2">Obrigado por participar do Quiz de Nivelamento! 🚀</h2>
+            <p class="text-lg">Este diagnóstico nos ajudará a identificar os pontos que precisam ser reforçados durante os próximos encontros.</p>
+            <p class="text-lg mt-2">Lembre-se: esta atividade NÃO vale nota. O objetivo é apenas entender como estamos e onde podemos melhorar.</p>
+            <p class="text-lg mt-2 font-semibold">Nos vemos na revisão!</p>
+        </div>
+        
+    </div> <!-- Fim do max-w-3xl -->
+
+    <script>
+        // Script para lidar com o envio do formulário
+        document.getElementById('quizForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Impede o envio real do formulário
+
+            // Oculta o formulário
+            this.style.display = 'none';
+
+            // Remove o cabeçalho
+            document.querySelector('header').style.display = 'none';
+
+            // Mostra a mensagem de confirmação
+            document.getElementById('confirmationMessage').style.display = 'block';
+
+            // Rola para o topo da página para ver a mensagem
+            window.scrollTo(0, 0);
+        });
+    </script>
+
+</body>
+</html>

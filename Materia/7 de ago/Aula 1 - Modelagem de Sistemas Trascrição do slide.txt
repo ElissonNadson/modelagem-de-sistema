@@ -1,0 +1,89 @@
+Aula 1 - Modelagem de Sistemas
+Slides 1 e 2: Introdução
+O slide inicial apresenta a marca do SENAI com o slogan "Nossa história TRANSFORMA muitas histórias". Em seguida, o slide 2 introduz o tema principal, "Modelagem de Sistemas", e oferece uma definição inicial: é o processo de criar um sistema de computador, desde a sua concepção até a implementação.
+
+
+Slides 3, 4 e 5: Dinâmica de Aprendizagem
+Estes slides propõem uma atividade prática para ilustrar um conceito fundamental da modelagem.
+
+
+Slide 3: Pede aos alunos que desenhem uma casa seguindo instruções geométricas específicas, como "Desenhe um retângulo grande no centro da tela" e "Sobre o retângulo, desenhe um triângulo". A ideia é mostrar como instruções podem levar a um resultado esperado.
+
+
+
+Slide 4: Apresenta uma segunda dinâmica, desta vez com instruções para desenhar um peixe usando formas como círculos e triângulos.
+
+
+
+Slide 5: Reflete sobre a dinâmica, afirmando que, embora as instruções sejam as mesmas para todos, nenhum desenho será idêntico ao outro. Isso introduz a ideia de que um modelo pode não ser a única ou a melhor solução possível, sendo importante considerar um conjunto de possibilidades.
+
+
+Slides 6 e 7: O Conceito de Modelo
+Estes slides aprofundam a definição de modelos.
+
+
+Slide 6: Usa uma charge para explicar que a abstração foca nas características essenciais de um objeto, que variam conforme a perspectiva do observador. Modelos são definidos como "abstrações da realidade" que se concentram no que é importante em um determinado momento. Sua utilidade inclui:
+
+
+Facilitar a comunicação.
+
+Permitir lidar com problemas complexos.
+
+Testar hipóteses.
+
+Guiar o desenvolvimento.
+
+
+Slide 7: Mostra exemplos visuais de diferentes tipos de modelos, como maquetes, plantas, manequins e diagramas.
+
+Slide 8: A Falha de Comunicação
+Este slide exibe uma famosa charge sobre desenvolvimento de projetos que ilustra a diferença entre o que o cliente explicou, o que o líder do projeto entendeu, como o analista projetou e o que o cliente realmente queria. A imagem serve como um alerta sobre a importância da comunicação clara no processo de desenvolvimento.
+
+
+Slide 9: Sistemas de Informação
+Aqui, é apresentado o conceito de Sistema de Informação. A definição dada é que são sistemas que permitem coletar, armazenar, processar e disseminar informações. Um diagrama ilustra o fluxo básico: Entrada de dados -> Processamento -> Saída de informações, com interação com o Armazenamento e um ciclo de feedback.
+
+
+Slides 10 e 11: O Desafio do Desenvolvedor
+
+Slide 10: Apresenta uma charge onde um chefe pede um software complexo com um prazo irreal.
+
+
+Slide 11: Mostra o desenvolvedor confuso, perguntando "E agora?". O slide levanta questões para reflexão, como "Não basta só codificar?" e "Código é modelo?", sugerindo que a codificação por si só não é suficiente sem um planejamento e modelagem adequados.
+
+
+Slides 12 e 13: Vantagens e Desafios da Modelagem
+
+Slide 12: Lista as vantagens da modelagem de sistemas, como o aumento da eficiência e produtividade, além da potencial redução de custos e aumento da qualidade dos produtos.
+
+
+Slide 13: Aponta os desafios, que incluem a complexidade dos sistemas, a falta de recursos e a necessidade de manter o sistema atualizado. Menciona também que a modelagem pode ser difícil de ser compreendida por pessoas não familiarizadas com tecnologia.
+
+
+Slides 14, 15 e 16: Roteiro da Atividade Prática
+Estes slides detalham uma atividade prática para a aula.
+
+
+Objetivo: Compreender e descrever as funcionalidades de um sistema a partir de um cenário simulado, exercitando a escuta ativa e o levantamento de requisitos.
+
+Etapas:
+
+
+Escolha da Dupla: Dois alunos são escolhidos para representar o "cliente".
+
+
+Leitura do Cenário: A dupla recebe um cenário e deve explicá-lo à turma com suas próprias palavras, como se fossem os donos da empresa.
+
+
+
+Apresentação do Cenário: A dupla apresenta o problema da empresa de forma simples, assumindo o papel de leigos em tecnologia.
+
+
+Levantamento de Funcionalidades: Os demais alunos, em duplas, têm 25 minutos para listar as funcionalidades que o sistema deve ter. Cada funcionalidade deve ser classificada como "Obrigatória", "Desejável" ou "Opcional".
+
+
+
+Apresentação: Cada dupla apresenta sua proposta de solução.
+
+Slide 17: Encerramento
+O último slide exibe o logo e o nome completo do SENAI - Serviço Nacional de Aprendizagem Industrial.

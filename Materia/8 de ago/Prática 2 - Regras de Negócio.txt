@@ -1,0 +1,9 @@
+Nesta atividade, vocês deverão utilizar o modelo disponibilizado (em anexo) para descrever formalmente as regras de negócio relacionadas à prática realizada na Atividade 1. 
+Antes de iniciar, é fundamental que revisem o conteúdo produzido anteriormente, aplicando os conceitos aprendidos para distinguir corretamente a regras de negócio dos requisitos funcionais.
+
+O objetivo é consolidar a compreensão sobre as regras de negócio, identificando-as como diretrizes que poderão reger as operações e decisões do sistema. 
+
+Em síntese:
+Revisar e analisar o material da prática anterior;
+Aplicar os conceitos para separar e definir claramente as regras de negócio;
+Registrar essas regras no modelo padrão disponibilizado, garantindo clareza na documentação.

@@ -1,0 +1,402 @@
+[Música]
+Olá vamos dar continuidade aos nossos estudos vendo hoje A modelagem de classes com ml uma das mais importantes
+quando se trata de projeto de sistemas orientados a objetos vamos lá antes de
+tudo é necessário destacar a importância de se dedicar aos principais conceitos do paradigma da orientação a objetos
+qual estudamos na aula anterior Eles serão essenciais para a aprendizagem da modelagem de classes a partir de agora
+em síntese a orientação objetos é o paradigma no qual a computação ocorre
+por meio de objetos que realizam operações e trocam mensagens entre si um
+objeto pertence a uma classe que descreve as características e comportamentos de objetos similares
+entre si se você ainda tem dúvidas retome a aula teórica e volte aqui para
+prosseguirmos Ok pelo de casos de uso de um sistema é
+construído para formar a visão de casos de uso do sistema Essa visão fornece uma
+perspectiva do sistema a partir de um ponto de vista externo de posse dessa visão funcional os desenvolvedores
+precisam prosseguir no desenvolvimento do sistema a funcionalidade externa de um
+sistema orientado ao objetos é fornecida por meio de colaborações entre objetos
+externamente ao sistema os atores visualizam os resultados de cálculos relatórios produzidos confirmações de
+requisições realizadas etc internamente os objetos do sistema colaboram uns com
+os outros para produzir os resultados visíveis de fora essa colaboração pode
+ser vista sobre o aspecto dinâmico e sobre o aspecto estrutural estático conforme veremos a seguir
+o aspecto dinâmico de uma colaboração entre objetos descreve a troca de mensagens entre eles e a sua reação a
+eventos que ocorrem no sistema Esse aspecto é representado pelo modelo de interações que será estudado em aulas
+futuras o aspecto estrutural estático de uma colaboração permite compreender como
+o sistema está estruturado internamente para que as funcionalidades externamente visíveis sejam produzidas Esse aspecto é
+denominado estático porque não representa informações sobre como objeto do sistema interage no decorrer do tempo
+isso é representado no aspecto dinâmico da colaboração também é chamada estrutural porque a estrutura das
+classes de objetos componentes do sistema e as relações entre elas são representadas é importante destacar que
+a modelagem funcional é essencial para que seja possível estabelecer A modelagem estrutural de um sistema assim
+como a identificação das classes necessárias permite um aperfeiçoamento do que se pensou anteriormente sobre as
+funcionalidades do Futuro sistema em resumo uma abordagem refina a outra em
+um processo cíclico da mesma maneira os aspectos
+estáticos e dinâmicos de um sistema orientado a objetos não são independentes a construção de um serve
+para adicionar detalhes ao outro por exemplo se durante a construção do aspecto dinâmico o analista detecta a
+necessidade de uma mensagem entre dois objetos isso implica a existência de alguma referência estrutural
+entre assim como Já estudamos detalhadamente A modelagem funcional de
+um sistema representado pelo modelo de caso de uso agora iniciaremos os estudos
+acerca da descrição do aspecto estrutural estático de um sistema orientado objetos Esse aspecto é
+representado pelo modelo de classes modelo de classes é composto do
+diagrama de classes e a descrição textual associada a ele chamada aqui de
+dicionário de classes como A modelagem de classes é um dos pontos mais importantes de um projeto de
+sistemas orientado a objetos vários conceitos e elementos serão apresentados e estudados a partir de agora assim
+julgamos pertinente dividir nosso estudo em dois vídeos para que haja maior aprofundamento no que julgamos essencial
+para sua aprendizagem Nesta aula falaremos um pouco sobre algumas
+técnicas de identificação de classes de análise vamos ver algum dos elementos de
+notação do diagrama de classes necessários para a construção de um diagrama de classes de análise e
+descrever como um diagrama de classes pode ser documentado modelo de classes é
+utilizado durante a maior parte do desenvolvimento interativo incremental de um sistema de software orientado a
+objetos mais que isso esse modelo evolui bastante durante as iterações do
+desenvolvimento do sistema à medida que o sistema é desenvolvido o modelo de
+classes é incrementado com novos detalhes durante essa evolução há três estágios
+sucessivos de abstração pelos quais o modelo de classes passa análise
+especificação e
+implementação o modelo de classes de análise representa as classes que se tornam evidentes na medida em que
+focamos a atenção sobre o que o sistema deve fazer modelo é construído na fase
+de análise e não leva em consideração aspectos relacionados à tecnologia ser utilizada na
+implementação modelo de classes de análise representa as classes que se tornam evidentes na medida em que
+focamos a atenção sobre o que o sistema deve fazer esse modelo é construído na fase de análise e não leva em
+consideração aspectos acionados à tecnologia ser utilizada na implementação em conjunto o modelo de
+casos de uso e o modelo de classes de análise são os dois modelos criados na fase de análise o modelo de classes
+nesse estágio representa os conceitos do domínio do problema e a sua compreensão é fundamental para a construção do
+Futuro sistema o modelo de classes de especificação também conhecido como
+modelo de classes de projeto é um detalhamento do modelo de classes de análise nele a atenção começa a focar
+sobre como o sistema deve funcionar esse refinamento envolve adição de detalhes
+às classes identificadas no modelo de análise para entendermos a diferença entre modelo de análise e modelo de
+projeto Bezerra traz como exemplo a analogia com a construção de uma casa no
+modelo de análise de uma casa pensamos em aspectos como salas quartos banheiros
+portas janelas etc no modelo de projeto da mesma casa temos que pensar em outros
+detalhes tais como encanamento parte elétrica ou seja
+detalhes que não são evidentes para os ocupantes de uma casa mas que são necessários para
+construí-la modelo de classes de implementação é um detalhamento do modelo de especificação esse modelo
+Corresponde à implementação das classes em alguma linguagem de programação orientado objetos o modelo de
+implementação é construído na atividade de implementação de um processo de desenvolvimento interativo Lembrando que
+estamos Considerando o próprio código fonte do sistema como um modelo vamos agora entender o diagrama
+de classes e seus principais elementos diagrama de classes é um dos mais
+importantes utilizados da uml Seu principal enfoque está em permitir a
+visualização das classes que comporão o sistema com seus respectivos atributos e métodos bem como em demonstrar como as
+classes do diagrama se relacionam complementam e transmitem informações entre si a partir da modelagem funcional
+feita por meio do modelo de casos de uso o desenvolvedor com diagrama de classes
+começa a pensar e estabelecer a estrutura de classes necessária para o seu
+atendimento uma classe é representada por uma caixa com no máximo três compartimentos o primeiro compartimento
+é exibido o seu nome por convenção esse nome é apresentado no singular e com as
+palavras as componentes Começando por maiúsculas no segundo compartimento são
+declarados os atributos correspondem aos dados que um objeto daquela classe
+armazena os atributos representam as características de uma classe ou seja as peculiaridades que costumam variar de um
+objeto para outro cada atributo tem especificado o seu nome o seu tipo e a
+sua visibilidade e no terceiro compartimento são declarados métodos as operações que
+correspondem às ações que um objeto daquela classe poderá realizar cada método tem especificado o seu nome o seu
+tipo de retorno e a sua visibilidade o nome de um método geralmente contém um verbo e um
+complemento terminando com um par de parênteses na modelagem de análise como
+ainda não estamos tão próximos da implementação não é necessário inserir muitos detalhes tais como os parâmetros
+necessários para o método Mas isso fica a critério do analista se este já quiser
+trabalhar mais com esses elementos não é realmente obrigatório que uma classe Apresente as três
+divisões assim é possível encontrar classes com somente duas divisões ou
+mesmo com apenas uma no caso aquela que contém a identificação da classe porque esta é a única
+obrigatória a visibilidade é utilizada para indicar o nível de acessibilidade de um determinado atributo ou meta sendo
+representada a esquerda destes existem quatro tipos de visibilidade a
+visibilidade privada é representada por um símbolo de menos e significa que somente os objetos da classe detentora
+do atributo ou método poderão enxergá-lo a visibilidade protegida é representada
+pelo símbolo de sustenido e determina que além dos objetos da classe detentora
+do atributo ou método também objetos de sua subclasse poderão ter acesso a este
+a idade pública é representada pelo símbolo de mais e determina que o
+atributo ou método pode ser utilizado por qualquer objeto e a visibilidade
+pacote pouco utilizada é representada por um símbolo de e determina que o
+atributo ou método é visível por qualquer objeto dentro do pacote talvez
+a questão da visibilidade ainda seja abstrata nesse momento mas a retomaremos posteriormente quando falarmos mais
+sobre a hierarquia de classes veremos agora como representar os
+relacionamentos ou associações Vimos que um ponto importante a respeito
+de objetos de um sistema é o fato de que eles podem se relacionar uns com os outros a existência de um relacionamento
+entre dois objetos que possibilita a troca de mensagens entre eles em outras
+palavras relacionamentos entre objetos permitem que eles colaborem entre si
+para produzir as funcionalidades do sistema colaborando para execução dos processos estabelecidos uma associação
+descreve um vínculo que ocorre normalmente entre objetos de uma ou mais classes vamos ver cada um dos seus tipos
+a partir de agora a associação binária é a mais comum em diagrama de classes e ocorre
+quando são identificados relacionamento entre objetos de duas classes distintas
+por exemplo podemos dizer que existe uma associação binária quando identificamos que há um relacionamento entre o objetos
+da classe cliente e da classe contac corrente no diagrama de classes uma
+associação é representada por uma linha normalmente um segmento de reta ligando as classes às quais pertencem os objetos
+relacionados Além disso também são indicadas as multiplicidades do relacionamento ou seja os limites
+inferior e superior da quantidade de objetos aos quais outro objeto pode estar relacionado nesse exemplo o
+relacionamento entre cliente e conta corrente indica que um objeto cliente pode se relacionar com no mínimo um e no
+máximo várias contas correntes e um objeto da classe contac corrente
+relaciona-se com um e apenas um cliente cada associação em um diagrama
+de classes possui duas multiplicidades uma em cada extremo da linha que representa os símbolos possíveis para
+representar uma multiplicidade são um e apenas um
+zero ou muitos um ou muitos zero ou um
+ou intervalo específico perceba que na representação de um e apenas um Existem duas maneiras
+de se representar com dois números um ou apenas um número um e zero ou muitos
+pode ser representado com zero e asterisco ou apenas o
+asterisco outro tipo de associação é a chamada Associação reflexiva ou unária
+ela ocorre quando existe um relacionamento de um objeto de uma classe com objetos da mesma classe nesse
+exemplo temos um relacionamento de chefia entre objetos de uma mesma classe no caso funcionário Pois todos
+Independente de serem chefes ou não são funcionários o fato de um funcionário
+não ser chefe não implica necessariamente que Deva ser criada uma classe chefe A não ser que haja
+atributos e métodos específicos para chefes que não seria o caso Desse
+exemplo assim no diagrama de classes a associação reflexiva também é
+representada pelo segmento de reta porém com início e fim na própria classe
+importante não se deve confundir o significado de uma associação reflexiva ela não indica que um objeto se associa
+a ele próprio ou seja nesse exemplo um funcionário não é chefe dele próprio mas
+sim de outros objetos funcionários uma associação reflexiva que um objeto de
+uma classe se associa com outros objetos da mesma classe no exemplo temos então
+que um funcionário pode ser chefe de nenhum ou vários outros funcionários o
+zero da multiplicidade atende justamente os funcionários que não são chefe e todo
+funcionário tem um e apenas um chefe inclusive quem é che por isso não há
+zero nesse caso as classes associativas são classes
+que estão ligadas a associações em vez de estarem ligadas a outras classes também chamadas de classes de associação
+esse tipo de classe normalmente aparece quando duas ou mais classes estão associadas e é necessário manter
+informações dessa Associação por exemplo vejamos um sistema no qual existirá uma
+classe pedido e uma classe produto é fácil deduzir que haverá uma relação entre objetos dessas classes porém a
+simples associação entre elas não é suficiente para que todos os dados sejam eficientemente
+armazenados classes associativas são necessárias nos casos em que existem atributos relacionados à associação e
+que não podem ser armazenados por nenhuma das classes envolvidas quando um
+produto participa de um pedido surgem outras informações a partir da relação existente tais como quantidade o valor
+referente à quantidade selecionada um possível desconto etc assim é é
+necessário criar uma classe associativa que podemos chamar de item pedido em
+outras palavras cada objeto de item pedido corresponde a um objeto produto
+associado a um objeto pedido é um objeto que surge de uma associação e não existe
+independente dela ou seja se a relação for desfeita o objeto item pedido
+deixará de existir assim na uml a classe associativa possui um elemento próprio e
+deve ser colocada entre as duas classes envolvidas na relação ela é representada
+pela mesma anotação utilizada para uma classe comum a diferença é que essa classe é ligada por uma linha tracejada
+a uma associação nesse exemplo temos então uma classe associativa item pedido
+a partir da relação de pedido e produto um objeto pedido terá um ou vários
+objetos produto Associados a ele e um objeto produto poderá se associar a
+nenhum ou vários objetos pedido a cada relação de um objeto produto com objeto
+pedido surgirá um objeto item pedido vamos agora dar uma olhada em
+dois tipos de relacionamentos específicos que representam as chamadas relações todo parte a toda Associação
+podemos atrelar uma semântica a semântica de uma associação corresponde ao seu significado ou seja a natureza
+conceitual da relação que existe entre os objetos que participam daquela Associação quando damos um nome a uma
+associação fazemos isso com objetivo de esclarecer sua
+semântica de todos os significados diferentes que uma associação pode ter
+há uma categoria especial de significados que representa relações todo parte esse tipo de relação entre
+dois objetos indica que um deles está contido no outro podemos também dizer que um objeto contém outro
+por exemplo temos aqui uma classe pedido que possui um conjunto de produtos relacionados a ela e uma classe revisão
+cujo objeto conterá um conjunto de objetos da classe serviços a uml define
+dois tipos de relacionamento todo parte a agregação e a
+composição a agregação tenta demonstrar que as informações de um objeto objeto
+todo são complementadas pelas informações contidas em um ou mais objetos no outro no fim da associação
+chamados objetos parte é importante destacar que nesse relacionamento a
+existência do objeto parte independe do objeto todo por exemplo se considerarmos
+a classe turma e aluno podemos dizer que existe uma relação todo parte entre elas
+ou seja uma turma agrega um conjunto de alunos em outras palavras um conjunto de
+alunos forma uma turma entretanto se uma turma deixar desistir isso não
+implicaria na inexistência de alunos pois esses podem participar de uma nova Turma por
+exemplo na uml uma agregação é representada como uma linha que conecta
+as classes relacionadas com um losango branco também chamamos de Diamante Branco perto da classe que representa o
+todo logo nesse exemplo temos que um objeto turma será formado por um ou mais
+objetos alunos e um objeto aluno participará de nenhuma ou várias turmas
+Como o relacionamento é de agregação se o objeto turma ao qual o estudante estiver relacionado for destruído isso
+nada implicará ao objeto aluno que continuará existindo no sistema uma associação do tipo
+composição constitui-se uma variação da agregação sendo apresentado um vínculo mais forte entre os objetos todo e os
+objetos par demonstrando que os objetos par TM de estar Associados a um único objeto todo nesse exemplo temos que um
+objeto da classe revista é composto por um conjunto de objetos da classe edição
+ou seja um conjunto de edições forma uma revista mas apenas uma revista em uma
+composição os objetos parte não podem ser destruídos por um objeto diferente do objeto todo ao qual estão
+relacionados mas o vínculo é tão forte que se o todo for destruído as partes
+também serão Ou seja no nosso exemplo se o objeto revista for destruído os
+objetos edição que o compõe também serão o símbolo da composição
+diferencia-se graficamente do símbolo da agregação por utilizar o losango preenchido também chamado diamante negro
+da mesma forma que na agregação o losango deve ficar ao lado do objeto todo nesse exemplo temos então que um
+objeto revista será composto por um ou vários objetos edição e pela composição
+um objeto edição comporá um e apenas um objeto revista se o objeto revista ao
+qual o objeto edição estiver relacionado for destruído ele também
+será para reforçarmos a diferença entre agregação e composição vejamos mais um
+exemplo temos aqui três classes revista edição e artigo olhando para as
+associações indicadas podemos afirmar que um objeto revista é composto por um
+ou vários objetos edição da mesma maneira podemos dizer que um objeto edição é formado por um ou vários
+artigos por ter uma composição se um objeto revista for destruído os objetos
+parte edição também o serão por outro lado a agregação entre edição e artigo
+indica que se o objeto edição for destruído isso necessariamente não ocorrerá com objeto artigo e Continuará
+existindo no sistema e poderá compor outras edições é importante perceber que a indicação de
+uma agregação ou composição dependerá muito dos requisitos analisados e das regras de negócio estabelecidas Para o
+Futuro sistema uma dependência significa um relacionamento fornecedor cliente em que
+a modificação em um fornecedor pode impactar de alguma forma os elementos de modelos clientes por exemplo podemos
+organizar o diagrama de modo a explicitar que um objeto pedido pode depender de informações de objetos
+produto isso pode ocorrer durante a execução de um caso de uso consultar pedido no qual as informações contidas
+em um pedido precisam ser acrescidas pelas informações contidas nos objetos produto a ele
+Associados na uml o relacionamento de dependência é representado por uma linha
+tracejada entre dois elementos contendo uma seta apontando para o elemento do
+qual o elemento posicionado na outra extremidade do relacionamento é dependente
+vamos agora modelar hierarquia de classes com o ML além de relacionamentos entre objetos
+o modelo de classes também pode representar relacionamentos entre classes esses últimos apontam relações
+de generalidade ou especificidades entre as classes envolvidas a generalização
+consiste no processo de buscar elementos comuns a um grupo de classes gerando uma classe geral ou classe pai ou
+superclasse já a especialização busca a partir de uma classe especificidades que
+necessitem criar classes mais particulares o que gera as chamadas subclasses ou classes filhas ou classes
+derivadas A Hierarquia de classes é a característica que mais diferencia orientação objetos em relação a outros
+paradigmas de desenvolvimento pois permite o reaproveitamento de código com mais
+eficiência vejamos um exemplo já a uml aqui temos duas classes cliente e
+funcionário que possuem atributos em comum por meio da generalização uma
+classe pessoa é criada e nela serão especificados o que houver de comum entre as duas
+classes assim temos a seguinte hierarquia uma classe pessoa pode se
+especializar em cliente ou funcionar cliente possuirá todas as características e comportamentos
+herdados de pessoa mais o que lhe é particular o mesmo ocorrerá com
+funcionário a herança é representada por uma flecha partindo da subclasse em
+direção à superclasse essas Flechas podem ser unidas como demonstrado na figura percebam que o nome da classe
+pessoa está em Itálico isso se dá porque pessoa nesse exemplo é uma classe
+abstrata ou seja não existirá pessoa que não seja cliente ou funcionário uma
+classe abstrata normalmente é utilizada para organizar A Hierarquia de classes ou para fins de modelagem como um
+contêiner de definições de propriedades classes abstratas não geram objeto
+diretamente vejamos mais um exemplo aqui temos uma hierarquia com duas classes
+abstratas conta e conta bancária Isso significa que não haverá instâncias
+dessas classes ou seja Não existirão objetos elas estão na hierarquia pois
+permitem melhor compreensão do escopo e consequentemente da modelagem do problema em questão assim nesse exemplo
+as classes que terão objetos instanciados serão cartão conta crédito conta poupança e conta corrente em
+outras palavras Não existirão contas que não sejam de um destes três
+tipos é importante notar que não somente atributos e operações são herdados pelas
+subclasses mas também as associações que estão definidas na superclasse
+por exemplo neste diagrama temos uma classe cliente que se especializa em
+pessoa física e pessoa jurídica além dos atributos e métodos tanto pessoa física
+quanto pessoa jurídica erdam a relação que existe entre cliente e pedido isso é
+o mesmo que dizer que um objeto pessoa física pode realizar um ou vários pedidos assim como um objeto pessoa
+jurídica também outra propriedade muito importante na
+orientação objetos que pode ser representada na modelagem de classes é o
+polimorfismo vamos relembrar aquele exemplo das formas geométricas do vídeo introdutório sobre orientação objetos se
+olharmos para cada uma das formas sabemos que todas são formas geométricas e vemos que todas terão um método que as
+desenha e um que calcula sua área entretanto sabemos que apesar de todas
+terem esses métodos em comum a maneira como como Cada uma trabalhará Será
+diferente Ou seja o jeito de desenhar e a fórmula para cálculo de área mudam de
+uma forma para outra logo fato que apesar de todas serem formas geométricas
+cada uma deverá ter seus métodos implementados como isso pode ser representado um diagrama de classes
+vamos ver essa seria uma proposta de modelagem para questão temos uma superclasse forma
+cujo atributo área édado por todas as subclasses círculo triângulo quadrado e
+trapézio cada subclasse possui seus respectivos atributos que apenas
+pertencem forma também tem os métodos desenha e calcula área apesar de
+constarem na superclasse esses métodos também aparecem nas subclasses Qual o
+motivo disso Isso é o que chamamos de redefinição a redefinição possibilita
+reescrever na classe filha os métodos implementados previamente na classe pai
+ou seja uma classe filha pode redefinir métodos herdados mantendo o nome e
+assinatura no caso Desse exemplo ainda há outra particularidade perceba que
+tanto o nome da classe forma Quanto os seus métodos estão em Itálico Isso
+significa que a classe forma é abstrata ou seja não haverá objetos forma Além
+disso colocar os métodos como abstratos significa que eles não terão implementação nessa classe serão apenas
+cascas cuja implementação ocorrerá apenas nas subclasses nem sempre um
+método a ser redefinido é abstrato o mais comum é existir implementação que
+será sobreposta pela implementação da subclasse outra técnica referente ao
+polimorfismo na orientação objetos é a sobrecarga ela consiste em permitir
+dentro da mesma classe mais de um método com o mesmo nome entretanto eles
+necessariamente devem possuir argumentos diferentes para funcionar a diferença da
+sobrecarga com relação à redefinição é que na sobrecarga a implementação que existe na superclasse não se perde e vai
+indicar qual versão do método será executado é o parâmetro que está sendo passado Outro ponto é que a sobrecarga
+pode ser feita sem necessariamente estar em uma hierarquia exemplo temos aqui uma
+classe calculadora com três métodos chamados calcula perceba que apesar de terem nomes
+idênticos a assinatura ou seja os parâmetros são diferentes um receberá
+dois valores inteiros um receberá dois valores decimais e o último recebe duas
+Strings isso quer dizer que dependendo de que for passado ao método no momento de sua chamada e uma mensagem a
+implementação correspondente será executada nesse caso se forem dois
+inteiros o método somará os dois valores o o mesmo ocorrerá se forem passados
+dois valores decimais entretanto se forem passadas duas Strings Elas serão
+concatenadas apesar de não ser muito comum representar a sobrecarga isso é possível de ser feito e implica já numa
+classe de projeto ou seja com mais detalhes de implementação trouxemos esse exemplo aqui para que você caso
+necessário possa construir algo parecido um passo importante da
+modelagem de classes é saber identificá-las a partir da análise de requisitos previamente realizada vamos
+ver algumas possibilidades a partir de agora as duas abordagens mais utilizadas
+na identificação de classes é a análise textual e a análise de casos judo na
+verdade não existe o uso exclusivo de uma técnica o ideal é que você Busque o máximo de possibilidades para garantir
+uma modelagem mais próxima possível da realidade a ser implementada para o sistema assim éo M importante uma
+análise de requisitos aprofundada e uma boa modelagem funcional pois quanto mais detalhes você tiver de Sua documentação
+mais fácil será o processo de identificação das classes nesse momento o nosso foco estará na identificação das
+classes que representam os dados manipulados as chamadas classes de entidade existem outros tipos de classes
+as quais estudaremos no próximo vídeo no documento de requisitos o
+primeiro item a ser considerado são os requisitos funcionais principalmente os operacionais ou seja aqueles que indicam
+o gerenciamento de dados como exemplo usaremos esse recorte que apresenta quatro requisitos funcionais cada dado
+gerenciado é uma classe candidata ao diagrama que será criado nesse caso cliente produto venda e
+funcionário sabemos também que cada requisito funcional operacional acaba por converter-se em um conjunto de casos
+de uso do tipo o que amplamente Já estudamos assim
+olhando para o recorte de diagrama referente aos requisitos apresentados temos o seguinte conjunto de casos de
+uso é importante perceber que você não criará uma classe para cada caso de uso
+do diagrama mas sim uma classe para cada dado a ser manipulado no início é comum
+certa confusão de operações com classes por exemplo não existe uma classe Cadastrar produto alterar produto etc o
+que existirá é a classe produto as operações que serão realizadas com os
+dados de um produto serão métodos da própria classe nesse exemplo a partir
+dos casos de uso destacados Teremos como classes candidatas cliente produto
+funcionário e venda se considerarmos que os dados de usuário serão manipulados
+externamente aos dados de funcionários também teremos uma classe usuário mas
+como iremos os atributos e os métodos para definição dos primeiros
+atributos das suas classes o mais adequado é buscar informações nos seus cenários de caso de uso principalmente
+os que envolvem cadastro eles ajudarão a dar início a essa definição que certamente sofrerá refinamentos no
+decorrer da modelagem e do seu aprofundamento como exemplo Vamos definir os primeiros atributos da classe
+cliente para isso buscaremos cenário cadastrar cliente os atributos que já foram pensados nesse momento do projeto
+assim temos como primeiros atributos da classe cliente CPF nome endereço e
+telefone percebo quão importante é tentar adiantar esses detalhes ainda na
+etapa de descrição dos casos de uso isso ajuda muito na etapa de definição das
+classes para este momento de identificação estes atributos bastam
+caso desenvolvedor já identifique novos atributos pode inseri-los na classe e
+claro atualizar o cenário correspondente e como definiremos os métodos eu já lhe adianto que a
+definição de métodos das classes é um processo que sofre várias alterações com o passar das etapas do projeto isso
+Porque conforme A modelagem avança o desenvolvedor começa a pensar em detalhes antes não analisados além disso
+A modelagem dinâmica que estudaremos futuramente com diagrama de sequência expande fortemente os métodos Pois é
+nessa etapa que as mensagens trocadas entre os objetos são estabelecidas demandando métodos para o seu
+atendimento assim num primeiro momento não é essencial definir métodos porém
+além do método Construtor que tem o mesmo nome da classe e servirá para instanciar seus objetos é possível
+inserir nas classes alguns métodos do tipo get e set ou getters e setters como
+os programadores costumam dizer esses métodos não se referem a cálculos
+fazendo apenas a inserção ou busca de dados em atributo para este momento da
+modelagem são suficientes futuramente nem todos esses métodos permanecerão nas
+classes dado refinamento que sofrerão dando prosseguimento ao nosso
+exemplo buscando os atributos nos cenários correspondentes e inserindo os métodos básicos temos a seguinte
+configuração das classes previamente a próxima questão é e os
+relacionamentos para a definição das associações entre as classes é muito importante o respeito ao escopo às
+regras de negócio e a quaisquer outras especificidades do projeto é a partir
+disso que o desenvolvedor olhando para cada par de classes define se há ou não
+relacionamentos entre elas e qual a multiplicidade a ser inserida no nosso
+exemplo estabelecemos uma associação entre funcionário e usuário na qual um
+objeto funcionário possui um e apenas um objeto usuário e um objeto usuário
+relaciona-se com um e apenas um objeto funcionário uma associação entre
+funcionário e venda na qual um objeto funcionário pode efetuar nenhuma ou
+várias vendas e um objeto venda relaciona-se com um e apenas um funcionário ou seja o funcionário que a
+efetuou uma associação entre cliente e venda na qual um objeto cliente pode
+realizar uma ou várias vendas e um objeto venda relaciona-se com um e
+apenas um cliente ou seja o cliente que a realizou uma associação entre
+funcionário e produto na qual o objeto funcionário pode cadastrar nenhum ou
+vários objetos produto e um objeto produto relaciona-se com um e apenas um
+funcionário ou seja o funcionário que o cadastrou uma associação entre venda e produto na
+qual um objeto venda pode ter um ou vários objetos produtos relacionados a
+ela e um objeto produto relaciona-se com nenhum ou vários objetos venda aqui
+temos uma situação importante visto que trata-se de um relacionamento muitos para muitos e faltam dados a essa
+relação que não podem constar nem no objeto venda nem no objeto produto assim
+temos como alternativa a inserção de uma classe associativa A qual chamaremos de
+item venda em outras palavras um objeto item venda corresponde a um produto
+sendo vendido trazendo nele os dados referentes a essa Associação dessa maneira o diagrama já
+avançou bastante mas ainda é possível refinar ainda mais se olharmos para as
+classes cliente e funcionário percebemos que há atributos e métodos comuns a elas
+praticando um pouco o que estudamos sobre generalização e especialização podemos adequar esse recorte do diagrama
+para uma hierarquia dessa maneira teremos agora uma superclasse abstrata pessoa
+aglutinando atributos e métodos comuns às classes cliente e funcionário cliente e funcionário passam
+a descrever apenas o que é particular de cada uma ou seja seus atributos métodos
+assim como seus respectivos relacionamentos é importante destacar que a definição de hierarquias de classes Nem sempre é
+necessária a um diagrama mesmo que seja identificada similaridades entre as classes essa é uma decisão do analista
+fizemos aqui para que você tivesse um exemplo e compreendesse melhor o processo e os relatórios onde ficam as
+classes referentes a eles não existem classes de relatório pois um relatório
+nada mais é do que o resultado de uma busca e tem caráter dinâmico em outras
+palavras se por exemplo o sistema necessitar de um relatório de vendas ele será criado a partir da busca dos dados
+nas classes relacionadas à vendas e suas associações o relatório não fica
+cadastrado no sistema ele é resultado de uma consulta ao banco de dados por
+exemplo suponhamos que seja necessário gerar um relatório de vendas que mostre para cada cliente quais vendas foram
+feitas a ele na geração de tal relatório o sistema deverá buscar para cada
+cliente a venda realizada o funcionário que a efetuou e o que foi vendido logo
+vários objetos serão movimentados para a construção desse resultado de modo dinâmico devolvendo ao usuário a
+informação solicitada Digamos que seja uma fotografia da instância do sistema
+naquele momento da busca se esse relatório for solicitado horas depois certamente mostrará resultados
+diferentes na busca dado o caráter dinâmico do banco de dados na próxima
+videoaula sobre classes falaremos um pouco mais sobre isso fechando os estudos de hoje vamos
+falar um pouco sobre dicionário de classes como vimos no início do vídeo o
+modelo de classes é composto do diagrama de classes e a descrição textual associada a ele chamada aqui de
+dicionário de classes o dicionário é essencial para que os programadores entendam melhor o papel de cada classe
+para que servirá cada um dos seus atributos e o mais important Qual o papel de cada método visto que a
+implementação do método é a parte que mais consumirá seu trabalho de programação Além disso o dicionário
+também permite maior facilidade de manutenção do software Principalmente se o projeto for assumido por uma nova
+equipe de analistas existem vários modelos de dicionário de classes assim como os
+cenários de casos de uso não existe um mais correto que o outro tudo vai depender da política de documentação
+adotada pela equipe de desenvolvimento aqui usaremos essa estrutura para apresentar elementos
+importantes de um dicionário nome da classe Uma Breve
+descrição sobre ela a listagem de todos os atributos existem modelos e
+dicionário que descrevem cada um deles o que armazena e qual tipo de dado e suporta uma breve descrição de todos os
+seus métodos públicos e uma breve descrição de todos os seus métodos privados
+há ainda modelos que apresentam as associações da classe classes derivadas superclasses e outras informações
+pertinentes é interessante que cada classe tenha a sua respectiva tabela trazendo um Panorama completo da
+modelagem é um processo bem textual e trabalhoso mas acredit todo esforço de
+uma etapa ajuda enormemente nos próximos passos do projeto e com o dicionário de classes não é
+diferentea essa videoaula foi construída tendo estas duas obras como referência básica vale a pena sua aquisição pois
+são autores bastante didáticos que trazem muitos exemplos e Estudos de
+caso e depois deste longo estudo ficamos por aqui em breve avançaremos nos
+estudos aprofundando entendimento sobre modelagem de classes até lá tchau
+he

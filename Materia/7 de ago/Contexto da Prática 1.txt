@@ -1,0 +1,12 @@
+Cenário:
+
+Empresa de construção civil que trabalha com projetos de grande escala em todo o país. Atualmente, a empresa utiliza um processo manual para obter assinaturas em contratos e documentos importantes, o que está causando atrasos e ineficiências.
+
+Desafios:
+
+- Perda de tempo e recursos com o processo manual de obtenção de assinaturas
+- Dificuldade em rastrear e gerenciar documentos assinados
+- Risco de perda ou extravio de documentos importantes
+- Necessidade de melhorar a segurança e a autenticidade dos documentos assinados
+
+Como toda empresa, ela quer o menor custo possível!

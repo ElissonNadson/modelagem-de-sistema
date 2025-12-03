@@ -1,0 +1,27 @@
+﻿1. Informações do Projeto
+Nome completo dos integrantes:
+* Descrição do Projeto:
+
+
+
+Requisito Funcional 
+	Descrição Detalhada
+	RF01 - Título requisito funcional 01
+	Descrição do exemplo 1 (vincular a regra do negócio).
+	RF02 - Título requisito funcional 02
+	Descrição do exemplo 2 (vincular a regra do negócio).
+	RF03 - Título requisito funcional 03
+	Descrição do exemplo 3 (vincular a regra do negócio).
+	…
+	
+
+	
+
+	
+
+	
+
+2. Demonstração visual do Projeto
+
+
+Pode inserir imagem para representar as telas do sistemas, conforme requisitos definidos acima.

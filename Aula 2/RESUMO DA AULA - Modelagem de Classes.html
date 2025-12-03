@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo - Modelagem de Classes com UML</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 10mm;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 9pt;
+            line-height: 1.3;
+            color: #333;
+            background: white;
+            padding: 10px;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            font-size: 16pt;
+            margin-bottom: 3px;
+        }
+        .header p {
+            font-size: 9pt;
+            opacity: 0.9;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+        }
+        .section {
+            background: #f8f9fa;
+            border-radius: 6px;
+            padding: 8px;
+            border-left: 4px solid #667eea;
+        }
+        .section h2 {
+            color: #667eea;
+            font-size: 10pt;
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .section h2 .icon {
+            font-size: 12pt;
+        }
+        .full-width {
+            grid-column: 1 / -1;
+        }
+        .classe-box {
+            background: white;
+            border: 2px solid #667eea;
+            border-radius: 5px;
+            width: 120px;
+            font-size: 8pt;
+            display: inline-block;
+            margin: 3px 0;
+        }
+        .classe-box .nome {
+            background: #667eea;
+            color: white;
+            padding: 3px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .classe-box .conteudo {
+            padding: 3px;
+            border-bottom: 1px solid #ddd;
+        }
+        .classe-box .conteudo:last-child {
+            border-bottom: none;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 8pt;
+            margin-top: 5px;
+        }
+        th {
+            background: #667eea;
+            color: white;
+            padding: 4px;
+            text-align: left;
+        }
+        td {
+            padding: 4px;
+            border-bottom: 1px solid #ddd;
+        }
+        tr:nth-child(even) {
+            background: #f0f0f0;
+        }
+        .compare-table {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5px;
+            margin-top: 5px;
+        }
+        .compare-box {
+            background: white;
+            border-radius: 5px;
+            padding: 6px;
+            text-align: center;
+        }
+        .compare-box.agregacao {
+            border: 2px solid #28a745;
+        }
+        .compare-box.agregacao h3 {
+            color: #28a745;
+        }
+        .compare-box.composicao {
+            border: 2px solid #dc3545;
+        }
+        .compare-box.composicao h3 {
+            color: #dc3545;
+        }
+        .compare-box h3 {
+            font-size: 9pt;
+            margin-bottom: 3px;
+        }
+        .compare-box p {
+            font-size: 8pt;
+            margin: 2px 0;
+        }
+        .simbolo {
+            font-size: 14pt;
+            font-weight: bold;
+        }
+        ul {
+            padding-left: 15px;
+            font-size: 8pt;
+        }
+        li {
+            margin: 2px 0;
+        }
+        .highlight {
+            background: #fff3cd;
+            padding: 5px;
+            border-radius: 4px;
+            border-left: 3px solid #ffc107;
+            margin-top: 5px;
+            font-size: 8pt;
+        }
+        .tag {
+            display: inline-block;
+            padding: 2px 6px;
+            border-radius: 10px;
+            font-size: 7pt;
+            font-weight: bold;
+            margin: 1px;
+        }
+        .tag.publico { background: #d4edda; color: #155724; }
+        .tag.privado { background: #f8d7da; color: #721c24; }
+        .tag.protegido { background: #fff3cd; color: #856404; }
+        .exemplo {
+            background: #e7f1ff;
+            padding: 4px;
+            border-radius: 4px;
+            font-size: 8pt;
+            margin-top: 3px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 8px;
+            padding: 5px;
+            background: #667eea;
+            color: white;
+            border-radius: 5px;
+            font-size: 8pt;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📐 MODELAGEM DE CLASSES COM UML</h1>
+        <p>Resumo dos principais conceitos</p>
+    </div>
+
+    <div class="grid">
+        <!-- O que é -->
+        <div class="section">
+            <h2><span class="icon">📋</span> O QUE É?</h2>
+            <p><strong>Modelo de Classes</strong> = Diagrama + Dicionário</p>
+            <p style="margin-top:5px;"><strong>Estágios:</strong></p>
+            <div style="text-align:center; margin-top:3px;">
+                <span class="tag publico">ANÁLISE</span> →
+                <span class="tag protegido">ESPECIFICAÇÃO</span> →
+                <span class="tag privado">IMPLEMENTAÇÃO</span>
+            </div>
+            <p style="font-size:7pt; margin-top:3px;"><em>"o que fazer" → "como funcionar" → "código"</em></p>
+        </div>
+
+        <!-- Representação -->
+        <div class="section">
+            <h2><span class="icon">🏗️</span> REPRESENTAÇÃO DE CLASSE</h2>
+            <div style="text-align:center;">
+                <div class="classe-box">
+                    <div class="nome">NomeDaClasse</div>
+                    <div class="conteudo">- atributo: tipo</div>
+                    <div class="conteudo">+ metodo(): tipo</div>
+                </div>
+            </div>
+            <p style="font-size:7pt; margin-top:3px;">Nome: singular, inicial maiúscula</p>
+        </div>
+
+        <!-- Visibilidade -->
+        <div class="section">
+            <h2><span class="icon">👁️</span> VISIBILIDADE</h2>
+            <table>
+                <tr><th>Símbolo</th><th>Tipo</th><th>Quem Acessa</th></tr>
+                <tr><td><strong>+</strong></td><td>Público</td><td>Qualquer classe</td></tr>
+                <tr><td><strong>-</strong></td><td>Privado</td><td>Só a própria classe</td></tr>
+                <tr><td><strong>#</strong></td><td>Protegido</td><td>Classe + subclasses</td></tr>
+                <tr><td><strong>~</strong></td><td>Pacote</td><td>Mesmo pacote</td></tr>
+            </table>
+        </div>
+
+        <!-- Multiplicidades -->
+        <div class="section">
+            <h2><span class="icon">🔢</span> MULTIPLICIDADES</h2>
+            <table>
+                <tr><th>Símbolo</th><th>Significado</th></tr>
+                <tr><td><strong>1</strong></td><td>Um e apenas um</td></tr>
+                <tr><td><strong>0..1</strong></td><td>Zero ou um</td></tr>
+                <tr><td><strong>*</strong> ou <strong>0..*</strong></td><td>Zero ou muitos</td></tr>
+                <tr><td><strong>1..*</strong></td><td>Um ou muitos</td></tr>
+            </table>
+        </div>
+
+        <!-- Tipos de Associação -->
+        <div class="section full-width">
+            <h2><span class="icon">🔗</span> TIPOS DE ASSOCIAÇÃO</h2>
+            <table>
+                <tr>
+                    <th>Tipo</th>
+                    <th>Descrição</th>
+                    <th>Exemplo</th>
+                </tr>
+                <tr>
+                    <td><strong>Binária</strong></td>
+                    <td>Relacionamento entre duas classes distintas</td>
+                    <td>Cliente ———— ContaCorrente</td>
+                </tr>
+                <tr>
+                    <td><strong>Reflexiva</strong></td>
+                    <td>Objeto se relaciona com objetos da MESMA classe</td>
+                    <td>Funcionario (chefia) ↩️</td>
+                </tr>
+                <tr>
+                    <td><strong>Classe Associativa</strong></td>
+                    <td>Quando a associação tem atributos próprios</td>
+                    <td>Pedido —— <em>ItemPedido</em> —— Produto</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Agregação vs Composição -->
+        <div class="section full-width">
+            <h2><span class="icon">🧩</span> AGREGAÇÃO vs COMPOSIÇÃO (Relações Todo-Parte)</h2>
+            <div class="compare-table">
+                <div class="compare-box agregacao">
+                    <h3><span class="simbolo">◇</span> AGREGAÇÃO</h3>
+                    <p><strong>Losango branco</strong></p>
+                    <p>Relação <strong>fraca</strong></p>
+                    <p>Parte <strong>CONTINUA</strong> existindo</p>
+                    <div class="exemplo">Turma ◇─── Aluno<br><em>Se turma for excluída, aluno continua</em></div>
+                </div>
+                <div class="compare-box composicao">
+                    <h3><span class="simbolo">◆</span> COMPOSIÇÃO</h3>
+                    <p><strong>Losango preto</strong></p>
+                    <p>Relação <strong>forte</strong></p>
+                    <p>Parte <strong>É DESTRUÍDA</strong> junto</p>
+                    <div class="exemplo">Revista ◆─── Edição<br><em>Se revista for excluída, edições também</em></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Herança -->
+        <div class="section">
+            <h2><span class="icon">🌳</span> HERANÇA</h2>
+            <ul>
+                <li><strong>Generalização:</strong> elementos comuns → Superclasse</li>
+                <li><strong>Especialização:</strong> especificidades → Subclasses</li>
+                <li><strong>Classe Abstrata</strong> (itálico): não gera objetos</li>
+                <li>Subclasses <strong>herdam</strong> atributos, métodos e associações</li>
+            </ul>
+            <div class="exemplo" style="text-align:center;">
+                <em>Pessoa</em> (abstrata)<br>
+                ↙️ ↘️<br>
+                Cliente &nbsp; Funcionário
+            </div>
+        </div>
+
+        <!-- Polimorfismo -->
+        <div class="section">
+            <h2><span class="icon">🔄</span> POLIMORFISMO</h2>
+            <p><strong>REDEFINIÇÃO (Override)</strong></p>
+            <ul>
+                <li>Reescrever método herdado na subclasse</li>
+                <li>Mesmo nome e assinatura</li>
+            </ul>
+            <p style="margin-top:5px;"><strong>SOBRECARGA (Overload)</strong></p>
+            <ul>
+                <li>Mesmo nome, parâmetros diferentes</li>
+                <li>Pode ser na mesma classe</li>
+            </ul>
+        </div>
+
+        <!-- Como Identificar -->
+        <div class="section full-width">
+            <h2><span class="icon">🔍</span> COMO IDENTIFICAR CLASSES?</h2>
+            <table>
+                <tr>
+                    <th>Fonte</th>
+                    <th>O que fazer</th>
+                </tr>
+                <tr>
+                    <td><strong>Requisitos Funcionais</strong></td>
+                    <td>Cada dado gerenciado é classe candidata → Cliente, Produto, Venda</td>
+                </tr>
+                <tr>
+                    <td><strong>Casos de Uso</strong></td>
+                    <td>⚠️ NÃO criar classe para caso de uso! "Cadastrar Produto" é MÉTODO da classe Produto</td>
+                </tr>
+                <tr>
+                    <td><strong>Cenários</strong></td>
+                    <td>Buscar atributos nos cenários de cadastro</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Dicionário -->
+        <div class="section full-width">
+            <h2><span class="icon">📖</span> DICIONÁRIO DE CLASSES</h2>
+            <p>Documentação textual de cada classe contendo: <strong>Descrição</strong>, <strong>Atributos</strong> (nome, tipo, visibilidade), <strong>Métodos</strong> e <strong>Relacionamentos</strong></p>
+            <div class="highlight">
+                <strong>💡 Lembre-se:</strong> Relatórios NÃO são classes (são consultas dinâmicas) | A escolha entre agregação/composição depende das regras de negócio
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <strong>Modelagem de Sistemas</strong> | Bons estudos! 📚
+    </div>
+</body>
+</html>

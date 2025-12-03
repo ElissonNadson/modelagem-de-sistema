@@ -1,0 +1,110 @@
+Ementa: Modelagem de Sistemas
+
+Módulo: II Perfil Profissional: Técnico em Desenvolvimento de Sistemas Unidade Curricular: Modelagem de Sistemas Carga Horária: 82h 
+
+Função: F.2: Desenvolver sistemas computacionais, atendendo normas e padrão de qualidade, usabilidade, robustez, integridade e segurança. 
+
+Objetivo Geral: Propiciar desenvolvimento de capacidades técnicas e socioemocionais requeridas para estruturação de sistemas por meio de técnica modelagem, de acordo padrão de qualidade, robustez, integridade e segurança. 
+
+CONTEÚDOS FORMATIVOS 
+
+Conhecimentos
+
+1 REGRA DE NEGÓCIO 
+
+1.1 Definição 
+
+1.2 Objetivo 
+
+1.3 Estrutura 
+
+
+2 REQUISITOS DE SISTEMAS 
+
+2.1 Regra de Negócio 
+
+2.2 Requisito Funcional 
+
+2.3 Requisito não funcional 
+
+2.4 Técnica de análise de requisitos 
+
+
+3 MODELAGEM DE SISTEMAS 
+
+3.1 Definição 
+
+3.2 Tipos 
+
+3.3 Características 
+
+
+4 TÉCNICAS DE MODELAGEM 
+
+4.1 Ferramentas 
+
+4.2 Linguagem UML 
+
+
+5 PROJEÇÃO DE SISTEMAS PARA CONECTIVIDADE E INTEROPERABILIDADE 
+
+
+6 FUNDAMENTOS DE USER EXPERIENCE (UX) 
+
+Capacidades Básicas
+
+7 INICIATIVA 
+
+7.1 Formas de demonstrar iniciativa 
+
+7.2 Resultado 
+
+
+8 AUTONOMIA 
+
+8.1 Consequências favoráveis e desfavoráveis 
+
+
+9 ORGANIZAÇÃO DE DADOS 
+
+9.1 Roteiro de trabalho (check list) 
+
+9.2 Organização de dados para análise 
+
+9.3 Métodos e Técnicas de Trabalho 
+
+9.4 Análise de informações e dados 
+
+9.5 Ciclo de PDCA 
+
+
+10 MODELAGEM DE NEGÓCIOS 
+
+10.1 Canvas 
+
+Subfunção
+2.5 Modelar sistemas 
+
+Padrão de Desempenho
+2.5.1 Considerando especificações técnicas da linguagem de modelagem unificada na modelagem de sistemas 
+
+2.5.2 Considerando requisitos funcionais e não funcionais na modelagem de sistemas 
+
+2.5.3 Considerando necessidades de conectividade e interoperabilidade na modelagem de sistemas 
+
+Capacidades Técnicas
+Identificar requisites funcional e não-funcional para desenvolvimento de sistemas 
+
+Identificar documentação técnica aplicada ao escopo do projeto 
+
+Interpretar requisites levantados para desenvolvimento de sistemas 
+
+Aplicar linguagem de programação para modelagem dos requisites do Sistema 
+
+Reconhecer requisitos de qualidade, integridade, usabilidade e segurança da informação 
+
+Integrar sistemas orientados para a conectividade e interoperabilidade 
+
+Reconhecer sistemas de interface para usuários (UX) 
+
+Definir tecnologias de acordo com os requisites não funcionais

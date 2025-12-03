@@ -1,0 +1,396 @@
+QUIZ DE NIVELAMENTO - MODELAGEM DE SISTEMAS
+DIAGNÓSTICO DE APRENDIZAGEM (NÃO VALE NOTA)
+
+Instruções para criar no Google Forms:
+- Configurar como "Não coletar e-mail" OU coletar apenas para registro
+- Definir tempo limite: 30 minutos
+- Marcar como "Quiz" no Google Forms
+- NÃO mostrar gabarito automaticamente (professor vai revisar junto)
+- Permitir apenas 1 resposta por pessoa
+
+================================================================================
+SEÇÃO 1: INFORMAÇÕES DO ALUNO
+================================================================================
+
+1. Nome completo: _____________________
+   [Resposta curta]
+
+2. Turma: _____________________
+   [Resposta curta]
+
+================================================================================
+SEÇÃO 2: CONCEITOS FUNDAMENTAIS DE MODELAGEM
+================================================================================
+
+3. O que é Modelagem de Sistemas?
+   ( ) Processo de codificação de software
+   (X) Processo de criar abstrações da realidade para representar sistemas
+   ( ) Processo de testar software
+   ( ) Processo de instalar sistemas em servidores
+
+4. Qual NÃO é um benefício da modelagem de sistemas?
+   ( ) Facilitar a comunicação entre equipes
+   ( ) Lidar com problemas complexos
+   (X) Eliminar a necessidade de codificação
+   ( ) Guiar o desenvolvimento do sistema
+
+5. Complete: "Um modelo é uma _____________ da realidade que foca no que é importante em determinado momento."
+   [Resposta curta: abstração]
+
+================================================================================
+SEÇÃO 3: REGRAS DE NEGÓCIO
+================================================================================
+
+6. O que é uma Regra de Negócio?
+   (X) Diretriz que define condições ou critérios que precisam ser atendidos
+   ( ) Descrição de uma funcionalidade do sistema
+   ( ) Requisito relacionado ao desempenho do sistema
+   ( ) Processo de validação de código
+
+7. Qual é a diferença principal entre Regra de Negócio e Requisito Funcional?
+   (X) Regra = Condições; Requisito = Ações
+   ( ) Regra = Ações; Requisito = Condições
+   ( ) Não há diferença, são sinônimos
+   ( ) Regra é técnica; Requisito é de negócio
+
+8. Analise a afirmação: "A matrícula só será aceita se a carga horária total for ≥ 20 horas."
+   Esta é uma:
+   (X) Regra de Negócio
+   ( ) Requisito Funcional
+   ( ) Requisito Não-Funcional
+   ( ) Caso de Uso
+
+9. Quais são os tipos de Regras de Negócio? (Marque TODAS as corretas)
+   [X] Cálculos/Derivações
+   [X] Restrições
+   [X] Habilitações de ação
+   [X] Termos
+   [X] Fatos
+   [ ] Codificações
+
+10. Qual é o formato padrão para identificar uma Regra de Negócio?
+    ( ) RF001
+    (X) RN001
+    ( ) UC001
+    ( ) REQ001
+
+================================================================================
+SEÇÃO 4: REQUISITOS FUNCIONAIS
+================================================================================
+
+11. O que são Requisitos Funcionais?
+    (X) Descrevem o que o sistema deve fazer (funcionalidades)
+    ( ) Descrevem como o sistema deve se comportar (qualidades)
+    ( ) Descrevem as condições de negócio
+    ( ) Descrevem a arquitetura técnica
+
+12. Qual das alternativas abaixo é um Requisito Funcional?
+    ( ) O sistema deve responder em menos de 2 segundos
+    (X) O sistema deve permitir cadastro de usuários
+    ( ) O sistema deve ser acessível 24/7
+    ( ) O sistema deve ter interface intuitiva
+
+13. Complete: "RF001: O sistema deve _____________"
+    [Resposta curta - exemplo válido: "permitir login de usuários" ou "registrar empréstimos"]
+
+14. Um Requisito Funcional pode violar uma Regra de Negócio?
+    ( ) Sim, sempre
+    (X) Não, nunca
+    ( ) Sim, em casos especiais
+    ( ) Depende do contexto
+
+15. Qual sufixo é comumente usado para identificar Requisitos Funcionais?
+    ( ) RN
+    (X) RF
+    ( ) RNF
+    ( ) REQ
+
+================================================================================
+SEÇÃO 5: REQUISITOS NÃO-FUNCIONAIS
+================================================================================
+
+16. O que são Requisitos Não-Funcionais?
+    ( ) Descrevem funcionalidades do sistema
+    (X) Descrevem qualidades e comportamentos do sistema
+    ( ) Descrevem regras de negócio
+    ( ) Descrevem casos de uso
+
+17. Quais são categorias de Requisitos Não-Funcionais? (Marque TODAS as corretas)
+    [X] Desempenho
+    [X] Segurança
+    [X] Usabilidade
+    [X] Confiabilidade
+    [ ] Cadastro
+    [ ] Relatórios
+
+18. Qual das alternativas abaixo é um Requisito Não-Funcional?
+    ( ) O sistema deve gerar relatórios mensais
+    (X) O sistema deve ter tempo de resposta inferior a 2 segundos
+    ( ) O sistema deve cadastrar produtos
+    ( ) O sistema deve enviar notificações por e-mail
+
+19. "O sistema deve estar disponível 99,9% do tempo" - Este é um RNF de qual categoria?
+    ( ) Desempenho
+    ( ) Segurança
+    ( ) Usabilidade
+    (X) Confiabilidade
+
+20. Qual sufixo é usado para identificar Requisitos Não-Funcionais?
+    ( ) RF
+    ( ) RN
+    (X) RNF
+    ( ) REQ
+
+================================================================================
+SEÇÃO 6: DIAGRAMA DE CASOS DE USO
+================================================================================
+
+21. Quais são os elementos básicos de um Diagrama de Casos de Uso? (Marque TODAS)
+    [X] Atores
+    [X] Casos de Uso
+    [X] Sistema (limite)
+    [ ] Classes
+    [ ] Atributos
+
+22. Como os atores são representados em um Diagrama de Casos de Uso?
+    (X) Boneco/figura de palito
+    ( ) Retângulo
+    ( ) Elipse
+    ( ) Losango
+
+23. Como os casos de uso são representados?
+    ( ) Boneco/figura de palito
+    ( ) Retângulo
+    (X) Elipse/oval
+    ( ) Losango
+
+24. O que significa o relacionamento "include" em um Diagrama de Casos de Uso?
+    (X) Um caso de uso sempre inclui outro caso de uso
+    ( ) Um caso de uso pode ou não incluir outro
+    ( ) Um ator herda características de outro ator
+    ( ) Um caso de uso se comunica com outro
+
+25. O que significa o relacionamento "extend" em um Diagrama de Casos de Uso?
+    ( ) Um caso de uso sempre inclui outro caso de uso
+    (X) Um caso de uso pode estender outro caso de uso (comportamento opcional)
+    ( ) Um ator herda características de outro ator
+    ( ) Um caso de uso depende de outro
+
+26. No Sistema NOA (Controle de Chaves), quem seriam os atores? (Marque TODAS)
+    [X] Aluno
+    [X] Docente
+    [X] Administrador (funcionário)
+    [ ] Chave
+    [ ] Sistema de Notificação
+
+================================================================================
+SEÇÃO 7: MODELO ENTIDADE-RELACIONAMENTO (MER)
+================================================================================
+
+27. O que é uma Entidade no MER?
+    (X) Representação de algo do mundo real sobre o qual se deseja guardar informações (tabela)
+    ( ) Relacionamento entre duas tabelas
+    ( ) Campo de uma tabela
+    ( ) Chave primária
+
+28. O que são Atributos no MER?
+    ( ) Tabelas do banco de dados
+    (X) Características/propriedades de uma entidade (campos)
+    ( ) Relacionamentos entre entidades
+    ( ) Chaves estrangeiras
+
+29. O que significa a cardinalidade "1:N" em um relacionamento?
+    ( ) Um para um
+    (X) Um para muitos
+    ( ) Muitos para muitos
+    ( ) Nenhum para um
+
+30. No relacionamento "Um CLIENTE faz vários PEDIDOS", qual é a cardinalidade?
+    ( ) 1:1
+    (X) 1:N
+    ( ) N:M
+    ( ) N:1
+
+31. Como se resolve um relacionamento N:M (muitos para muitos) no banco de dados?
+    ( ) Não é possível resolver
+    ( ) Com chave primária composta
+    (X) Criando uma tabela associativa intermediária
+    ( ) Eliminando o relacionamento
+
+================================================================================
+SEÇÃO 8: METODOLOGIAS ÁGEIS
+================================================================================
+
+32. Qual é o principal objetivo das Metodologias Ágeis?
+    ( ) Criar documentação extensa
+    (X) Entregar valor ao cliente de forma rápida e iterativa
+    ( ) Seguir um plano rígido sem mudanças
+    ( ) Eliminar a necessidade de testes
+
+33. Quais são metodologias ágeis? (Marque TODAS as corretas)
+    [X] Scrum
+    [X] Kanban
+    [X] XP (Extreme Programming)
+    [ ] Waterfall (Cascata)
+    [ ] MER
+
+34. O que é uma Sprint no Scrum?
+    ( ) Reunião diária da equipe
+    (X) Período fixo de tempo (geralmente 2-4 semanas) para desenvolver funcionalidades
+    ( ) Documento de requisitos
+    ( ) Ferramenta de modelagem
+
+35. Qual é a função do Product Owner no Scrum?
+    ( ) Gerenciar a equipe técnica
+    (X) Representar o cliente e priorizar o backlog
+    ( ) Testar o software
+    ( ) Codificar as funcionalidades
+
+36. O que é o Quadro Kanban?
+    (X) Ferramenta visual para gerenciar fluxo de trabalho (To Do, Doing, Done)
+    ( ) Diagrama de banco de dados
+    ( ) Documento de requisitos
+    ( ) Tipo de metodologia cascata
+
+================================================================================
+SEÇÃO 9: SISTEMA DE INFORMAÇÃO
+================================================================================
+
+37. O que é um Sistema de Informação?
+    (X) Sistema que coleta, armazena, processa e dissemina informações
+    ( ) Qualquer programa de computador
+    ( ) Banco de dados
+    ( ) Rede de computadores
+
+38. Qual é o fluxo básico de um Sistema de Informação?
+    ( ) Saída → Processamento → Entrada
+    (X) Entrada → Processamento → Saída
+    ( ) Armazenamento → Entrada → Saída
+    ( ) Processamento → Armazenamento → Entrada
+
+================================================================================
+SEÇÃO 10: APLICAÇÃO PRÁTICA
+================================================================================
+
+39. No contexto do Sistema NOA (Controle de Chaves), identifique a Regra de Negócio:
+    ( ) O sistema deve registrar empréstimos
+    (X) Docentes podem emprestar até 3 equipamentos simultaneamente
+    ( ) O sistema deve ter interface web
+    ( ) O sistema deve enviar notificações
+
+40. No contexto do Sistema NOA, identifique o Requisito Funcional:
+    (X) O sistema deve permitir cadastro de chaves
+    ( ) O sistema deve responder em menos de 2 segundos
+    ( ) Alunos podem emprestar apenas 1 chave
+    ( ) O sistema deve ser disponível 24/7
+
+41. No contexto do Sistema NOA, identifique o Requisito Não-Funcional:
+    ( ) O sistema deve registrar devoluções
+    ( ) Prazo máximo de empréstimo é 7 dias
+    (X) O sistema deve ser acessível para pessoas com deficiência
+    ( ) O sistema deve gerar relatórios
+
+================================================================================
+SEÇÃO 11: REFLEXÃO FINAL
+================================================================================
+
+42. Em uma escala de 1 a 5, como você avalia sua compreensão sobre Regras de Negócio?
+    ( ) 1 - Não entendi nada
+    ( ) 2 - Entendi pouco
+    ( ) 3 - Entendi mais ou menos
+    ( ) 4 - Entendi bem
+    ( ) 5 - Domino completamente
+
+43. Em uma escala de 1 a 5, como você avalia sua compreensão sobre Requisitos (RF e RNF)?
+    ( ) 1 - Não entendi nada
+    ( ) 2 - Entendi pouco
+    ( ) 3 - Entendi mais ou menos
+    ( ) 4 - Entendi bem
+    ( ) 5 - Domino completamente
+
+44. Em uma escala de 1 a 5, como você avalia sua compreensão sobre Diagrama de Casos de Uso?
+    ( ) 1 - Não entendi nada
+    ( ) 2 - Entendi pouco
+    ( ) 3 - Entendi mais ou menos
+    ( ) 4 - Entendi bem
+    ( ) 5 - Domino completamente
+
+45. Qual conteúdo você gostaria que fosse revisado com mais atenção? (Resposta aberta)
+    [Parágrafo]
+
+46. Você tem alguma dúvida específica sobre os conteúdos ministrados até agora? (Resposta aberta)
+    [Parágrafo]
+
+================================================================================
+MENSAGEM FINAL NO GOOGLE FORMS
+================================================================================
+
+"Obrigado por participar do Quiz de Nivelamento! 
+
+Este diagnóstico nos ajudará a identificar os pontos que precisam ser reforçados durante os próximos encontros.
+
+Lembre-se: esta atividade NÃO vale nota. O objetivo é apenas entender como estamos e onde podemos melhorar.
+
+Nos vemos na revisão! 🚀"
+
+================================================================================
+GABARITO PARA O PROFESSOR
+================================================================================
+
+3. B
+4. C
+5. "abstração"
+6. A
+7. A
+8. A
+9. Todas exceto "Codificações"
+10. B
+11. A
+12. B
+13. Qualquer resposta que descreva uma ação/funcionalidade
+14. B
+15. B
+16. B
+17. Todas exceto "Cadastro" e "Relatórios"
+18. B
+19. D
+20. C
+21. Atores, Casos de Uso, Sistema
+22. A
+23. C
+24. A
+25. B
+26. Aluno, Docente, Administrador
+27. A
+28. B
+29. B
+30. B
+31. C
+32. B
+33. Scrum, Kanban, XP
+34. B
+35. B
+36. A
+37. A
+38. B
+39. B
+40. A
+41. C
+42-44. Autoavaliação (sem gabarito)
+45-46. Resposta aberta (análise qualitativa)
+
+================================================================================
+ANÁLISE DE RESULTADOS SUGERIDA
+================================================================================
+
+Após o quiz, analise:
+
+1. QUESTÕES COM MAIS ERROS (indicam necessidade de revisão)
+2. AUTOAVALIAÇÃO DOS ALUNOS (questões 42-44)
+3. DÚVIDAS RELATADAS (questões 45-46)
+
+Use esses dados para ajustar a revisão na segunda parte da aula!
+
+================================================================================
+FIM DO QUIZ
+================================================================================

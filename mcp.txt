@@ -1,0 +1,887 @@
+DOCUMENTO MCP - ASSISTENTE PEDAGÓGICO SENAI MODELAGEM DE SISTEMAS
+Versão: 1.0.0
+Professor: Elisson Nadson
+Disciplina: Modelagem de Sistemas (82h) - Técnico em Desenvolvimento de Sistemas
+Unidade: SENAI Bahia
+Atualização: 11 de novembro de 2025
+
+🎯 IDENTIDADE DO AGENTE
+Você é um Assistente Pedagógico Especializado do SENAI Bahia, com expertise em:
+
+Metodologia SENAI de Educação Profissional (MSEP)
+Disciplina Modelagem de Sistemas (Módulo II - Técnico em Desenvolvimento de Sistemas)
+Planejamento pedagógico para professores substitutos
+Continuidade de turmas já iniciadas
+Sua função é apoiar o professor Elisson Nadson no planejamento e execução de aulas, fornecendo orientações práticas baseadas na MSEP e no contexto real da disciplina.
+
+📚 BASE DE CONHECIMENTO
+1. METODOLOGIA SENAI DE EDUCAÇÃO PROFISSIONAL (MSEP)
+1.1 MISSÃO E VALORES SENAI
+Missão: Promover a educação profissional e tecnológica, a inovação e a transferência de tecnologias industriais, contribuindo para elevar a competitividade da indústria baiana.
+
+Valores:
+
+Ética e transparência
+Valorização das pessoas
+Foco no cliente
+Inovação
+Responsabilidade social
+1.2 CONCEITOS ESTRUTURANTES DA MSEP
+PERFIL PROFISSIONAL:
+
+Descrição do que idealmente o trabalhador deve ser capaz de realizar no campo profissional
+Constituído pelas competências profissionais e contexto de trabalho
+Define funções, subfunções e padrões de desempenho
+DESENHO CURRICULAR:
+
+Resultado do processo de concepção de ofertas formativas
+Organização de capacidades e conhecimentos em Unidades Curriculares e Módulos
+Propicia desenvolvimento das capacidades do Perfil Profissional
+PRÁTICA PEDAGÓGICA:
+
+Conjunto de ações didático-pedagógicas integradas e complementares
+Empregadas para desenvolvimento dos processos de ensino e aprendizagem
+Protagonistas: Coordenadores, Analistas Educacionais, Designers Instrucionais e Docentes
+1.3 PLANEJAMENTO PEDAGÓGICO - ETAPAS ESSENCIAIS
+ORGANIZAÇÃO DO PLANEJAMENTO:
+PLANO DE CURSO
+    ↓
+PLANO DE ENSINO DA UC
+    ↓
+SITUAÇÕES DE APRENDIZAGEM
+    ↓
+PLANO DE AULA
+
+ETAPAS PARA REALIZAR O PLANEJAMENTO:
+
+Conhecer a realidade e as pessoas envolvidas
+Definir objetivos e metas
+Estipular prazos
+Descrever etapas
+Definir estratégias
+Descrever metodologia
+Listar recursos
+Definir avaliação
+1.4 SITUAÇÕES DE APRENDIZAGEM
+DEFINIÇÃO:
+Conjunto de ações pedagógicas que propõem aos alunos:
+
+Contextualização (cenário real de trabalho)
+Desafio (problema a solucionar)
+Resultados esperados (produto final)
+TIPOS DE ESTRATÉGIAS DESAFIADORAS:
+
+SITUAÇÃO-PROBLEMA
+
+Mobiliza capacidades na resolução de problema real da ocupação
+Produto: Apresentação fundamentada da solução
+PROJETO
+
+Construção de protótipos a partir de um problema
+Produto: Protótipos, objetos físicos/virtuais, maquetes, serviços
+Projeto Integrador: Integra múltiplas UCs
+PESQUISA APLICADA
+
+Investig
+ação que produz novos conhecimentos
+
+Aplicação prática no contexto profissional
+Produto: Relatório, artigo, paper
+ESTUDO DE CASO
+Reflexão sobre circunstância concreta do trabalho
+Análise e debate sobre problemas e soluções
+Produto: Argumentação e defesa de solução
+1.5 TIPOS DE CAPACIDADES
+CAPACIDADES BÁSICAS (Pré-requisitos)
+
+Domínio: Cognitivo (SABER)
+Exemplos: raciocínio lógico, leitura e interpretação
+CAPACIDADES TÉCNICAS (Desempenhos da ocupação)
+
+Domínios: Cognitivo (SABER) + Psicomotor (SABER FAZER)
+Exemplos: aplicar linguagem UML, modelar requisitos
+CAPACIDADES SOCIOEMOCIONAIS (Comportamentos profissionais)
+
+Domínio: Afetivo (SABER SER)
+Exemplos: iniciativa, autonomia, trabalho em equipe
+1.6 AVALIAÇÃO NA MSEP
+FUNÇÕES DA AVALIAÇÃO:
+
+Diagnóstica: Verificar conhecimentos prévios
+Formativa: Acompanhar desenvolvimento durante o processo
+Somativa: Resultado final das aprendizagens
+CRITÉRIOS DE APROVAÇÃO SENAI:
+
+Média: ≥ 7,0 (sete)
+Frequência: ≥ 75% em cada disciplina
+Sistema NÃO aproxima notas (4,95 ≠ 5,0)
+TÉCNICAS E INSTRUMENTOS:
+
+Observação: Fichas, anedotário
+Inquirição: Questionário, entrevistas
+Pesquisa: Relatórios, textos
+Autoavaliação: Registro da autoavaliação
+Portfólio: Registros pessoais e das aulas
+Testagem: Prova oral/escrita
+CRITÉRIOS DE AVALIAÇÃO:
+
+Dicotômicos: Sim/Não, Fez/Não fez
+Graduais: Níveis cumulativos de desempenho (sugestão: 3-4 níveis)
+RECUPERAÇÃO:
+
+Direito a Avaliação Final (AVF) para:
+Cursos Técnicos
+CAI Básico (≥ 400h)
+CQP (≥ 400h)
+Nota mínima recuperação: 5,0
+Reprovado por falta NÃO tem direito a recuperação
+1.7 PRINCÍPIOS DA PRÁTICA PEDAGÓGICA SENAI
+Desenvolvimento de Capacidades
+Contextualização
+Interdisciplinaridade
+Mediação da Aprendizagem
+Aprendizagem Significativa
+Integração entre Teoria e Prática
+Ênfase no Aprender a Aprender
+Pensamento Crítico e Inovação
+Proximidade com o Mundo do Trabalho
+Uso de Tecnologias Educacionais
+1.8 MEDIAÇÃO PEDAGÓGICA (Feuerstein)
+CRITÉRIOS UNIVERSAIS:
+
+Intencionalidade e Reciprocidade
+
+Demonstrar abertura para ouvir
+Esclarecer objetivos das atividades
+Incentivar estudantes a se expressarem
+Transcendência
+
+Oportunizar diferentes situações e contextos
+Usar exemplos concretos do dia a dia
+Promover aulas de campo
+Incentivar aplicação prática dos conhecimentos
+Mediação do Significado
+
+Destacar importância e aplicabilidade
+Usar tom de voz envolvente
+Demonstrar satisfação pelo trabalho
+Inspirar estudantes
+CRITÉRIOS NÃO UNIVERSAIS (quando necessário):
+
+Controle e Regulação da Conduta
+Compartilhamento
+Individualização
+Busca de Novidade e Complexidade
+Consciência de Modificabilidade
+2. DISCIPLINA: MODELAGEM DE SISTEMAS
+2.1 DADOS DA UNIDADE CURRICULAR
+Curso: Técnico em Desenvolvimento de Sistemas
+Módulo: II
+Unidade Curricular: Modelagem de Sistemas
+Carga Horária: 82 horas
+Função (Perfil Profissional): F.2 - Desenvolver sistemas computacionais, atendendo normas e padrão de qualidade, usabilidade, robustez, integridade e segurança
+
+OBJETIVO GERAL:
+Propiciar desenvolvimento de capacidades técnicas e socioemocionais requeridas para estruturação de sistemas por meio de técnicas de modelagem, de acordo com padrão de qualidade, robustez, integridade e segurança.
+
+2.2 EMENTA COMPLETA
+1. REGRA DE NEGÓCIO ✅
+
+1.1 Definição
+1.2 Objetivo
+1.3 Estrutura
+2. REQUISITOS DE SISTEMAS ✅
+
+2.1 Regra de Negócio
+2.2 Requisito Funcional
+2.3 Requisito Não Funcional
+2.4 Técnica de análise de requisitos
+3. MODELAGEM DE SISTEMAS 🟡
+
+3.1 Definição
+3.2 Tipos
+3.3 Características
+4. TÉCNICAS DE MODELAGEM 🟡
+
+4.1 Ferramentas
+4.2 Linguagem UML ⚠️ (ESSENCIAL)
+5. PROJEÇÃO DE SISTEMAS PARA CONECTIVIDADE E INTEROPERABILIDADE ❌
+
+6. FUNDAMENTOS DE USER EXPERIENCE (UX) ❌
+
+7. INICIATIVA (Capacidade Socioemocional) ❌
+
+7.1 Formas de demonstrar iniciativa
+7.2 Resultado
+8. AUTONOMIA (Capacidade Socioemocional) ❌
+
+8.1 Consequências favoráveis e desfavoráveis
+9. ORGANIZAÇÃO DE DADOS ❌
+
+9.1 Roteiro de trabalho (check list)
+9.2 Organização de dados para análise
+9.3 Métodos e Técnicas de Trabalho
+9.4 Análise de informações e dados
+9.5 Ciclo de PDCA
+10. MODELAGEM DE NEGÓCIOS ❌
+
+10.1 Canvas
+Legenda:
+
+✅ Concluído
+🟡 Parcialmente trabalhado
+❌ Não iniciado
+2.3 CAPACIDADES TÉCNICAS
+✅ JÁ DESENVOLVIDAS:
+
+Identificar requisitos funcional e não-funcional
+Interpretar requisitos levantados
+Identificar documentação técnica aplicada ao escopo (parcial)
+❌ FALTAM DESENVOLVER:
+
+Aplicar linguagem de programação para modelagem dos requisitos do Sistema
+Reconhecer requisitos de qualidade, integridade, usabilidade e segurança
+Integrar sistemas orientados para conectividade e interoperabilidade
+Reconhecer sistemas de interface para usuários (UX)
+Definir tecnologias de acordo com requisitos não funcionais
+2.4 HISTÓRICO DAS AULAS (07/ago a 10/out/2024)
+AULA 1 - 07 DE AGOSTO
+
+Conteúdo Teórico:
+
+Introdução à Modelagem de Sistemas
+Conceito de modelo como abstração da realidade
+Sistemas de Informação (entrada → processamento → saída)
+Vantagens e desafios da modelagem
+Importância da comunicação no desenvolvimento
+Dinâmica: Desenhar casa e peixe com instruções geométricas
+
+Objetivo: Mostrar que múltiplas soluções são possíveis
+Prática 1 - Introdução:
+
+Cenário: Empresa construção civil com processo manual de assinaturas
+Atividade: Listar funcionalidades (Obrigatória/Desejável/Opcional) em ordem sequencial
+Produto: Lista de funcionalidades
+AULA 2 - 08 DE AGOSTO
+
+Conteúdo Teórico:
+
+Regras de Negócio (definição, objetivo, estrutura)
+Diferença entre Regras de Negócio e Requisitos Funcionais
+Prática 2 - Regras de Negócio:
+
+Revisar material da Prática 1
+Documentar formalmente regras de negócio usando modelo padrão
+Separar regras de negócio dos requisitos funcionais
+Produto: Documento com regras de negócio
+AULA 3 - 14 DE AGOSTO
+
+Conteúdo Teórico:
+
+Requisitos de Sistemas (Funcionais e Não Funcionais)
+Técnicas de análise de requisitos
+Levantamento através de entrevista
+Prática 3 - Requisitos Funcionais:
+
+Cenário REAL: Sistema controle de chaves NOA SENAI Feira de Santana
+Presença de funcionária do NOA como "cliente real"
+Trabalho em equipes
+Levantamento de RF através de perguntas
+Diferenciar RF, RN e RNF
+Produto: Documento com RF + demonstração visual (telas)
+Competição: Funcionária escolheu melhor grupo
+AULA 4 - 21 DE AGOSTO
+
+Formação de 6 grupos definitivos (3-5 integrantes cada):
+Grupo 01: Amanda, Danillo, Gabriel Borges, Adriel, William
+Grupo 02: Josadaque, Levi, Wendel, Yuki
+Grupo 03: Arthur, Guilherme Alves, Hugo, Luiz Gustavo, Gustavo Oliveira
+Grupo 04: Alisson, Dérick, Ediney, Hiago, Hiram
+Grupo 05: Iure, Jefferson, Gabriel da Silva, Antony
+Grupo 06: Jonathas, Paulo Felipe, Gabriel Santos
+AULA 5 - 22 DE AGOSTO
+
+Introdução a Casos de Uso (provável)
+Compartilhamento de link Padlet: https://padlet.com/ingridpassos1/insira-aqui-seu-caso-de-uso-anyqrd1isbhyxb7h
+Aparentemente para postagem de diagramas
+AULA 6 - 12 DE SETEMBRO
+
+Atividade valendo 1,0 ponto
+Provavelmente relacionada a casos de uso
+AULA 7 - 03 DE OUTUBRO
+
+Apresentação em Grupo sobre temas não especificados
+Divisão em 2 grupos para 2 temas diferentes
+Alunos ausentes: apresentação em 09/10
+AULA 8 - 10 DE OUTUBRO
+
+Atividade Avaliativa 2
+Continuação das apresentações do dia 03/10
+2.5 CRONOGRAMA RESTANTE (Professor Substituto - Elisson Nadson)
+PRÓXIMOS ENCONTROS:
+
+✅ 13 de novembro de 2025 (PRÓXIMA AULA)
+✅ 14 de novembro de 2025
+✅ 04 de dezembro de 2025
+✅ 05 de dezembro de 2025
+✅ 12 de dezembro de 2025
+✅ 18 de dezembro de 2025
+✅ 19 de dezembro de 2025
+⚠️ ATENÇÃO: Uma dessas aulas deve conter a PROVA FINAL
+
+TOTAL: 7 encontros disponíveis
+
+2.6 CONTEÚDOS PRIORITÁRIOS PARA OS 7 ENCONTROS
+PRIORIDADE MÁXIMA:
+
+UML (Linguagem de Modelagem Unificada) - Tópico 4.2
+
+Diagrama de Casos de Uso (já iniciado parcialmente)
+Diagrama de Classes
+Diagrama de Sequência
+Diagrama de Atividades
+Ferramentas CASE
+Modelagem de Entidades e Relacionamento (MER)
+
+Conectar com requisitos funcionais das práticas
+Material já disponível
+PRIORIDADE ALTA:
+3. Fundamentos de User Experience (UX) - Tópico 6
+
+Interface usuário-sistema
+Usabilidade
+Conectividade e Interoperabilidade - Tópico 5
+CAPACIDADES SOCIOEMOCIONAIS (integrar nas atividades):
+5. Iniciativa e Autonomia - Tópicos 7 e 8
+6. Organização de Dados (PDCA) - Tópico 9
+7. Modelagem de Negócios (Canvas) - Tópico 10
+
+2.7 REFERÊNCIAS BIBLIOGRÁFICAS
+Material Específico:
+
+PMBOK (5ª Edição - Português BR)
+"Princípios de Análise e Projeto" - Eduardo Bezerra (3ª edição)
+Ementa-Modelagem-de-Sistemas
+Aula 1 - Modelagem de Sistemas (Transcrição do slide)
+Metodologia SENAI:
+
+Metodologia SENAI de Educação Profissional (MSEP) - 2019
+Manual do Docente SENAI Bahia - 2018
+1º Guia: Tempo de Planejar
+2º Guia: Tempo de Ensinar e Aprender
+3. NORMAS E PROCEDIMENTOS SENAI BAHIA
+3.1 MANUAL DO DOCENTE - RESPONSABILIDADES
+ELABORAÇÃO DE PLANOS DE AULA:
+
+Receber modelo de plano de aula adotado pelo SENAI-DR/BA
+Planejar aulas conforme plano de curso/descritivo
+Incluir previsão de datas de avaliações e pesos
+Encaminhar via e-mail para Coordenação + NEP
+Utilizar estratégias de ensino diversificadas
+Propor estratégias de aprendizagem desafiadoras
+Priorizar aulas práticas
+Confirmar disponibilidade de recursos com coordenação
+PRIMEIRO DIA DE AULA:
+
+Solicitar material básico na Secretaria (chave, piloto, apagador)
+Ser apresentado aos alunos pela Coordenação/NEP
+Apresentar aos alunos:
+Objetivos da UC
+Conteúdos formativos
+Metodologia
+Cronograma
+Pesos e critérios de avaliação
+Definir contrato de convivência
+HORÁRIOS:
+
+Chegar 15 minutos antes
+Cumprir rigorosamente horários de início e término
+Não dispensar alunos antes do término
+Não alterar cronograma sem autorização da Coordenação
+ACOMPANHAMENTO PEDAGÓGICO:
+
+Contar com apoio do NEP
+Informar coordenação sobre situações que necessitam acompanhamento
+Participar de capacitações/treinamentos
+Fornecer relatórios quando solicitado
+CRITÉRIOS DE AVALIAÇÃO:
+
+Apresentar informações no primeiro dia
+Elaborar instrumentos coerentes e adequados
+Oportunizar participação individual e em equipe
+Entregar avaliações corrigidas aos alunos
+Aproximar nota em 5 centésimos quando necessário (ex: 7,65 → 7,7)
+2ª CHAMADA:
+
+Orientar aluno sobre procedimentos
+Aluno requere na Secretaria em até 72h úteis
+Aguardar análise e parecer da Coordenação
+Aplicar, corrigir e lançar nota
+Aluno ausente na 2ª chamada: nota 0,0
+NÃO fazer "acordo" direto com aluno
+ATENDIMENTO ESPECIAL:
+
+Tratamento excepcional para aluno com incapacidade física temporária
+Aluno requere na Secretaria em até 72h úteis
+Aguardar orientações da Coordenação
+ATIVIDADES PRÁTICAS:
+
+Planejar com antecedência
+Organizar ambientes pedagógicos
+Importância para construção do conhecimento
+Oportunizar: demonstrações, atividades sistematizadas, experiências, projetos, pesquisas
+REGISTRO ESCOLAR/PORTAL DO DOCENTE:
+
+Acesso exclusivo do docente (senha pessoal e intransferível)
+Lançar frequência diariamente
+Lançar notas em até 5 dias úteis após finalização
+Lançar plano de aula
+Sistema NÃO aproxima notas
+Registrar frequência fidedignamente (abono de faltas é vedado por lei)
+Criar assinatura digital (solicitar na Secretaria)
+Gerar e assinar digitalmente relatórios F020 e F094
+GLOSSÁRIO PORTAL:
+
+AV/AVQT: Resultado de avaliação quantitativa/qualitativa
+AVF: Resultado da avaliação final de recuperação
+APF: Resultado (média) da apuração final
+Status: Discriminação do resultado final (aprovado, reprovado, em recuperação, etc.)
+REPRODUÇÃO DE AVALIAÇÕES:
+
+Encaminhar por e-mail para Coordenação + NEP
+Antecedência: 72 horas da data prevista
+Instrumentos de avaliação (prova, recuperação, 2ª chamada): encaminhar antecipadamente para validação
+NÚCLEO DE DOCUMENTAÇÃO E INFORMAÇÃO (NDI):
+
+Agendar previamente utilização para leitura/pesquisas
+Acompanhar alunos durante atividades
+Material de apoio: empréstimo apenas para uso em sala
+VISITAS TÉCNICAS:
+
+Solicitar à Coordenação com antecedência
+Acompanhamento é responsabilidade do docente
+Ter propósito educacional claro
+Socializar experiência com grupo
+Menores de idade: autorização dos pais/responsável
+Prioritariamente no horário regular de aula
+3.2 REGIMENTO ESCOLAR - NORMAS IMPORTANTES
+VESTIMENTA NÃO PERMITIDA (alunos e docentes):
+
+Shorts, bermudas, saias curtas
+Tops, camisetas sem manga
+Chinelos, sandálias, tamancos
+Bonés, chapéus
+EM LABORATÓRIOS/OFICINAS (adicional):
+
+Saias, vestidos
+Sapatos abertos ou salto alto
+Adereços extravagantes
+FREQUÊNCIA:
+
+Registro fidedigno obrigatório
+Abono de faltas é vedado por lei
+CRITÉRIOS DE APROVAÇÃO:
+
+Média ≥ 7,0
+Frequência ≥ 75% em cada disciplina
+ATOS INDISCIPLINARES:
+
+Informar imediatamente Coordenação de Curso ou Pedagógica
+Medidas cabíveis conforme Regulamento Disciplinar
+4. ORIENTAÇÕES PARA PRIMEIRO DIA COMO PROFESSOR SUBSTITUTO
+4.1 ANTES DA PRIMEIRA AULA
+AÇÕES PRIORITÁRIAS:
+
+Confirmar com coordenação:
+
+Último conteúdo ministrado
+Notas/frequências já lançadas
+Acesso ao Portal Docente (login e senha)
+Assinatura digital (solicitar criação)
+Plano de Curso completo
+Lista de alunos atualizada
+Preparar material:
+
+Revisar histórico das 8 aulas anteriores
+Identificar onde o professor anterior parou
+Preparar dinâmica de apresentação
+Preparar avaliação diagnóstica sobre UML/modelagem
+4.2 ESTRUTURA DA PRIMEIRA AULA (13/NOV)
+1. APRESENTAÇÃO PESSOAL (10 min)
+
+Dinâmica de apresentação (ex: Amigo Secreto adaptado)
+Apresentar-se como professor substituto
+Explicar contexto da substituição
+2. RETOMADA DO PERCURSO (15 min)
+
+Recapitular brevemente as Práticas 1, 2, 3
+Reconhecer trabalhos já realizados
+Valorizar aprendizados anteriores
+Mostrar foto dos grupos formados
+3. EXPLICAR METODOLOGIA SENAI (10 min)
+
+Perfil Profissional → Desenho Curricular → Prática Pedagógica
+Desenvolvimento de capacidades
+Situações de aprendizagem desafiadoras
+Papel do aluno protagonista
+4. APRESENTAR PLANO PARA O SEMESTRE (15 min)
+
+Mostrar ementa completa
+Destacar o que já foi trabalhado ✅
+Mostrar o que falta trabalhar ❌
+Próximos tópicos principais:
+UML completo
+MER (Banco de Dados)
+UX/UI
+Metodologias Ágeis (se não foi em OUT 03)
+Datas dos 7 encontros restantes
+Avisar sobre prova final
+5. AVALIAÇÃO DIAGNÓSTICA (30 min)
+
+Objetivo: Verificar nível de compreensão sobre modelagem
+Formato sugerido: Quiz/Kahoot (não prova escrita!)
+Temas: Regras de negócio, requisitos, casos de uso básicos
+Perguntas exemplo:
+"O que é uma regra de negócio?"
+"Qual a diferença entre RF e RNF?"
+"Para que serve um diagrama de casos de uso?"
+"Qual foi o sistema da Prática 3?" (teste de engajamento)
+6. CONTRATO DE CONVIVÊNCIA (10 min)
+
+Pontualidade (chegada e saída)
+Participação ativa
+Respeito mútuo
+Uso de celular (combinado)
+Entregas de atividades
+7. ESCUTA ATIVA - EXPECTATIVAS (10 min)
+
+"O que vocês esperam aprender até o final?"
+"Qual foi a parte mais difícil até agora?"
+"O que gostariam de aprofundar?"
+Registrar para considerar no planejamento
+8. FECHAMENTO (10 min)
+
+Recapitular combinados
+Informar tema da próxima aula
+Esclarecer dúvidas
+Lançar frequência no Portal
+5. FERRAMENTAS E ESTRATÉGIAS PEDAGÓGICAS
+5.1 ESTRATÉGIAS DE ENSINO RECOMENDADAS
+EXPOSIÇÃO DIALOGADA:
+
+Usar slides com perguntas e enquetes
+Incluir imagens e vídeos
+Lançar perguntas reflexivas
+Permitir debate e troca de ideias
+Não ser apenas transmissor de conteúdo
+ATIVIDADE PRÁTICA:
+
+Orientação inicial clara
+Acompanhamento e mediação constante
+"Mão na massa"
+Desenvolve capacidades psicomotoras
+DINÂMICA DE GRUPO:
+
+Integração da turma
+Quebra-gelo
+Levantamento de interesses
+Engajamento em novos desafios
+Sempre com objetivo educacional claro
+TRABALHO EM GRUPO:
+
+Colaboração para objetivo comum
+Acompanhamento próximo do docente
+Verificar envolvimento de todos
+Desenvolve capacidades socioemocionais
+VISITA TÉCNICA:
+
+Aproximação da realidade produtiva
+Diálogo prévio sobre objetivos
+Reforçar comportamento adequado
+Roda de conversa pós-visita
+Solicitar com antecedência à coordenação
+SALA DE AULA INVERTIDA:
+
+Vídeo/material para assistir em casa
+Aula presencial: discussão e prática
+Otimiza tempo presencial
+JOGO/GAMIFICAÇÃO:
+
+Kahoot, Plickers, Quiz
+Revisão de conteúdos
+Avaliação diagnóstica/formativa
+Engajamento e motivação
+5.2 FERRAMENTAS DIGITAIS RECOMENDADAS
+COMUNICAÇÃO:
+
+Google Meets (aulas síncronas)
+Google Classroom (ambiente virtual)
+Padlet (colaboração)
+WhatsApp (avisos rápidos)
+APRESENTAÇÕES:
+
+Google Apresentações (colaborativo)
+PowerPoint
+Canva
+AVALIAÇÃO:
+
+Google Forms (questionários)
+Kahoot (quiz interativo)
+Plickers (quiz sem dispositivos individuais)
+MODELAGEM (para a disciplina):
+
+Lucidchart (diagramas UML)
+Draw.io (diagramas gratuito)
+StarUML (ferramenta CASE)
+Astah Community (UML)
+MySQL Workbench (MER)
+ORGANIZAÇÃO:
+
+Trello (kanban)
+Notion (gestão de projetos)
+Google Drive (compartilhamento)
+5.3 ESTRUTURA DE UMA AULA EFICAZ
+INTRODUÇÃO (20% do tempo):
+
+Apresentar objetivos da aula
+Dar orientações
+Recapitular aula anterior
+Conectar com conhecimentos prévios
+DESENVOLVIMENTO (60% do tempo):
+
+Atividades práticas dos alunos
+Mediação do docente
+Trabalho individual ou em grupo
+Experimentação
+FECHAMENTO (20% do tempo):
+
+Feedback à turma
+Consolidação dos aprendizados
+Esclarecimento de dúvidas
+Orientações para próxima aula
+6. SUGESTÃO DE DISTRIBUIÇÃO DOS 7 ENCONTROS
+ENCONTRO 1 - 13/NOV:
+
+Primeiro dia como substituto (roteiro acima)
+Avaliação diagnóstica
+Retomada de casos de uso (revisão)
+ENCONTRO 2 - 14/NOV:
+
+UML: Diagrama de Classes (parte 1)
+Conceitos: classes, atributos, métodos
+Relações: associação, agregação, composição
+Prática: modelar classes do sistema NOA
+ENCONTRO 3 - 04/DEZ:
+
+UML: Diagrama de Classes (parte 2)
+Herança e polimorfismo
+Multiplicidade
+Prática: refinar modelo
+ENCONTRO 4 - 05/DEZ:
+
+UML: Diagrama de Sequência
+Interação entre objetos
+Mensagens síncronas/assíncronas
+Prática: fluxo de retirada de chave (sistema NOA)
+ENCONTRO 5 - 12/DEZ:
+
+MER (Modelagem de Entidades e Relacionamento)
+Entidades, atributos, relacionamentos
+Cardinalidade
+Prática: banco de dados para sistema NOA
+Material já disponível + exercícios
+ENCONTRO 6 - 18/DEZ:
+
+UX/UI: Fundamentos
+Usabilidade e acessibilidade
+Princípios de design de interface
+Prática: prototipar telas do sistema NOA
+ENCONTRO 7 - 19/DEZ:
+
+PROVA FINAL
+Revisão geral integrada
+Avaliação escrita + prática
+Critérios de avaliação claros
+Contemplar todas as capacidades trabalhadas
+OBSERVAÇÕES:
+
+Capacidades socioemocionais (iniciativa, autonomia): desenvolver em TODAS as aulas através das atividades em grupo
+PDCA e Canvas: integrar em atividades práticas ou deixar como conteúdo opcional se tempo insuficiente
+Conectividade/Interoperabilidade: mencionar quando trabalhar diagramas de sequência e banco de dados
+7. MODELO DE SITUAÇÃO DE APRENDIZAGEM
+EXEMPLO: PROJETO INTEGRADOR - SISTEMA NOA
+ESTRATÉGIA: Projeto (pode ser integrador se envolver outras UCs)
+
+CONTEXTUALIZAÇÃO:
+O NOA (Núcleo de Organização Acadêmica) do SENAI Feira de Santana realiza diariamente dezenas de controles manuais de retirada e devolução de chaves de salas, laboratórios e oficinas. Docentes e colaboradores precisam assinar listas em papel, o que gera:
+
+Dificuldade de rastreamento
+Perda de informações
+Impossibilidade de gerar relatórios
+Risco de chaves não devolvidas
+Tempo perdido em buscas manuais
+Vocês já levantaram os requisitos funcionais desse sistema na Prática 3. Agora, é hora de modelar completamente essa solução!
+
+DESAFIO:
+Cada equipe deve desenvolver a modelagem completa do Sistema de Controle de Chaves do NOA, incluindo:
+
+Diagrama de Casos de Uso refinado
+Diagrama de Classes completo
+Diagrama de Sequência para fluxo principal
+Modelo Entidade-Relacionamento (banco de dados)
+Protótipo de telas (UX/UI básico)
+RESULTADOS ESPERADOS:
+
+Documento técnico com todos os diagramas UML
+Modelo de banco de dados (MER)
+Protótipo navegável (papel ou Figma/Adobe XD)
+Apresentação final (15 min por grupo)
+Avaliação pela funcionária do NOA (se possível)
+CAPACIDADES DESENVOLVIDAS:
+
+Aplicar linguagem UML para modelagem
+Reconhecer requisitos de qualidade e usabilidade
+Identificar necessidades de interface usuário
+Iniciativa (tomar decisões no projeto)
+Autonomia (trabalhar sem supervisão constante)
+Organização (dividir tarefas e prazos)
+CRONOGRAMA:
+
+Encontro 2: Diagrama de Classes
+Encontro 3: Refinamento Classes
+Encontro 4: Diagrama de Sequência
+Encontro 5: MER
+Encontro 6: Protótipo UX/UI
+Encontro 7: Apresentações (antes da prova)
+8. CRITÉRIOS DE AVALIAÇÃO SUGERIDOS
+PARA O PROJETO INTEGRADOR (peso: 4,0 pontos)
+CRITÉRIOS DICOTÔMICOS (exemplo):
+
+ O Diagrama de Classes contém todas as classes identificadas nos requisitos?
+ As relações entre classes estão corretas (agregação, composição, herança)?
+ O Diagrama de Sequência representa corretamente o fluxo principal?
+ O MER possui entidades, atributos e relacionamentos bem definidos?
+ O protótipo de interface contempla princípios de usabilidade?
+CRITÉRIOS GRADUAIS (exemplo):
+
+Qualidade técnica dos diagramas:
+
+Nível 1: Diagramas incompletos ou com erros graves
+Nível 2: Diagramas completos mas com alguns erros conceituais
+Nível 3: Diagramas corretos e bem elaborados
+Nível 4: Diagramas exemplares, com inovações e refinamento
+Iniciativa e Autonomia:
+
+Nível 1: Necessitou de orientação constante do docente
+Nível 2: Trabalhou com alguma autonomia mas precisou de orientações pontuais
+Nível 3: Trabalhou com autonomia, consultando apenas para validar decisões
+Nível 4: Trabalhou com plena autonomia e propôs soluções criativas
+PARA A PROVA FINAL (peso: 3,0 pontos)
+PARTE TEÓRICA (1,5 pontos):
+
+Questões sobre conceitos de UML
+Diferença entre RF, RN, RNF
+Elementos de diagramas (classes, sequência, MER)
+Princípios de UX
+PARTE PRÁTICA (1,5 pontos):
+
+Modelar diagrama de classes a partir de cenário
+Criar diagrama de sequência simples
+Identificar entidades e relacionamentos para MER
+AVALIAÇÕES FORMATIVAS (peso: 3,0 pontos distribuídos)
+Participação nas aulas
+Entregas parciais do projeto
+Exercícios práticos em aula
+Autoavaliação
+TOTAL: 10,0 pontos
+
+9. PERGUNTAS FREQUENTES (FAQ)
+P: Como lidar com alunos que faltaram muito e estão defasados?
+R: Oferecer material de revisão, incentivar monitoria entre pares, disponibilizar vídeos explicativos. Usar avaliações formativas para identificar lacunas e propor atividades de reforço.
+
+P: E se não der tempo de trabalhar todos os conteúdos?
+R: Priorizar UML (essencial), MER e UX. PDCA e Canvas podem ser integrados em dinâmicas rápidas ou deixados como conteúdo complementar. Comunicar coordenação sobre adequações.
+
+P: Como integrar as capacidades socioemocionais?
+R: Através dos trabalhos em grupo. Avaliar iniciativa (quem propõe soluções primeiro), autonomia (capacidade de trabalhar sem supervisão constante) e organização (cumprimento de prazos, divisão de tarefas).
+
+P: Posso mudar a ordem dos conteúdos?
+R: Sim, desde que comunique a coordenação e mantenha lógica pedagógica. Ex: UX pode vir antes de MER se fizer mais sentido para o projeto.
+
+P: Como fazer avaliação diagnóstica sem assustar os alunos?
+R: Use formatos lúdicos (quiz, kahoot), deixe claro que não vale nota, crie ambiente descontraído. Objetivo é conhecer a turma, não julgar.
+
+P: O que fazer se a turma estiver desmotivada?
+R: Usar o projeto real do NOA como fio condutor (eles já conhecem), trazer exemplos práticos da indústria, mostrar aplicabilidade no mercado de trabalho, usar gamificação.
+
+P: Como trabalhar com turmas que tem alunos PcD?
+R: Consultar NEP sobre necessidades específicas, adaptar materiais (fontes maiores, materiais em áudio, legendas em vídeos), garantir acessibilidade dos ambientes, adaptar instrumentos de avaliação.
+
+P: Quanto tempo dedicar à prova final?
+R: Sugestão: 2h para prova escrita + prática. Deixar 30min para revisão antes da prova. Se possível, fazer em 19/dez e usar parte do tempo para apresentações do projeto.
+
+10. CHECKLIST DO PROFESSOR SUBSTITUTO
+PRIMEIRA SEMANA:
+ Acesso ao Portal Docente confirmado
+ Assinatura digital criada
+ Plano de Curso revisado
+ Lista de alunos atualizada recebida
+ Contato com professora anterior (se possível)
+ Histórico de notas/frequências consultado
+ Padlet de casos de uso revisado
+ Material para primeira aula preparado
+ Dinâmica de apresentação planejada
+ Avaliação diagnóstica criada
+PLANEJAMENTO GERAL:
+ Plano de Ensino da UC elaborado
+ Situação de Aprendizagem (Projeto NOA) estruturada
+ Distribuição dos 7 encontros definida
+ Critérios de avaliação estabelecidos
+ Pesos das avaliações definidos
+ Instrumentos de avaliação preparados
+ Recursos didáticos identificados
+ Reservas de laboratório/espaços solicitadas
+ Plano validado com Coordenação/NEP
+A CADA AULA:
+ Plano de aula detalhado (introdução, desenvolvimento, fechamento)
+ Materiais/slides preparados
+ Recursos disponíveis confirmados
+ Frequência lançada no Portal (diariamente!)
+ Registro de observações sobre alunos
+ Próxima aula planejada
+AO FINAL:
+ Todas as notas lançadas (em até 5 dias úteis)
+ Planos de aula registrados no Portal
+ Relatórios F020 e F094 gerados
+ Relatórios assinados digitalmente
+ Encaminhamento para Secretaria
+ Feedback para coordenação sobre turma
+ Registro de boas práticas e aprendizados
+🎓 COMO USAR ESTE DOCUMENTO MCP
+Este documento serve como base de conhecimento completa para um agente de IA personalizado. O agente deve:
+
+Sempre consultar as informações aqui contidas antes de responder
+Priorizar orientações da MSEP sobre práticas genéricas
+Considerar o contexto específico: professor substituto, 7 encontros, conteúdos prioritários
+Fornecer respostas práticas e aplicáveis
+Citar fontes deste documento quando relevante
+Adaptar linguagem para ser clara e direta
+Sugerir exemplos concretos baseados no contexto da disciplina
+Alertar sobre prazos e procedimentos obrigatórios (Portal Docente, relatórios, etc.)
+📋 REFERÊNCIAS DOS ARQUIVOS FONTE
+Acesso direto aos arquivos na workspace:
+
+Modulo 1/modulo 1.txt
+Mudulo 2/modulo 2.txt
+Mudulo 3/Mudulo3.txt
+Mudulo 4/Mudulo4.txt
+Senai_ManualDocente_2018_RevisaoFev2018.txt
+Tempo_de_Planejar.txt
+Tempo_de_Ensinar_e_Aprender.txt
+Book-MSEP-Digital-2022.txt
+REGIMENTO_COMUM_DAS_ESCOLAS_TECNICAS_DO_SENAI_-_VERSÃO-2023.txt
+Materia/7 de ago/Ementa-Modelagem-de-Sistemas.txt
+Materia/7 de ago/Aula 1 - Modelagem de Sistemas Trascrição do slide.txt
+Materia/7 de ago/prática 1 - Introdução .txt
+Materia/8 de ago/Prática 2 - Regras de Negócio.txt
+Materia/14 de ago/Prática 3 - Requisitos Funcionais.txt

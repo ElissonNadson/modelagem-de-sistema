@@ -1,0 +1,684 @@
+Manual do Aluno
+          SENAI Bahia
+Manual do Aluno SENAI Bahia
+
+
+
+
+     BOAS-VINDAS
+
+
+        Seja bem-vindo ao SENAI BAHIA!
+
+        Tradição em formação, experiência e competência fazem do SENAI BAHIA uma instituição de educação
+        profissional reconhecida pelo mercado e pela sociedade, onde você tem acesso a um ambiente
+        educacional que contribui para a formação e o pleno desenvolvimento para o trabalho e para a vida.
+
+        Neste manual, disponível no Portal do Aluno, você encontra importantes informações sobre o SENAI.
+        Leia-o com atenção, consulte quando necessário e esteja sempre atento às programações e atividades,
+        divulgadas no Portal do Aluno e em todos os nossos canais de comunicação. Além disso, você ainda
+        contará com a disponibilidade da CAA (Central de Atendimento ao Aluno) e equipes técnica e pedagógica
+        para obter todas as informações que necessitar.
+
+        Esperamos atender às suas expectativas e contribuir para seu desenvolvimento pessoal, profissional e
+        social, agradecemos a oportunidade de fazermos parte da sua história.
+
+
+        Rodrigo Vasconcelos Alves
+        Diretor Regional do SENAI BA
+Manual do Aluno SENAI Bahia
+
+
+
+
+     SUMÁRIO
+
+    APRESENTAÇÃO
+
+    METODOLOGIA SENAI
+                                              PROCEDIMENTOS IMPORTANTES
+    Itinerário de Projetos
+    SENAI LAB                                 Transferência
+    Saga SENAI de Inovação                    Rematrícula
+    Worldskills                               Reposição de Disciplina
+    SAEP – Sistema de Avaliação da Educação   Cancelamento de Matrícula
+    Profissional                              Trancamento de Matrícula
+                                              Reabertura de Matrícula
+    ESTÁGIO SUPERVISIONADO                    Segunda Chamada de Prova
+                                              Aproveitamento de Estudos e Experiências Anteriores
+    Áreas e serviços de apoio aos alunos      Atendimento Especial
+    Central de Atendimento ao Aluno (CAA)
+    Crédito estudantil
+    Coordenação de curso                      Critérios de Aprovação
+    Núcleo de Educação Profissional (NEP)
+    Biblioteca                                Direitos e Deveres do Aluno
+                                              Critérios para Acesso e Permanência nas Instalações
+    PLATAFORMAS EDUCACIONAIS                  do SENAI
+
+    Portal do Aluno                           Normas para Utilização das Oficinas e Laboratórios
+    Plataforma MEU SENAI                      do SENAI
+    Ambiente Virtual de Aprendizagem (AVA)
+    Estante Virtual de Livros SENAI
+Manual do Aluno SENAI Bahia
+
+
+
+
+     APRESENTAÇÃO
+
+
+                      O SENAI BAHIA, que integra o SENAI Nacional - um dos cinco maiores complexos de Educação
+                      Profissional do mundo e o maior da América Latina, forma profissionais para diversas áreas
+                      da indústria brasileira, desde 1949. Destaca-se no estado da BAHIA como uma instituição
+                      privada que está há mais de 70 anos qualificando milhares de pessoas. São mais de 30
+                      áreas de competência, parcerias nacionais e internacionais com instituições mundialmente
+                      reconhecidas.
+
+                      O SENAI BAHIA promove educação profissional e tecnológica, inovação e transferência de
+                      tecnologias industriais, contribuindo para elevar a competitividade da indústria baiana.
+
+                      Com uma infraestrutura de qualidade reconhecida, produz conhecimento, inovação,
+                      aprendizado e contribui para o desenvolvimento de competências e habilidades necessárias
+                      ao profissional do futuro.
+
+                      O SENAI BAHIA atua em mais de 100 munícipios, além das unidades móveis com equipamentos,
+                      tecnologia e estrutura capaz de realizar cursos e atender demandas com excelência em
+                      qualquer lugar.
+
+                      Fazer parte da comunidade SENAI BAHIA, significa aliar conhecimento, tecnologia e inovação
+                      em seu projeto de vida profissional.
+
+                      Agora que você faz parte da Escola Técnica SENAI BAHIA, conheça um pouco das nossas
+                      iniciativas, canais de comunicação e alguns procedimentos importantes.
+Manual do Aluno SENAI Bahia
+
+
+
+
+     METODOLOGIA SENAI
+
+        O SENAI, maior instituição de formação profissional da américa latina, atento às constantes inovações
+        que impactam a organização e os processos de trabalho, avalia continuamente suas práticas formativas,
+        incorporando e desenvolvendo metodologias educacionais que aproximam as demandas do mundo
+        trabalho aos processos de formação profissional.
+
+
+
+
+     ITINERÁRIO DE PROJETOS
+
+        O SENAI BAHIA busca a conexão entre a educação e tecnologia e assim, cria oportunidades e estimula a
+        vivência de conhecimentos além dos limites da sala de aula. Por esta premissa, o itinerário de projetos
+        para os cursos técnicos tem como objetivo desenvolver no nosso aluno a oportunidade de criar,
+        modelar, prototipar e implementar ideia de soluções para projetos com foco na indústria e no horizonte
+        da inovação e da tecnologia. As atividades desenvolvidas convergem com a visão do “design thinking” e
+        da “metodologia ágil” que são assuntos muito comentados e vivenciados na atualidade quando se fala
+        em aprendizagem baseada em desafios.
+Manual do Aluno SENAI Bahia
+
+
+
+
+     SENAI LAB
+
+       Para te ajudar a desenvolver os protótipos dos projetos, você poderá
+       utilizar o SENAI Lab, que é um ambiente maker, estruturado para o
+       desenvolvimento de protótipos de baixa ou média complexidade.
+
+       Quer saber mais? Solicite ao seu coordenador de curso uma visita ao
+       SENAI Lab da sua Escola e viva está imersão por completo.
+Manual do Aluno SENAI Bahia
+
+
+
+
+     SAGA SENAI DE INOVAÇÃO
+
+      As iniciativas da SAGA SENAI geram autonomia no envolvimento dos alunos, fomentam a mentoria
+      dos docentes e buscam aplicar ideias de soluções para a indústria. As três iniciativas são o Grand
+      Prix Senai de Inovação, o Desafio Senai Projetos Integradores e o Inova Senai, que permitem ao aluno
+      desenvolvimento de competência e habilidade, a luz da metodologia SENAI de educação profissional, de
+      pesquisa e projetos que solucionem problemas presentes e futuros.
+
+      Já ouviu falar no Grand Prix SENAI de Inovação? É uma corrida de inovação aberta em que equipes
+      multidisciplinares, chamadas de escuderias, criam, desenvolvem e prototipam soluções inovadoras
+      para desafios reais de indústrias e da sociedade. A corrida é um evento com duração de 24 horas ou
+      mais em que se pode visualizar a inovação em tempo real, demonstrando que com uma combinação
+      de métodos de inovação aberta e criatividade, conceitos de empreendedorismo, redes colaborativas e
+      profissionais multidisciplinares é possível obter respostas diferenciadas e oportunidades reais para a
+      solução dos desafios lançados.
+
+      Você sabe o que é Desafio SENAI de Projetos Integradores? É uma iniciativa direcionada a alunos dos
+      cursos técnicos e de aprendizagem industrial, como uma maneira de fortalecer o aprendizado e de criar
+      uma rede entre as Escolas Técnicas permitindo uma maior internalização da aplicação da Metodologia
+      SENAI de Educação Profissional, bem como o despertar e o desenvolver da cultura de empreendedorismo
+      e de inovação pelos alunos SENAI.
+
+      E o INOVA SENAI? É uma mostra que acontece anualmente, sendo que em um ano realiza-se a etapa
+      estadual e no seguinte, a etapa nacional. O objetivo do INOVA é a validação de negócios inovadores
+      criados pelos alunos SENAI desde a concepção, planejamento, prototipagem até a apresentação e
+      negociação dos projetos com possíveis clientes e investidores.
+Manual do Aluno SENAI Bahia
+
+
+
+
+      WORLDSKILLS
+
+   O QUE É?
+
+   Acontece a cada dois anos e participam os alunos e ex-alunos de cursos profissionalizantes
+   do SENAI. São avaliados os conhecimentos teóricos e práticos dos alunos, as habilidades
+   intelectuais e as atitudes consideradas essenciais para o exercício profissional
+   competente. Isso corre por meio de projetos-teste desenvolvidos em uma situação real
+   de mercado nas diversas áreas tecnológicas.
+
+   Os estudantes aprovados na etapa estadual da WorldSkills
+   representam a Bahia na etapa nacional, denominada Seletiva
+   Nacional da WorldSkills e os primeiros colocados dessa fase
+   podem representar o Brasil na WorldSkills, disputa internacional
+   considerada a maior competição de educação profissional do
+   mundo.
+Manual do Aluno SENAI Bahia
+
+
+
+
+     SAEP –       SISTEMA DE AVALIAÇÃO DA EDUCAÇÃO PROFISSIONAL
+
+
+
+      O QUE É?
+
+      O SAEP (Sistema de Avaliação da Educação Profissional) é uma ferramenta desenvolvida pelo SENAI
+      para avaliar o desempenho dos estudantes nos cursos técnicos oferecidos pela instituição. O SAEP
+      tem como objetivo monitorar a qualidade do ensino, identificar áreas de melhoria e fornecer dados que
+      auxiliem no aprimoramento dos processos educacionais.
+
+      Por meio do SAEP, os estudantes realizam avaliações que abrangem diferentes competências
+      relacionadas aos conteúdos teóricos e práticos do curso. As avaliações são aplicadas no final do período
+      de formação, para os alunos que tenham cursado pelo menos 80% da carga horária do curso.
+
+      Os resultados obtidos nas avaliações do SAEP são utilizados para gerar informações que contribuem para
+      o aperfeiçoamento dos currículos, metodologias de ensino e formação dos docentes. Além disso, esses
+      dados são fundamentais para que o SENAI possa avaliar a eficácia de seus programas educacionais e
+      assegurar a qualidade dos profissionais formados.
+
+      O SAEP desempenha um papel fundamental na garantia da excelência do ensino técnico oferecido pela
+      instituição, proporcionando uma base sólida para a formação de profissionais qualificados e atualizados
+      com as demandas do mercado de trabalho.
+Manual do Aluno SENAI Bahia
+
+
+
+
+     ESTÁGIO SUPERVISIONADO *
+
+
+                   *Procedimento apenas para alunos de curso técnico.
+
+                   O estágio supervisionado se constitui uma etapa do processo de aprendizagem, na qual o aluno,
+                   inserido em situações reais de trabalho, tem a oportunidade ímpar de conhecer mais de perto a
+                   cultura do trabalho e o contexto da profissão escolhida, colocando em prática e aperfeiçoando o
+                   que foi aprendido durante o curso.
+
+                   Os cursos técnicos do SENAI Bahia não possuem o estágio obrigatório, porém qualquer aluno
+                   de curso técnico que esteja matriculado e frequentando regularmente as atividades curriculares
+                   previstas para o curso, poderá ser encaminhado para o estágio supervisionado não obrigatório,
+                                        a partir do 1º Módulo. O estágio não obrigatório é uma atividade opcional,
+                                        acrescida à carga horária regular e obrigatória ($ 2º do art. 2º da Lei nº
+                                        11.788/2008).
+
+                                       O aluno que não realizar o estágio até o último módulo do curso, poderá, por
+                                       meio de requerimento, matricular-se na disciplina atividade opcional de
+                                       estágio, respeitando o período de matrícula definido mediante calendário
+                                       acadêmico, garantindo assim, o vínculo com o SENAI e podendo estagiar por
+                                       até 01 (um) ano.
+
+                                       Para maiores informações, procure o NCP (Núcleo de Carreira Profissional) da
+                                       sua Escola.
+Manual do Aluno SENAI Bahia
+
+
+
+
+     ÁREAS E SERVIÇOS DE APOIO AOS ALUNOS
+
+      CENTRAL DE ATENDIMENTO AO ALUNO (CAA)
+
+      A CAA é o seu principal canal de comunicação com a Instituição, teremos o maior prazer em atendê-lo!
+
+      Veja como a CAA SENAI BAHIA pode lhe ajudar:
+
+        Alteração de dados cadastrais;
+        Orientação para solicitação de documentos (atestado, declaração, histórico escolar, certificado e
+        diploma);
+        Informações sobre bolsas e descontos;
+        Rematrícula web;
+        Acesso ao Portal do Aluno, a plataforma MEU SENAI e ao Ambiente Virtual de Aprendizagem (AVA);
+        Informações sobre trancamento, cancelamento, transferência e reabertura de matrículas;
+        Informações, orientações e solicitações diversas da vida acadêmica de alunos e ex-alunos.
+
+      Caso necessite de atendimento presencial, procure a CAA da sua Unidade ou, se preferir, envie uma
+      mensagem para a gente!
+
+      E-mail: caasenaiba@fieb.org.br
+      WhatsApp: (71) 3287-8337 (apenas mensagem)
+
+      Mesmo depois de concluir o seu curso, mantenha contato com o SENAI, sempre que necessário,
+      por meio da CAA.
+Manual do Aluno SENAI Bahia
+
+
+
+
+     CRÉDITO ESTUDANTIL
+
+                     O SENAI BAHIA, em parceria com a FUNDACRED, oferece aos seus alunos o crédito
+                     estudantil. Com ele, você paga uma parte dos seus estudos enquanto cursa e o resto
+                     só depois de concluir. Temos a opção do crédito com ou sem fiador. Para maiores
+                     informações, acesse o site www.fundacred.org.br ou entre em contato conosco pelo
+                     e-mail creditoestudantilsenaiba@fieb.org.br.
+
+
+
+
+     COORDENAÇÃO DE CURSO
+
+      Todos os cursos (presencial e semipresencial) dispõem de
+      uma coordenação de curso, responsável pelo planejamento,
+      implementação, acompanhamento e avaliação dos cursos sob sua
+      responsabilidade. Sempre que precisar de orientações técnicas,
+      você pode entrar em contato com a coordenação do seu curso.
+Manual do Aluno SENAI Bahia
+
+
+
+
+     NCP – Núcleo de Carreira Profissional
+
+    A formação profissional é uma grande aliada na inserção das pessoas no mercado de trabalho e um dos objetivos
+    do Núcleo de Carreira Profissional (NCP) é promover o desenvolvimento, assessoramento profissional e pessoal
+    dos alunos e ex-alunos do SENAI BAHIA, atuando como interlocutor na relação com as empresas.
+
+    Confira os serviços que o NCP do SENAI BAHIA disponibiliza para os seus alunos e ex-alunos:
+
+    • Vagas de estágio: Para que o aluno inicie sua vida profissional desde o início do curso, o NCP faz interlocução
+    com empresas para que as vagas de estágio sejam divulgadas para os alunos do SENAI BAHIA, além de orientar
+    sobre as normas de estágio vigentes. As vagas em aberto podem ser divulgadas por e-mail, site e/ou nos murais
+    da Escola.
+
+    • Vagas de emprego: O SENAI BAHIA tem parcerias com empresas de diversos segmentos e divulga suas vagas
+    de emprego por e-mail, site e/ou nos murais da Escola.
+
+    • Orientação na elaboração de currículo: Para o mercado de trabalho, o currículo é o cartão de visita do
+    profissional. Reconhecendo a necessidade de apoio na elaboração ou reorganização do currículo do aluno ou
+    do ex-aluno SENAI BAHIA, o NCP orienta a sua construção, tornando-o mais atrativo e alinhado às tendências
+    do mercado.
+
+    • Dicas sobre carreira profissional e mercado de trabalho: O NCP orienta o aluno e ex-aluno SENAI BAHIA que
+    está iniciando ou repensando sua trajetória profissional, quanto às possibilidades na construção do seu plano
+    de carreira.
+
+    Sempre que precisar de alguma orientação sobre contrato de aprendizagem, carreira, inserção de estágio e
+    emprego, procure o NCP da sua Escola.
+Manual do Aluno SENAI Bahia
+
+
+
+
+      NEP - Núcleo de Educação Profissional
+
+      O NEP tem o compromisso de proporcionar melhorias na qualidade das ações pedagógicas da Escola a
+      fim de garantir um ensino e uma aprendizagem significativa para o aluno por meio de atividades como:
+      visita em sala de aula, acompanhamento pedagógico do docente, acompanhamento do desempenho dos
+      alunos, aplicação das regras disciplinares, realização, junto com o coordenador, de reunião de líder de
+      turma, atendimento aos pais e aplicação de instrumentos de satisfação do aluno.
+
+      Sempre que precisar de orientações pedagógicas, procure o NEP da sua Escola.
+
+
+
+
+     BIBLIOTECA – NDI (Núcleo de Documentação e Informação)
+
+      Como forma de dar suporte aos alunos no seu processo de aprendizagem, as Escolas Técnicas
+      disponibilizam, por meio das suas Bibliotecas, espaços para estudos, computadores com acesso à internet,
+      acervo bibliográfico e audiovisual, além de uma equipe dedicada para auxiliar na busca por informações e
+      na elaboração de trabalhos científicos. Para realizar empréstimos, basta realizar o cadastro em uma das
+      nossas Escolas e conhecer o regulamento.
+Manual do Aluno SENAI Bahia
+
+
+
+
+     PLATAFORMAS EDUCACIONAIS
+
+                                        PORTAL DO ALUNO
+
+                                        Esse é um importante canal de comunicação com a gente! Por isso, no
+                                        primeiro acesso ao Portal, confirme os seus dados cadastrais. Os resultados
+                                        das avaliações, frequência, solicitação de requerimentos, Manual do Aluno,
+                                        Regimento Escolar e Regulamento Disciplinar, são algumas das informações
+                                        que você encontrará por lá. Acesse o Portal do Aluno em www.senaibahia.com.
+                                        br (menu área do aluno) com as suas credenciais RA (número da sua matrícula
+                                        no contrato) e senha (padrão 123456)). Caso haja dúvida ou alguma dificuldade
+                                        com o acesso ao Portal do Aluno, entre em contato com a CAA
+                                        pelo e-mail caasenaiba@fieb.org.br
+                                        ou pelo WhatsApp (71) 3287-8337 (apenas mensagem).
+
+                                        Mantenha seus dados sempre atualizados!
+
+
+    PLATAFORMA MEU SENAI
+
+    O Meu SENAI é uma plataforma educacional que conecta você com seus colegas de
+    turma e com os docentes, por meio de ferramentas de aprendizagem do SENAI e
+    do Google for Education. Esse ambiente facilita a sua experiência em sala de aula,
+    com várias funcionalidades e ferramentas Google, integradas para serem usadas na
+    hora que você precisar! Docentes e alunos aprendem e inovam juntos. Para acessar,
+    basta utilizar as suas credenciais de acesso que são enviadas por e-mail, após a
+    matrícula. Qualquer dúvida, procure a CAA.
+Manual do Aluno SENAI Bahia
+
+
+
+
+                              AMBIENTE VIRTUAL DE APRENDIZAGEM (AVA)
+
+                              Se você é aluno do curso semipresencial, conta com o ambiente virtual de aprendizagem
+                              (AVA) que é a sua sala virtual. Lá, você acessa conteúdos, atividades e interage com
+                              seu tutor, que é o docente responsável pela disciplina. Para você acompanhar às aulas
+                              à distância, deve dispor de computador com acesso à internet. Poderá estudar quando
+                              for mais conveniente para você. Fique atento ao horário definido pelo seu tutor para
+                              atendimento on-line (chat) e também aos encontros presenciais obrigatórios. Para
+                              acessar o AVA, basta utilizar as suas credenciais de acesso enviadas após a matrícula.
+                              Qualquer dúvida, procure a CAA.
+
+
+
+
+    ESTANTE VIRTUAL DE LIVROS SENAI
+
+    Para se aprofundar nos assuntos técnicos da sua área, acesse a Estante
+    Virtual, onde os interessados poderão ter acesso a livros digitais
+    referentes a cursos de 32 áreas tecnológicas, sendo 32 cursos técnicos
+    e 83 qualificações básicas.
+
+    São mais de 1.150 volumes disponíveis, que também podem ser acessados
+    pelo aplicativo Livros SENAI, ambos na Google Play e APP Store.
+Manual do Aluno SENAI Bahia
+
+
+
+
+      PROCEDIMENTOS IMPORTANTES:
+
+    TRANSFERÊNCIA
+
+    A transferência, deve ser solicitada quando o aluno deseja mudar de curso/
+    turno/unidade.
+    O aluno deve solicitar a transferência, via requerimento online, pelo Portal do
+    Aluno. Para atendimento à solicitação, devem ser verificados: a existência
+    de vaga no curso/turma/unidade pretendida, o atendimento ao perfil de
+    entrada requerido pelo curso, o sincronismo de atividades em andamento e
+    o aceite do aluno quanto ao valor a ser pago ou ressarcido, quando aplicável.
+
+
+
+
+                                     REMATRÍCULA*
+
+                                     *Procedimento exclusivo para alunos de curso técnico.
+                                     Para os cursos técnicos presencial e semipresencial, a rematrícula é feita a
+                                     cada semestre/módulo nos períodos estabelecidos pela Instituição e divulgado
+                                     amplamente aos alunos, observando o cumprimento dos requisitos definidos no
+                                     plano de curso para a rematrícula e prosseguimento de estudos. Você deve realizar
+                                     sua rematrícula de forma online pelo Portal do Aluno.
+                                     Acompanhe todas as informações sobre rematrícula por meio do Portal do Aluno.
+Manual do Aluno SENAI Bahia
+
+
+
+
+    REPOSIÇÃO DE DISCIPLINA
+
+    O aluno que tenha sido reprovado ou impossibilitado de cursar alguma disciplina, pode realizar a reposição
+    dela. Para isso, é necessário formalizar a sua solicitação por meio de requerimento online disponível no Portal
+    do Aluno
+
+    CANCELAMENTO DE MATRÍCULA
+
+    Cancelamento de matrícula é a desistência, por parte do aluno, de participar da turma na qual se encontra
+    matriculado.
+    IMPORTANTE: O aluno que requerer cancelamento do curso, perderá o vínculo com a Instituição, devendo, se
+    quiser retornar ao curso, submeter-se a outro processo seletivo ou realizar nova matrícula.
+
+    Cancelamentos por solicitação do aluno:
+
+    Para curso não iniciado - o aluno ingressante deverá formalizar sua solicitação de cancelamento de matrícula
+    por e-mail, mediante requerimento junto à Central de Atendimento ao Candidato - CAC da Escola Técnica que
+    realizou matrícula.
+
+    Para curso já iniciado - o aluno deverá formalizar sua solicitação de cancelamento de matrícula, via requerimento
+    online, pelo Portal do Aluno.
+
+    Cabe ao aluno acompanhar o andamento do seu requerimento por meio do Portal do Aluno.
+
+    Em qualquer um dos casos serão obedecidos os critérios estabelecidos no Contrato de Prestação de Serviços
+    Educacionais, ou no Termo de Compromisso e Responsabilidade e critérios estabelecidos no Regimento
+    Comum das Escolas Técnicas do SENAI BA.
+Manual do Aluno SENAI Bahia
+
+
+
+
+    TRANCAMENTO DE MATRÍCULA*
+
+    *Procedimento exclusivo para alunos de curso técnico.
+    O aluno que por qualquer motivo esteja impossibilitado, temporariamente, de dar continuidade aos estudos,
+    pode solicitar, por meio de requerimento online, pelo Portal do Aluno, o trancamento de sua matrícula em
+    qualquer período do curso.
+    Cabe ao aluno, acompanhar o andamento do seu requerimento por meio do Portal do Aluno.
+    Vale ressaltar que será devido o valor relativo à parcela vencida no mês no qual o requerimento foi aberto.
+    O trancamento de matrícula poderá ser solicitado e mantido por, no máximo, 04 (quatro) semestres ou módulos,
+    consecutivos ou não, incluindo o da solicitação de trancamento. Caso o aluno não solicite reingresso, após a
+    primeira concessão, o trancamento de matrícula será automaticamente renovado para o módulo ou semestre
+    seguinte.
+    Finalizado o prazo limite de manutenção do trancamento, caso o aluno não procure a Escola Técnica do SENAI
+    onde estuda para solicitar reabertura de matrícula, o mesmo será considerado desistente e perderá o direito a
+    vaga no curso, nos termos do Contrato de Prestação de Serviços Educacionais firmado.
+
+    REABERTURA DE MATRÍCULA*
+
+    *Procedimento exclusivo para alunos de curso técnico.
+    Para solicitar o reingresso no curso, o aluno deverá solicitar a reabertura de matrícula, via requerimento
+    online, pelo Portal do Aluno, conforme calendário específico da Instituição. O aluno estará sujeito a oferta do
+    curso e deverá adaptar-se ao currículo que estiver em vigor, podendo solicitar aproveitamento de estudos e
+    experiências, conforme previsto na legislação vigente e no Regimento Comum das Escolas Técnicas do SENAI
+    BAHIA.
+Manual do Aluno SENAI Bahia
+
+
+
+
+    SEGUNDA CHAMADA DE PROVA
+
+    O aluno que, por motivo justificável, não puder comparecer em dia(s) de avaliação, deverá formalizar a
+    solicitação da realização de 2ª chamada, via requerimento online, pelo Portal do Aluno e apresentar documento
+    que comprove e justifique a sua ausência, conforme estabelece o Regimento Comum das Escolas Técnicas do
+    SENAI BAHIA, no prazo máximo de 3 dias úteis, a contar da data de realização da avaliação.
+
+
+
+
+                                                                    O aluno que não comparecer à prova de
+                                                                    2ª chamada ficará automaticamente
+                                                                    com nota 0,0 (zero) na avaliação.
+Manual do Aluno SENAI Bahia
+
+
+
+
+      APROVEITAMENTO DE ESTUDOS
+      E EXPERIÊNCIAS ANTERIORES
+      (dispensa de disciplina)
+
+
+
+      *Procedimento exclusivo para alunos de curso técnico.
+
+      O aluno matriculado nos cursos técnicos do SENAI BAHIA poderá solicitar aproveitamento de
+      conhecimentos e/ou experiências anteriores (dispensa de disciplina), desde que diretamente
+      relacionados com o perfil profissional de conclusão do técnico que está cursando.
+
+      Os conhecimentos e experiências deverão ser comprovados por meio de análise documental e/ou
+      avaliação, quando aplicável, conforme legislação vigente e critérios definidos no Regimento Comum
+      das Escolas Técnicas do SENAI BAHIA. Quando aplicável, o processo de avaliação se constituirá de
+      provas teóricas, práticas e contextuais, conforme a característica do perfil e das competências a
+      serem avaliadas. A nota ou média estabelecida para os exames de avaliação realizados com vistas ao
+      aproveitamento de estudos e experiências anteriores é 7,0 (sete), a mesma nota/média adotada pela
+      Escola para aprovação de alunos no processo formativo.
+
+      O aluno interessado deverá formalizar a solicitação de aproveitamento de estudos, em data prevista no
+      cronograma de rematrícula, via requerimento, no Portal do Aluno. Para os alunos ingressantes, deve ser
+      observado o prazo estabelecido no Edital do Processo Seletivo.
+Manual do Aluno SENAI Bahia
+
+
+
+
+   ATENDIMENTO ESPECIAL
+
+   O atendimento especial é um tratamento excepcional para aluno solicitante de guarda religiosa ou cuja situação
+   de incapacidade física relativa seja transitória e incompatível com a frequência às atividades escolares.
+   O atendimento especial será realizado mediante exercícios domiciliares como forma de compensar a ausência às
+   aulas, com acompanhamento da instituição de ensino, sempre que compatíveis com o estado de saúde do aluno
+   e a viabilidade de atendimento pela Escola Técnica.
+   A solicitação de concessão do regime de atendimento especial deverá ser formalizada pelo aluno, via
+   requerimento no Portal do Aluno em até 03 (três) dias úteis, contados a partir da emissão do atestado e/ou laudo
+   médico. A solicitação deve ser acompanhada de atestado e/ou laudo médico, com expressa referência ao código
+   correspondente da Classificação Internacional de Doenças (CID) e no qual conste o período de afastamento que
+   o aluno necessita. O prazo máximo de afastamento temporário é de 02 (dois) meses, desde que não ultrapasse
+   a finalização do Módulo vigente. Situações excepcionais devem ser avaliadas pelo Colegiado de Educação da
+   Unidade. Para aluna em estado de gestação - a partir do 8º (oitavo) mês e por um prazo máximo de 03 (três) meses.
+   O regime de atendimento especial não se aplica para as unidades curriculares de caráter prático e/ou estágios e
+   para alunos de cursos de Aprendizagem Industrial Básica e Técnica com contrato firmado junto a empresa.
+
+
+   ATENDIMENTO ESPECIAL – GUARDA RELIGIOSA
+
+   A solicitação de concessão do regime de atendimento especial por guarda religiosa deverá ser formalizada pelo
+   aluno via requerimento, pelo Portal do Aluno, a cada semestre\módulo, devendo anexar declaração com papel
+   timbrado e carimbo, expedida com no máximo 30 dias de antecedência da abertura do requerimento, assinada
+   pelo responsável da congregação religiosa a que pertence, atestando a sua condição de membro regular da igreja
+   e o dia da semana ou período que deve se abster de frequentar aulas.
+Manual do Aluno SENAI Bahia
+
+
+
+
+   CRITTÉRIOS DE APROVAÇÃO
+
+   Os alunos são considerados aprovados ou concluintes dos estudos, caso obtenham:
+
+   - Nota final igual ou superior a 7,0 (sete) em cada Unidade Curricular/Curso *
+
+   - Frequência igual ou superior a 75% (setenta e cinco por cento) da carga horária total da Unidade Curricular/
+   Curso **
+
+   A aprovação nos cursos semipresenciais, requer que o aluno obtenha nota/média final igual ou superior a 7,0 (sete)
+   e apresente frequência mínima de 75% (setenta e cinco por cento) do total de horas previstas para os encontros
+   presenciais de cada unidade curricular/disciplina.
+
+   As faltas justificadas darão ao aluno o direito a realização de atividades de avaliação teórica, eventualmente
+   perdidas por conta das faltas, não abonando as mesmas. O aluno é o responsável exclusivo pelo controle de
+   suas faltas, devendo cuidar para que as mesmas não ultrapassem o limite de 25% permitido em lei, sob pena de
+   reprovação por falta, ainda que tenha apresentado justificativa para tal.
+
+   * Os alunos dos cursos que não são técnicos e possuem carga horária a partir de 400 horas, e dos cursos técnicos
+   que não alcançarem, nas avaliações regulares realizadas ao longo do módulo/semestre, nota ou média de
+   aproveitamento igual ou superior a 7,0 (sete), será encaminhado para avaliação final em caráter de recuperação.
+   Para aprovação na avaliação final em caráter de recuperação, o aluno deverá alcançar desempenho igual ou
+   superior a 5,0 (cinco).
+
+   ** Conforme legislação específica, para alguns cursos de Normas Regulamentadoras (NR’s), a aprovação no curso
+   requer que o aluno obtenha nota/média final igual ou superior a 7,0 (sete) e apresente frequência de 100% (cem
+   por cento) do total de horas.
+Manual do Aluno SENAI Bahia
+
+
+
+
+   DIPLOMAS E CERTIFICADOS
+
+   Ao aluno que concluir os estudos com aproveitamento
+   satisfatório e frequência mínima estabelecida, em todas as
+   unidades curriculares/disciplinas que integram o curso, será
+   conferido:
+
+   Certificado - para os alunos com aprovação em cursos de
+   formação inicial e continuada ou qualificação profissional. O
+   prazo máximo para emissão do documento é de 30 dias.
+
+   Diploma - para os alunos com aprovação em cursos técnicos.
+   Para solicitar a emissão de diploma, o aluno de curso técnico,
+   deverá registrar o pedido no Portal do Aluno, por meio do
+   requerimento online, anexando os documentos abaixo: RG,
+   CPF e certificado de conclusão do Ensino Médio (frente e
+   verso). O prazo máximo para emissão do documento é de 90
+   dias.
+
+   Os alunos com contratos formais de aprendizagem básica
+   ou técnica somente receberão certificado ou diploma após
+   a fase de complementação prática na empresa.
+
+   Para os alunos que realizarem estágio supervisionado, diante
+   da ausência da entrega dos relatórios de estágio, o registro
+   da informação do mesmo não será contemplado no diploma.
+Manual do Aluno SENAI Bahia
+
+
+
+
+   DIREITOS E DEVERES DO ALUNO
+
+   O aluno que infringir as normas disciplinares da Escola será passível de advertência verbal, advertência escrita,
+   afastamento temporário de todas as atividades acadêmicas ou desligamento da Instituição.
+   Os critérios e procedimentos para aplicação das sanções previstas acima estão descritos em Regulamento
+   Disciplinar próprio (Regulamento Disciplinar das Escolas Técnicas SENAI Bahia) o qual está disponível no Portal
+   do Aluno.
+
+
+
+   CRITÉRIOS PARA ACESSO E PERMANÊNCIA NAS INSTALAÇÕES DO SENAI
+
+   NÃO É PERMITIDO o acesso nas instalações das Escolas Técnicas do SENAI BAHIA trajando shorts, bermudas,
+   saias curtas, tops, camisetas sem mangas, chinelos, bonés, chapéus e afins.
+   É obrigatório, nas atividades escolares, o uso do fardamento (camisa, calça e sapato fechado), para os alunos
+   que o recebem.
+   Não cabe à Instituição, a responsabilidade de proteção e guarda de bens do aluno que se encontrem nas
+   dependências onde será realizado o curso, não lhe sendo devido qualquer ressarcimento por eventuais danos.
+Manual do Aluno SENAI Bahia
+
+
+
+
+NORMAS PARA UTILIZAÇÃO DAS OFICINAS E LABORATÓRIOS
+
+Por questões de segurança, no acesso aos laboratórios e oficinas, além dos trajes indicados para acesso
+à Escola, NÃO É PERMITIDO o uso de sapatos abertos e ou de saltos altos e adereços extravagantes
+(brincos, pulseiras, colares, anéis) durante o trabalho com máquinas, uma vez que eles criam pontos
+de risco que podem dar origem a acidentes.
+
+É obrigatória a utilização de EPIs, conforme a prática profissional a ser realizada. É de
+responsabilidade também do aluno, zelar por sua segurança, não adotando qualquer
+tipo de ação que ofereça risco e respeitando as orientações passadas por seu
+docente.
+
+0s laboratórios e oficinas para as atividades práticas e experimentais
+possuem regulamentos próprios e funcionam de acordo com os
+horários programados pela coordenação e pelos docentes das
+diversas unidades curriculares/disciplinas de cada curso.
+www. fieb.org.br/senai   SENAI Bahia   senaibahia
+

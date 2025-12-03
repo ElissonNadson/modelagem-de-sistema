@@ -1,0 +1,41 @@
+Talvez você já tenha escutado a expressão: o professor sabe o assunto, mas não tem didática. Mas afinal, o que é mesmo didática?
+
+Podemos dizer que a didática se ocupa do "Como ensinar?", mas essa questão está associada também "Para que ensinar?" e "Por que ensinar?".
+
+Perceba que não há uma técnica neutra que sirva para todos os momentos e todas as situações. A opção metodológica, que é o objeto da didática, se relaciona a outras dimensões que são importantíssimas. São elas:
+
+Quem são os estudantes? A prática docente deve estar embasada nas características dos alunos. Por isso, você precisa utilizar diferentes estratégias de ensino para alcançar as diferentes formas com as quais os estudantes aprendem.
+
+Qual é a realidade na qual se encontram? Sempre leve em conta as representações sociais e experiências anteriores dos estudantes. Ou seja, o que já conhecem sobre o tema que será trabalhado. Assim, você pode aproveitar esse conhecimento prévio para incrementar suas aulas e torná-las mais interativas.
+
+Que competências queremos desenvolver nestes estudantes? Ajude o aluno a entender como o que ele vai aprender está relacionado com as habilidades exigidas no mundo profissional atual. Além disso, ao ter clareza sobre as competências que ele precisa desenvolver, você pode pensar em maneiras mais eficazes de avaliar seu progresso e determinar se ele adquiriu ou não essas habilidades específicas.
+
+Qual cenário e condições que temos para a realização das aulas? Conhecer os recursos e os ambientes disponíveis para as aulas permite uma execução do plano de aulas mais assertiva. A verdade é que conhecer os recursos para melhorar o cenário de realização das aulas é fundamental. Só que não é possível delimitar um único método, técnica ou recurso melhor do que o outro. Cada um é apropriado para uma determinada situação, para certas condições e certos objetivos.
+
+A utilização de apenas uma única estratégia ou técnica de ensino, além de tornar-se monótona, não atende às diferenças individuais dos alunos. Pensando nisso, e para facilitar sua compreensão, estruturamos em uma tabela a classificação das técnicas de ensino mais utilizadas e apresentadas no livro "Estratégias de Ensino: O Saber e o Agir do Professor", Roldão, M.C. 2009. São essas:
+
+Ensino individualizado. É a ênfase dada ao atendimento das diferenças individuais, isto é, permite que o aluno avance na aprendizagem de acordo com o seu próprio ritmo. São exemplos dessas técnicas: Estudo dirigido, Ensino programado, Ensino contratual, Unidades de trabalho, Pesquisas, Estudo por fichas, Módulos, Situação problema, Exercícios individuais e Estudo de caso.
+
+Ensino socializado. Nesta técnica de ensino, a atenção se concentra no grupo, pois a aprendizagem é efetivada por meio do trabalho e do estudo grupal em uma dinâmica de cooperação mútua. São exemplos dessas técnicas: as discussões em grupo, painéis, simpósios, seminários, dramatizações, mesas-redondas e projetos.
+
+Mas fique atento: independente da técnica ou estratégia utilizada, o docente deve estar preparado para atender as expectativas e necessidades dos alunos. Portanto, é fundamental que você, docente, saiba criar situações e atividades para que seu aluno participe da aula e aprenda como sujeito ativo do processo de aprendizagem.
+
+Ao planejar, você deve pensar em estratégias que estimulem a ação dos estudantes, promovam sua reflexão, seu poder de síntese, a reformulação de conceitos, o desenvolvimento de competências e a capacidade crítica em relação ao conhecimento adquirido.
+
+Sala de aula invertida. Neste caso, a ideia é que o aluno absorva o conteúdo por meio virtual e, ao chegar na sala presencial, já esteja ciente do assunto a ser desenvolvido. Dessa forma, a sala de aula presencial se torna o local de interação professor-aluno para sanar dúvidas e construir atividades em grupo, por exemplo.
+
+Plickers. Esta é uma aplicação que permite realizar questionários, apresentá-los aos alunos e obter os resultados em tempo real. A grande novidade desta ferramenta reside no equipamento necessário para o processo: os alunos usam cartões para responderem.
+
+Google Forms. Esta ferramenta cria formulários e pesquisa online. Pode ser usada para avaliações e permite gerar um resultado em tempo real quanto ao desempenho dos alunos.
+
+Kahoot. É uma plataforma de criação de questionários baseada em jogos. É gratuita na web e basta estar conectado na internet.
+
+Nuvem de palavras. Recurso que permite ter noção visual das palavras que mais se repetem na construção de um texto. A nuvem de palavras serve para, entre outras coisas, fazer uma tempestade de ideias, relembrar um vocabulário específico, sintetizar um chat, discussão, debate, adicionar um elemento visual a um trabalho, cartaz, postagem de blog e trabalhar com a criatividade.
+
+Inteligência Artificial (IA). Pense nas máquinas para automatização da correção de provas ou mesmo na apresentação de projetos, antes dominados pelas cartolinas e hoje audiovisuais. Além disso, muitas inteligências artificiais já são capazes de estabelecer uma interface de diálogo em que os estudantes podem tirar dúvidas, fazendo perguntas diretamente para a máquina, sem precisar tomar o tempo do professor. Isso é conhecido como Blended Learning.
+
+Computação em nuvem. Este conceito é baseado no armazenamento de dados numa rede acessível de qualquer lugar via internet para guardar arquivos ou instalar programas, dispensando a necessidade de mídias físicas.
+
+Realidade aumentada e realidade virtual. A realidade aumentada é uma animação ou interação virtual feita a partir de um dispositivo de mídia que insere elementos visuais no mundo real. Já a realidade virtual é completamente imersiva. As plataformas utilizam aparelhos especiais, como óculos ou luvas, para transportar o usuário a um ambiente digital responsivo aos seus movimentos e ações.
+
+Gamificação do ensino. É a estratégia de adaptar conceitos dos videogames e jogos em geral para o âmbito da aprendizagem e enxergar o aprendizado como diversão, e não como algo maçante e repetitivo.
