@@ -1,0 +1,121 @@
+classDiagram
+    direction LR
+    %% ==============================================================================
+    %% DIAGRAMA DE CLASSES - PASTELARIA "TIO DO PASTEL"
+    %% ==============================================================================
+
+    %% ------------------------------------------------------------------------------
+    %% 1. PRODUTOS (HERANÇA / GENERALIZAÇÃO)
+    %% ------------------------------------------------------------------------------
+    class Produto {
+        +id: int
+        +nome: String
+        +preco: float
+        +descricao: String
+        +getPreco(): float
+    }
+
+    class Pastel {
+        +sabor: String
+        +tamanho: String
+        +frito_na_hora: boolean
+    }
+
+    class Bebida {
+        +volume_ml: int
+        +gelada: boolean
+        +alcoolica: boolean
+    }
+
+    class Sobremesa {
+        +calorias: int
+        +contem_gluten: boolean
+    }
+
+    %% Herança: Pastel, Bebida e Sobremesa SÃO Produtos
+    Produto <|-- Pastel
+    Produto <|-- Bebida
+    Produto <|-- Sobremesa
+
+    %% ------------------------------------------------------------------------------
+    %% 2. PEDIDOS (HERANÇA)
+    %% ------------------------------------------------------------------------------
+    class Pedido {
+        +numero: int
+        +data_hora: DateTime
+        +status: String
+        +calcularTotal(): float
+        +fecharPedido()
+    }
+
+    class PedidoDelivery {
+        +endereco_entrega: String
+        +taxa_entrega: float
+        +entregador: String
+        +calcularTempoEntrega()
+    }
+
+    class PedidoBalcao {
+        +numero_mesa: int
+        +numero_pager: int
+    }
+
+    %% Herança: Delivery e Balcão SÃO tipos de Pedido
+    Pedido <|-- PedidoDelivery
+    Pedido <|-- PedidoBalcao
+
+    %% ------------------------------------------------------------------------------
+    %% 3. CLASSE ASSOCIATIVA (ITEM DO PEDIDO)
+    %% ------------------------------------------------------------------------------
+    %% Resolve a relação N:N entre Pedido e Produto, guardando quantidade e obs
+    class ItemPedido {
+        +quantidade: int
+        +preco_unitario: float
+        +observacao: String
+        +calcularSubtotal(): float
+    }
+
+    %% ------------------------------------------------------------------------------
+    %% 4. PESSOAS E ESTOQUE
+    %% ------------------------------------------------------------------------------
+    class Cliente {
+        +nome: String
+        +telefone: String
+        +endereco: String
+        +realizarPedido()
+    }
+
+    class Funcionario {
+        +matricula: int
+        +nome: String
+        +cargo: String
+        +registrarPedido()
+    }
+
+    class Ingrediente {
+        +nome: String
+        +qtd_estoque: float
+        +unidade_medida: String
+        +estoque_minimo: float
+        +verificarEstoque()
+        +reporEstoque()
+    }
+
+    %% ==============================================================================
+    %% RELACIONAMENTOS
+    %% ==============================================================================
+
+    %% Cliente faz Pedido (1:N)
+    Cliente "1" --> "N" Pedido : realiza
+
+    %% Funcionário registra Pedido (1:N)
+    Funcionario "1" --> "N" Pedido : registra
+
+    %% Pedido é composto por Itens (Composição - Item não existe sem Pedido)
+    Pedido "1" *-- "N" ItemPedido : contem
+
+    %% ItemPedido refere-se a um Produto (Associação)
+    ItemPedido "N" --> "1" Produto : refere_se_a
+
+    %% Produto é feito de Ingredientes (Agregação ou Associação N:N)
+    Produto "N" --> "N" Ingrediente : utiliza

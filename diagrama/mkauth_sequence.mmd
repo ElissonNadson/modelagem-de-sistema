@@ -1,0 +1,55 @@
+sequenceDiagram
+    autonumber
+    %% Atores e Participantes
+    actor Cliente as Cliente (Roteador/CPE)
+    participant OLT as OLT/Concentrador
+    participant Radius as Servidor Radius
+    participant BD as Banco de Dados
+    participant Pool as Pool de IPs
+
+    %% Fluxo de Autenticação PPPoE
+    Note over Cliente, BD: Tentativa de Conexão (Autenticação)
+    
+    Cliente->>OLT: PADI (Broadcast Discovery)
+    OLT-->>Cliente: PADO (Offer)
+    Cliente->>OLT: PADR (Request)
+    OLT-->>Cliente: PADS (Session Confirmation)
+    
+    %% Fase de Autenticação (LCP/PAP/CHAP)
+    Cliente->>OLT: Envia Login/Senha (PPPoE Auth)
+    activate OLT
+    OLT->>Radius: Access-Request (User, Pass, MAC)
+    activate Radius
+    
+    Radius->>BD: Consultar Cliente (Login)
+    activate BD
+    
+    alt Cliente Bloqueado ou Senha Errada
+        BD-->>Radius: Retorna Status (Bloqueado/Erro)
+        Radius-->>OLT: Access-Reject
+        OLT-->>Cliente: Falha na Autenticação
+    else Cliente Ativo e Senha OK
+        BD-->>Radius: Retorna Dados (Plano, Grupo)
+        deactivate BD
+        
+        Radius->>Pool: Solicitar IP (Plano)
+        activate Pool
+        Pool-->>Radius: IP Reservado (192.168.10.50)
+        deactivate Pool
+        
+        Radius->>BD: Registrar Sessão (Inicio)
+        Radius-->>OLT: Access-Accept (IP, Velocidade, DNS)
+        deactivate Radius
+        
+        OLT->>OLT: Aplicar Queue (Velocidade)
+        OLT-->>Cliente: Conexão Estabelecida (IP Atribuído)
+        deactivate OLT
+        
+        Note right of Cliente: Cliente Navegando...
+    end
+
+    %% Desconexão
+    Note over Cliente, BD: Encerramento
+    Cliente->>OLT: Desconectar
+    OLT->>Radius: Accounting-Request (Stop)
+    Radius->>BD: Atualizar Sessão (Fim, Tráfego Up/Down)

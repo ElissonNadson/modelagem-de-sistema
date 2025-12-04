@@ -1,0 +1,26 @@
+sequenceDiagram
+    autonumber
+    %% Focado apenas em FALHA ou BLOQUEIO
+    actor Cliente
+    participant OLT
+    participant Radius
+    participant BD
+    participant Log
+
+    Note over Cliente, Log: Caso de Uso: Falha na Autenticação
+
+    Cliente->>OLT: Login/Senha
+    OLT->>Radius: Access-Request
+    Radius->>BD: Checar Status
+    
+    alt Cliente Bloqueado
+        BD-->>Radius: Status = BLOQUEADO
+        Radius-->>OLT: Access-Reject (Msg: Contate Suporte)
+        Radius->>Log: Logar Tentativa (Bloqueado)
+    else Senha Errada
+        BD-->>Radius: Senha Inválida
+        Radius-->>OLT: Access-Reject (Msg: Erro 691)
+        Radius->>Log: Logar Tentativa (Senha Errada)
+    end
+    
+    OLT-->>Cliente: Falha na Conexão

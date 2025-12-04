@@ -1,0 +1,235 @@
+classDiagram
+    direction LR
+    %% DICA: No draw.io, após importar, vá em "Organizar" > "Layout" > "Orgânico" ou "Hierárquico" para melhorar as linhas.
+
+    %% ==========================================
+    %% 1. NÚCLEO (PESSOAS)
+    %% ==========================================
+    namespace Gestao_Pessoas {
+        class Pessoa {
+            +id: int
+            +nome: String
+            +cpf_cnpj: String
+            +endereco: String
+            +telefone: String
+            +email: String
+        }
+
+        class Cliente {
+            +login: String
+            +ip_conexao: String
+            +mac_address: String
+            +status_acesso: String
+            +autenticar()
+            +bloquear()
+            +cancelarContrato()
+        }
+
+        class Funcionario {
+            +login_sistema: String
+            +ativo: boolean
+            +baterPonto()
+        }
+
+        class Tecnico {
+            +especialidade: String
+            +realizarInstalacao()
+        }
+
+        class Vendedor {
+            +comissao: float
+            +realizarVenda()
+        }
+
+        class Administrador {
+            +nivel_acesso: String
+            +configurarServidor()
+        }
+
+        class Fornecedor {
+            +razao_social: String
+            +fornecerProduto()
+        }
+
+        class Prospecto {
+            +interesse_plano: String
+            +converterEmCliente()
+        }
+    }
+
+    Pessoa <|-- Cliente
+    Pessoa <|-- Funcionario
+    Pessoa <|-- Fornecedor
+    Pessoa <|-- Prospecto
+    Funcionario <|-- Tecnico
+    Funcionario <|-- Vendedor
+    Funcionario <|-- Administrador
+
+    %% ==========================================
+    %% 2. COMERCIAL & FINANCEIRO (Lado Esquerdo)
+    %% ==========================================
+    namespace Comercial {
+        class Plano {
+            +nome: String
+            +valor: float
+            +velocidade: String
+        }
+    }
+
+    namespace Financeiro {
+        class TituloFinanceiro {
+            +nosso_numero: String
+            +valor: float
+            +vencimento: Date
+            +status: String
+            +baixar()
+        }
+
+        class Carne {
+            +qtd_parcelas: int
+            +gerar()
+        }
+
+        class NotaFiscal {
+            +numero: String
+            +valor: float
+            +emitir()
+        }
+
+        class Tributacao {
+            +icms: float
+            +iss: float
+        }
+
+        class ContaBancaria {
+            +banco: String
+            +gerarBoleto()
+        }
+
+        class Caixa {
+            +saldo_atual: float
+            +fechar()
+        }
+
+        class ContaPagar {
+            +valor: float
+            +pagar()
+        }
+    }
+
+    %% ==========================================
+    %% 3. OPERACIONAL & INFRA (Lado Direito)
+    %% ==========================================
+    namespace Operacional {
+        class Chamado {
+            +assunto: String
+            +status: String
+            +fechar()
+        }
+
+        class Instalacao {
+            +data_agendada: Date
+            +status: String
+            +concluir()
+        }
+
+        class Veiculo {
+            +placa: String
+            +modelo: String
+        }
+
+        class Mensagem {
+            +texto: String
+            +enviarSMS()
+        }
+    }
+
+    namespace Infra_Rede {
+        class Pop {
+            +nome: String
+        }
+
+        class OLT {
+            +ip: String
+            +slots: int
+        }
+
+        class CTO {
+            +nome: String
+            +portas: int
+        }
+
+        class PortaCTO {
+            +numero: int
+            +sinal: float
+        }
+
+        class PoolIP {
+            +range: String
+        }
+
+        class SessaoRadius {
+            +ip: String
+            +trafego: float
+            +inicio: DateTime
+        }
+    }
+
+    namespace Estoque {
+        class Produto {
+            +nome: String
+            +estoque: int
+        }
+
+        class MovimentacaoEstoque {
+            +tipo: String
+            +qtd: int
+        }
+
+        class Equipamento {
+            +mac: String
+            +modelo: String
+        }
+    }
+
+    %% ==========================================
+    %% RELACIONAMENTOS (Ordenados para Fluxo)
+    %% ==========================================
+
+    %% Cliente (Centro) -> Comercial
+    Cliente "1" --> "1" Plano : Contrata
+    Vendedor "1" --> "N" Prospecto : Atende
+    Prospecto "N" ..> "1" Cliente : Vira
+
+    %% Cliente -> Financeiro
+    Cliente "1" *-- "N" TituloFinanceiro : Paga
+    TituloFinanceiro "1" *-- "N" Carne : Parte de
+    ContaBancaria "1" --> "N" TituloFinanceiro : Emite
+    Caixa "1" ..> "N" TituloFinanceiro : Recebe
+    Caixa "1" ..> "N" ContaPagar : Paga
+    Cliente "1" --> "N" NotaFiscal : Recebe
+    NotaFiscal "1" *-- "1" Tributacao : Tem
+
+    %% Cliente -> Operacional
+    Cliente "1" *-- "N" Chamado : Abre
+    Chamado "N" --> "1" Tecnico : Atende
+    Cliente "1" *-- "N" Instalacao : Solicita
+    Instalacao "N" --> "1" Tecnico : Faz
+    Tecnico "1" --> "1" Veiculo : Usa
+    Cliente "1" --> "N" Mensagem : Recebe
+
+    %% Cliente -> Infraestrutura
+    Cliente "1" *-- "N" SessaoRadius : Conexão
+    PoolIP "1" ..> "N" SessaoRadius : IP
+    Cliente "N" -- "1" PortaCTO : Plugado em
+    PortaCTO "N" --* "1" CTO : Porta de
+    CTO "N" --* "1" OLT : Ligada na
+    OLT "N" --* "1" Pop : Fica no
+    Administrador "1" --> "N" OLT : Configura
+
+    %% Cliente -> Estoque
+    Cliente "1" --> "N" Equipamento : Usa em casa
+    Equipamento "N" o-- "1" Produto : Veio do
+    Fornecedor "1" --> "N" Produto : Vende
+    Produto "1" *-- "N" MovimentacaoEstoque : Histórico
+    Funcionario "1" --> "N" MovimentacaoEstoque : Registra

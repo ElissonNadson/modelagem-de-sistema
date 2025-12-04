@@ -1,0 +1,25 @@
+sequenceDiagram
+    autonumber
+    %% Focado apenas no SUCESSO da conexão
+    actor Cliente
+    participant OLT
+    participant Radius
+    participant BD
+    participant Pool
+
+    Note over Cliente, Pool: Caso de Uso: Autenticar Cliente (Sucesso)
+
+    Cliente->>OLT: Login/Senha (PPPoE)
+    OLT->>Radius: Access-Request
+    Radius->>BD: Checar Credenciais
+    BD-->>Radius: OK (Plano 500MB)
+    
+    Radius->>Pool: Pedir IP Livre
+    Pool-->>Radius: 192.168.10.5
+    
+    Radius-->>OLT: Access-Accept (IP, QoS)
+    OLT-->>Cliente: Conectado!
+    
+    loop Keep-Alive
+        OLT->>Radius: Interim-Update (Estou vivo)
+    end

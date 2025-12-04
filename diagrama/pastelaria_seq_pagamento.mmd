@@ -1,0 +1,27 @@
+sequenceDiagram
+    autonumber
+    %% Focado apenas no PAGAMENTO
+    actor Cliente
+    participant Atendente
+    participant Sistema
+    participant Caixa
+
+    Note over Cliente, Caixa: Caso de Uso: Pagar Conta
+
+    Cliente->>Atendente: Pede a conta
+    Atendente->>Sistema: Fechar Mesa 10
+    Sistema-->>Atendente: Total R$ 25,00
+    
+    alt Dinheiro
+        Cliente->>Atendente: Entrega R$ 50,00
+        Atendente->>Caixa: Registra Entrada (Dinheiro)
+        Caixa-->>Atendente: Troco R$ 25,00
+        Atendente->>Cliente: Devolve Troco
+    else Cartão
+        Cliente->>Atendente: Insere Cartão
+        Atendente->>Caixa: Processar Pagamento
+        Caixa-->>Atendente: Aprovado
+    end
+    
+    Atendente->>Sistema: Emitir Nota Fiscal
+    Sistema-->>Cliente: Nota Fiscal Impressa

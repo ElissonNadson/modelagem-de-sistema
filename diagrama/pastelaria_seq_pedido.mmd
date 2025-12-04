@@ -1,0 +1,31 @@
+sequenceDiagram
+    autonumber
+    %% Focado apenas no PEDIDO e PREPARAÇÃO
+    actor Cliente
+    participant Atendente
+    participant Sistema
+    participant Cozinha
+    participant Bar
+
+    Note over Cliente, Bar: Caso de Uso: Realizar Pedido
+
+    Cliente->>Atendente: Solicita Pastel de Carne e Coca-Cola
+    activate Atendente
+    Atendente->>Sistema: Lançar Pedido (Mesa 10)
+    activate Sistema
+    
+    Sistema->>Cozinha: Imprimir Comanda (Pastel)
+    Sistema->>Bar: Imprimir Comanda (Coca-Cola)
+    
+    par Preparação
+        Cozinha->>Cozinha: Fritar Pastel
+        Bar->>Bar: Separar Bebida
+    end
+    
+    Cozinha-->>Sistema: Pronto
+    Bar-->>Sistema: Pronto
+    
+    Sistema-->>Atendente: Pedido Completo
+    Atendente->>Cliente: Serve o Pedido
+    deactivate Sistema
+    deactivate Atendente

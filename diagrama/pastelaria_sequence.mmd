@@ -1,0 +1,78 @@
+sequenceDiagram
+    autonumber
+    %% Atores e Participantes
+    actor Cliente
+    participant Atendente
+    participant Sistema
+    participant Cozinha
+    participant Bar
+    participant Estoque
+
+    %% Fluxo Principal
+    Note over Cliente, Atendente: Início do Pedido
+    Cliente->>Atendente: Solicita Cardápio
+    Atendente-->>Cliente: Apresenta Produtos
+    Cliente->>Atendente: Faz Pedido (Pastel + Bebida)
+    
+    activate Atendente
+    Atendente->>Sistema: Abrir Pedido (Mesa/Delivery)
+    activate Sistema
+    
+    loop Adicionar Itens
+        Atendente->>Sistema: Adicionar Item (Qtd, Obs)
+        Sistema->>Estoque: Verificar Disponibilidade
+        alt Estoque Suficiente
+            Estoque-->>Sistema: OK
+        else Estoque Baixo
+            Estoque-->>Sistema: Alerta (Estoque Mínimo!)
+        end
+    end
+
+    Atendente->>Sistema: Fechar Pedido
+    
+    %% Processamento Paralelo (Cozinha e Bar trabalham juntos)
+    par Preparação Simultânea
+        Sistema->>Cozinha: Imprimir Comanda (Comida)
+        activate Cozinha
+        Note right of Cozinha: Fritando Pastéis...
+        Cozinha-->>Sistema: Comida Pronta
+        deactivate Cozinha
+    and
+        Sistema->>Bar: Imprimir Comanda (Bebida)
+        activate Bar
+        Note right of Bar: Separando Bebidas...
+        Bar-->>Sistema: Bebida Pronta
+        deactivate Bar
+    end
+    
+    Sistema-->>Atendente: Notificar (Tudo Pronto)
+    Atendente->>Cliente: Entregar Pedido Completo
+    deactivate Atendente
+    
+    %% Pagamento
+    Note over Cliente, Sistema: Encerramento e Pagamento
+    Cliente->>Atendente: Solicita Conta
+    Atendente->>Sistema: Calcular Total
+    Sistema-->>Atendente: R$ 50,00
+    
+    alt Pagamento em Dinheiro
+        Cliente->>Atendente: Entrega Dinheiro
+        Atendente->>Sistema: Registrar (Dinheiro)
+        alt Precisa de Troco
+            Sistema-->>Atendente: Calcular Troco
+            Atendente->>Cliente: Devolve Troco
+        end
+    else Pagamento Cartão/Pix
+        Cliente->>Atendente: Passa Cartão/Pix
+        Atendente->>Sistema: Registrar (Eletrônico)
+        Sistema-->>Atendente: Transação Aprovada
+    end
+
+    opt CPF na Nota
+        Cliente->>Atendente: Informa CPF
+        Atendente->>Sistema: Vincular CPF
+    end
+
+    Sistema-->>Atendente: Emitir Cupom Fiscal
+    Atendente->>Cliente: Entrega Cupom
+    deactivate Sistema
